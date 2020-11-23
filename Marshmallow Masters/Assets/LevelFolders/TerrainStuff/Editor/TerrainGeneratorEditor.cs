@@ -22,9 +22,9 @@ public class TerrainGeneratorEditor : Editor
             script.Initiate();
         }
 
-        if (GUILayout.Button("Save Mesh as Asset"))
-        {
-            script.SaveMesh();
-        }
+        //if (GUILayout.Button("Save Mesh as Asset"))
+        //{
+        //    script.SaveMesh();
+        //}
     }
 }
