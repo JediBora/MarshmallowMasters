@@ -6,8 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-
+    path: Assets/Scenes/GreyBoxLevel.unity
+    guid: 99cda86058cdef146bf221fa6911a452
+  - enabled: 1
     path: Assets/Scenes/ModelTest.unity
     guid: 399db678861fc63408be2c4d3848caf2
-
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}

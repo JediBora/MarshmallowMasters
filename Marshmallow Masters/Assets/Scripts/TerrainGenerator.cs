@@ -214,12 +214,12 @@ public class TerrainGenerator : MonoBehaviour
         return Color.magenta;
     }
 
-    //public void SaveMesh()
-    //{
-    //    if (transform.GetComponent<MeshFilter>() != null)
-    //    {
-    //        var path = "Assets/GeneratedMesh" + seed.ToString() + ".asset";
-    //        AssetDatabase.CreateAsset(transform.GetComponent<MeshFilter>().sharedMesh, path );
-    //    }
-    //}
+    public void SaveMesh()
+    {
+        if (transform.GetComponent<MeshFilter>() != null)
+        {
+            var path = "Assets/GeneratedMesh" + seed.ToString() + ".asset";
+            AssetDatabase.CreateAsset(transform.GetComponent<MeshFilter>().sharedMesh, path );
+        }
+    }
 }

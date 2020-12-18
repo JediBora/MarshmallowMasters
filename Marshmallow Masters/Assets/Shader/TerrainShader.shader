@@ -7,7 +7,7 @@
         _Metallic("Metallic", Range(0,1)) = 0.0
     }
     SubShader{
-        Tags{ "RenderType" = "Opaque"  "LightMode" = "UniversalForward" }
+        Tags{ "RenderType" = "Opaque"}
         LOD 200
         Blend SrcAlpha OneMinusSrcAlpha
 
