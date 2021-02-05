@@ -219,7 +219,7 @@ public class TerrainGenerator : MonoBehaviour
         if (transform.GetComponent<MeshFilter>() != null)
         {
             var path = "Assets/GeneratedMesh" + seed.ToString() + ".asset";
-            AssetDatabase.CreateAsset(transform.GetComponent<MeshFilter>().sharedMesh, path );
+            //AssetDatabase.CreateAsset(transform.GetComponent<MeshFilter>().sharedMesh, path );
         }
     }
 }
