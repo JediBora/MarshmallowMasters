@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Initial Folder/Scenes/TestScenes/ShooShooMosquitoTest.unity
+    guid: 6a24644b6ab075446a13f1216dc16245
   m_configObjects: {}
