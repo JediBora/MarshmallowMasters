@@ -14,14 +14,14 @@ public class MosquitoSpawner : MonoBehaviour
     public bool canSpawnFlies;
     public GameObject flyPrefab;
 
-    public enum SpawnDirection {Up, Down, Left, Right }
+    public enum SpawnSide {Up, Down, Left, Right }
 
-    public SpawnDirection spawnDirection;
+    public SpawnSide spawnSide;
 
     // Start is called before the first frame update
     void Start()
     {
-        //StartCoroutine("SpawnFly");
+
     }
 
     // Update is called once per frame
@@ -30,26 +30,87 @@ public class MosquitoSpawner : MonoBehaviour
         
     }
 
-    IEnumerator SpawnFly()
+    IEnumerator SpawnFlyLeftSideSpawner()
     {
         while (canSpawnFlies)
         {
-            Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity);
-            if (spawnDirection == SpawnDirection.Right)
-                flyPrefab.GetComponent<MosquitoMovement>().flydirection = MosquitoMovement.FlyDirection.Right;
-            else if (spawnDirection == SpawnDirection.Left)
-                flyPrefab.GetComponent<MosquitoMovement>().flydirection = MosquitoMovement.FlyDirection.Left;
-            else if (spawnDirection == SpawnDirection.Up)
-                flyPrefab.GetComponent<MosquitoMovement>().flydirection = MosquitoMovement.FlyDirection.Up;
-            else if (spawnDirection == SpawnDirection.Down)
-                flyPrefab.GetComponent<MosquitoMovement>().flydirection = MosquitoMovement.FlyDirection.Down;
+            GameObject rightFlyingMosquito = Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity) as GameObject;
 
-
-            yield return new WaitForSeconds(spawnTime);
+            //Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity);
+            if (spawnSide == SpawnSide.Left)
+            //GameObject g = Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity) as GameObject;
+            {
+                rightFlyingMosquito.GetComponent<MosquitoMovement>().flydirection = MosquitoMovement.FlyDirection.Right;
+                Debug.Log("SpawnFlyLeftSideSpawner Coro has been ran");
+            }
+            //yield return new WaitForSeconds(spawnTime);
+            StopCoroutine("SpawnFlyLeftSideSpawner");
             yield return null;
         }
         yield return null;
+        
     }
 
-   
+    IEnumerator SpawnFlyRightSideSpawner()
+    {
+        while (canSpawnFlies)
+        {
+            GameObject leftFlyingMosquito = Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity) as GameObject;
+
+            //Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity);
+            if (spawnSide == SpawnSide.Right)
+            //GameObject g = Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity) as GameObject;
+            {
+                leftFlyingMosquito.GetComponent<MosquitoMovement>().flydirection = MosquitoMovement.FlyDirection.Left;
+                Debug.Log("SpawnFlyRightSideSpawner Coro has been ran");
+            }
+            //yield return new WaitForSeconds(spawnTime);
+            StopCoroutine("SpawnFlyRightSideSpawner");
+            yield return null;
+        }
+        yield return null;
+        
+    }
+
+    IEnumerator SpawnFlyUpSideSpawner()
+    {
+        while (canSpawnFlies)
+        {
+            GameObject downFlyingMosquito = Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity) as GameObject;
+
+            //Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity);
+            if (spawnSide == SpawnSide.Up)
+            //GameObject g = Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity) as GameObject;
+            {
+                downFlyingMosquito.GetComponent<MosquitoMovement>().flydirection = MosquitoMovement.FlyDirection.Down;
+                Debug.Log("SpawnFlyUpSideSpawner Coro has been ran");
+            }
+            //yield return new WaitForSeconds(spawnTime);
+            StopCoroutine("SpawnFlyUpSideSpawner");
+            yield return null;
+        }
+        yield return null;
+        
+    }
+
+    IEnumerator SpawnFlyDownSideSpawner()
+    {
+        while (canSpawnFlies)
+        {
+            GameObject upFlyingMosquito = Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity) as GameObject;
+
+            //Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity);
+            if (spawnSide == SpawnSide.Down)
+            //GameObject g = Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity) as GameObject;
+            {
+                upFlyingMosquito.GetComponent<MosquitoMovement>().flydirection = MosquitoMovement.FlyDirection.Up;
+                Debug.Log("SpawnFlyDownSideSpawner Coro has been ran");
+            }
+            //yield return new WaitForSeconds(spawnTime);
+            StopCoroutine("SpawnFlyDownSideSpawner");
+            yield return null;
+        }
+        yield return null;
+        
+    }
 }

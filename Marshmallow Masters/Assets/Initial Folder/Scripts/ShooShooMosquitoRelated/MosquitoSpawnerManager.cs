@@ -15,7 +15,22 @@ public class MosquitoSpawnerManager : MonoBehaviour
     public MosquitoSpawner mosquitoSpawnerD;
 
 
-    public float spawnActivateTime;
+    public bool leftSideSpawnerActivate;
+    public bool rightSideSpawnerActivate;
+    public bool upSideSpawnerActivate;
+    public bool downSideSpawnerActivate;
+
+
+    public bool activateMosquitoSpawners = true;
+
+
+    public float activatedSpawn;
+    public bool levelTwo;
+
+    //The time limit (in seconds)
+    public float spawnActivasionTime;
+    //The time (in seconds)
+    public float timePassing;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,38 +41,58 @@ public class MosquitoSpawnerManager : MonoBehaviour
 
     }
 
-    public void Awake()
-    {
-
-        StartCoroutine("ActivateSpawners");
-
-    }
-
     // Update is called once per frame
     void Update()
     {
-        
+        if (activateMosquitoSpawners)
+        TimerFunction();
+
+
+
     }
 
-    IEnumerator ActivateSpawners()
+    void TimerFunction()
     {
-        yield return new WaitForSeconds(spawnActivateTime);
-        mosquitoSpawnerU.canSpawnFlies = true;
-        yield return new WaitForSeconds(spawnActivateTime);
-        mosquitoSpawnerU.StartCoroutine("SpawnFly");
-        yield return new WaitForSeconds(spawnActivateTime);
-        mosquitoSpawnerD.canSpawnFlies = true;
-        yield return new WaitForSeconds(spawnActivateTime);
-        mosquitoSpawnerD.StartCoroutine("SpawnFly");
-        yield return new WaitForSeconds(spawnActivateTime);
-        mosquitoSpawnerL.canSpawnFlies = true;
-        yield return new WaitForSeconds(spawnActivateTime);
-        mosquitoSpawnerL.StartCoroutine("SpawnFly");
-        yield return new WaitForSeconds(spawnActivateTime);
-        mosquitoSpawnerR.canSpawnFlies = true;
-        yield return new WaitForSeconds(spawnActivateTime);
-        mosquitoSpawnerR.StartCoroutine("SpawnFly");
-        yield return new WaitForSeconds(spawnActivateTime);
+        timePassing += Time.deltaTime;
+
+        if (timePassing >= spawnActivasionTime)
+        {
+            timerEnded();
+        }
+    }
+    void timerEnded()
+    {
+        int spawnerActivasionLevelTwo = 0;
+
+
+        activatedSpawn = (Random.Range(1,4));
+        if (levelTwo)
+        {
+            spawnerActivasionLevelTwo = (Random.Range(1, 4));
+
+
+        }
+
+        if (activatedSpawn == 1 || spawnerActivasionLevelTwo == 1)
+        {
+            mosquitoSpawnerU.StartCoroutine("SpawnFlyUpSideSpawner");
+        }
+        if (activatedSpawn == 2 || spawnerActivasionLevelTwo == 2)
+        {
+            mosquitoSpawnerD.StartCoroutine("SpawnFlyDownSideSpawner");
+        }
+        if (activatedSpawn == 3 || spawnerActivasionLevelTwo == 3)
+        {
+            mosquitoSpawnerL.StartCoroutine("SpawnFlyLeftSideSpawner");
+        }
+        if (activatedSpawn == 4 || spawnerActivasionLevelTwo == 4)
+        {
+            mosquitoSpawnerR.StartCoroutine("SpawnFlyRightSideSpawner");
+        }
+
+
+        //Only use if timer needs to be reset
+        timePassing = 0;
     }
 
 }
