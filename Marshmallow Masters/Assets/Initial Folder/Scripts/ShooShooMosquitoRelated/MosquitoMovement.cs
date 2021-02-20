@@ -8,9 +8,18 @@ public class MosquitoMovement : MonoBehaviour
     public Transform transform;
     public float mosquitoSpeed;
 
+    public float levelOneMinSpeed;
+    public float levelOneMaxSpeed;
+
+    public float levelTwoMinSpeed;
+    public float levelTwoMaxSpeed;
+
 
     public float lifetime;
     public float maxLifetime;
+
+    public ShooShooMosquitoGameManger gameManager;
+    public MosquitoSpawnerManager mosquitoSpawner;
 
     public enum FlyDirection {Up, Down, Left, Right }
 
@@ -19,6 +28,35 @@ public class MosquitoMovement : MonoBehaviour
     void Start()
     {
         
+    }
+
+    private void Awake()
+    {
+        //Don't use find in start cause scary
+        if (GameObject.Find("GameManager") != null)
+        {
+            gameManager = GameObject.Find("GameManager").GetComponent<ShooShooMosquitoGameManger>();
+
+        }
+
+
+        if (GameObject.Find("GameManager") != null)
+        {
+            mosquitoSpawner = GameObject.Find("GameManager").GetComponent<MosquitoSpawnerManager>();
+
+        }
+
+
+        if (!mosquitoSpawner.levelTwo)
+        {
+            mosquitoSpeed = (Random.Range(levelOneMinSpeed, levelOneMaxSpeed));
+
+        }
+        else if (mosquitoSpawner.levelTwo)
+        {
+            mosquitoSpeed = (Random.Range(levelTwoMinSpeed, levelTwoMaxSpeed));
+
+        }
     }
 
     // Update is called once per frame
@@ -46,6 +84,8 @@ public class MosquitoMovement : MonoBehaviour
 
         if (lifetime >= maxLifetime)
         {
+            gameManager.lives -= 1;
+
             Destroy(gameObject);
         }
 

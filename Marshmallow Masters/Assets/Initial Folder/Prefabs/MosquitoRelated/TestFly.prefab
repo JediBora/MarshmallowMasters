@@ -109,8 +109,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transform: {fileID: 6377941357470542955}
   mosquitoSpeed: 0.03
+  levelOneMinSpeed: 0.015
+  levelOneMaxSpeed: 0.02
+  levelTwoMinSpeed: 0.02
+  levelTwoMaxSpeed: 0.03
   lifetime: 0
-  maxLifetime: 5
+  maxLifetime: 7
+  gameManager: {fileID: 0}
+  mosquitoSpawner: {fileID: 0}
+  flydirection: 0
 --- !u!65 &6377941357470542952
 BoxCollider:
   m_ObjectHideFlags: 0

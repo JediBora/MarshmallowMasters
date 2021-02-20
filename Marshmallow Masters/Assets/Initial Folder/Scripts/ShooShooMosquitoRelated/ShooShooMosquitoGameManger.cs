@@ -6,7 +6,11 @@ public class ShooShooMosquitoGameManger : MonoBehaviour
 {
     public int mosquitosSwatted;
     public float timePassed;
+    public int lives;
+    public float survivalTime;
 
+    [Header("This is Updated Automatically")]
+    public float timeToSurvive;
 
 
     // Start is called before the first frame update
@@ -19,5 +23,6 @@ public class ShooShooMosquitoGameManger : MonoBehaviour
     void Update()
     {
         timePassed += Time.deltaTime;
+        timeToSurvive = survivalTime - timePassed;
     }
 }
