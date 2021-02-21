@@ -7,6 +7,7 @@ public class Marshmallow : MonoBehaviour
     bool isCooking;
     public float timeCooked = 0;
     float burnTime = 100;
+    float cookSpeed = 0.66f;
     bool onFire;
     public Color rawColour, goodColour, burntColour;
     Material marshmallowMaterial;
@@ -33,8 +34,13 @@ public class Marshmallow : MonoBehaviour
     {
         while (isCooking)
         {
-            // Cook
-            timeCooked += 5;
+            // Cook // Turning the marshmallow speeds up cooking
+            timeCooked += cookSpeed + (cookSpeed * Mathf.Abs(Input.gyro.rotationRateUnbiased.y));
+            // Cooks 3x faster when on fire
+            if (onFire)
+            {
+                timeCooked += cookSpeed * 2;
+            }
             
             // Change colour
             if (timeCooked < burnTime / 2) //Half-way cooked
@@ -47,14 +53,14 @@ public class Marshmallow : MonoBehaviour
             }
 
             // Chance to catch on fire
-            if(Random.Range(1, 101) < 25) //25% chance (every second)
+            if(Random.Range(1, 101) < 3) //2% chance (every 1/5 second)
             {
-                //onFire = true;
+                onFire = true;
                 FireEffect.SetActive(true);
             }
 
             // Repeat (if still cooking)
-            yield return new WaitForSeconds(1.0f);
+            yield return new WaitForSeconds(0.2f);
         }
 
         yield return null;

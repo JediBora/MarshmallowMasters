@@ -8,6 +8,7 @@ public class Stick : MonoBehaviour
     //Components
     public Marshmallow marshmallow;
     public GameObject marshmallowPrefab;
+    public GM_MarshmallowRoasting gameManager;
 
     //Controls
     Gyroscope gyro;
@@ -17,6 +18,7 @@ public class Stick : MonoBehaviour
 
     public float stickTurnRateMultiplier; //So you don't have to rotate the device as much to spin the stick, fe, a full 180.
 
+    /*
     //UI
     public Text rotXText, rotYText, rotZText;
     public Text mrotXText, mrotYText, mrotZText;
@@ -26,6 +28,7 @@ public class Stick : MonoBehaviour
     //test
     public bool rotateX, rotateY;
     float deltaRotationX, deltaRotationY;
+    */
 
     // Start is called before the first frame update
     void Start()
@@ -40,6 +43,7 @@ public class Stick : MonoBehaviour
     void Update()
     {
         rotX += Input.gyro.rotationRateUnbiased.x;
+            rotX = Mathf.Clamp(rotX, -50f, 0f);
         rotY += -Input.gyro.rotationRateUnbiased.y;
         rotZ += Input.gyro.rotationRateUnbiased.z;
 
@@ -57,10 +61,10 @@ public class Stick : MonoBehaviour
     // Raises/lowers the stick
     void Raise_Lower()
     {
-        if(rotX < 0 && rotX > -50) // Limits how much you can raise/lower the stick (buggy).
-        {
+        //if(rotX < 0 && rotX > -50) // Limits how much you can raise/lower the stick (buggy).
+        //{
             transform.RotateAround(transform.position, Vector3.forward, rotX - lastRotX);
-        }
+        //}
 
     }
 
@@ -79,6 +83,7 @@ public class Stick : MonoBehaviour
         }
     }
 
+    /*
     // Touch the stick to...
     public void Add_Remove_Marshmallow()
     {
@@ -94,18 +99,48 @@ public class Stick : MonoBehaviour
             Destroy(marshmallow.gameObject);
         }
     }
+    */
 
     public void AddMarshmallow()
     {
-        GameObject newMarshmallow = Instantiate(marshmallowPrefab, transform.Find("Marshmallow Spawnpoint").position, Quaternion.identity);
-        newMarshmallow.transform.parent = transform;
-        newMarshmallow.transform.localRotation = Quaternion.Euler(new Vector3(0, 0, -90)); //
-        marshmallow = newMarshmallow.GetComponent<Marshmallow>();
+        if (marshmallow == null && gameManager.marshmallowsRemaining > 0)
+        {
+            GameObject newMarshmallow = Instantiate(marshmallowPrefab, transform.Find("Marshmallow Spawnpoint").position, Quaternion.identity);
+            newMarshmallow.transform.parent = transform;
+            newMarshmallow.transform.localRotation = Quaternion.Euler(new Vector3(0, 0, -90)); //
+            marshmallow = newMarshmallow.GetComponent<Marshmallow>();
+
+            gameManager.MarshmallowAdded();
+        }
+    }
+
+    public void RemoveMarshmallow()
+    {
+        if (marshmallow != null)
+        {
+            if (marshmallow.timeCooked >= 55 && marshmallow.timeCooked <= 70)
+            {
+                gameManager.MarshmallowRemoved(100);
+
+            }
+            else if (marshmallow.timeCooked >= 30 && marshmallow.timeCooked <= 85)
+            {
+
+                gameManager.MarshmallowRemoved(50);
+            }
+            else
+            {
+                gameManager.MarshmallowRemoved(10);
+            }
+
+            Destroy(marshmallow.gameObject);
+        }   
     }
 
     // Updates UI info related to stick.
     void UpdateUIInfo()
     {
+        /*
         rotXText.text = "Rot X = " + rotX.ToString("F0");
         rotYText.text = "Rot Y = " + rotY.ToString("F0");
         rotZText.text = "Rot Z = " + rotZ.ToString("F0");
@@ -117,6 +152,7 @@ public class Stick : MonoBehaviour
         rotRate.text = "rotRateX = " + Mathf.Abs(gyro.rotationRateUnbiased.x);
 
         //transForwardZ.text = "rotZ = " + transform.up;
+        */
     }
 
 }

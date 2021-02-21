@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Daniel-CanoeMinigame/CanoeBooBoo.unity
-    guid: 0f582f7fd56618d4298dbab00e7c26b3
+    path: Assets/Daniel-FishingMinigame/FishingFishers.unity
+    guid: e66cadd81d781d446a29fce7c94e53c6
   m_configObjects: {}
