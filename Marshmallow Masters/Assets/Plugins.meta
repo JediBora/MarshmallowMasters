@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Marshmallow Masters/Assets/Plugins.meta
 guid: 488297afbb62e744b8b0ae7561e53e18
+=======
+guid: 44b7a84be2879da46a90250b19c2cdc0
+>>>>>>> UI-joystick:Marshmallow Masters/Assets/Initial Folder/Images.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
