@@ -95,6 +95,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 0}
+  mosquitoStats: {fileID: 0}
+  flashTime: 0.1
+  renderer: {fileID: 0}
 --- !u!114 &6377941357470542933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107,12 +110,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b49d4b77c58d10a47b3e186a8ebc1cc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camera: {fileID: 0}
+  cameraShakeIntensity: {x: 1, y: 1, z: 1}
+  cameraShakeDuration: 1
   transform: {fileID: 6377941357470542955}
   mosquitoSpeed: 0.03
   levelOneMinSpeed: 0.015
   levelOneMaxSpeed: 0.02
   levelTwoMinSpeed: 0.02
   levelTwoMaxSpeed: 0.03
+  mosquitoHP: 1
   lifetime: 0
   maxLifetime: 7
   gameManager: {fileID: 0}

@@ -407,7 +407,7 @@ MonoBehaviour:
   downSideSpawnerActivate: 0
   activateMosquitoSpawners: 1
   activatedSpawn: 0
-  levelTwo: 0
+  levelTwo: 1
   spawnActivasionTime: 1
   timePassing: 0
 --- !u!114 &248021444
@@ -1570,6 +1570,31 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 248021441}
+    - target: {fileID: 6377941357470542933, guid: 380f0489581d6154ca81127d4952af2c,
+        type: 3}
+      propertyPath: cameraShakeDuration
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6377941357470542933, guid: 380f0489581d6154ca81127d4952af2c,
+        type: 3}
+      propertyPath: cameraShakeIntensity.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6377941357470542933, guid: 380f0489581d6154ca81127d4952af2c,
+        type: 3}
+      propertyPath: cameraShakeIntensity.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6377941357470542933, guid: 380f0489581d6154ca81127d4952af2c,
+        type: 3}
+      propertyPath: cameraShakeIntensity.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6377941357470542933, guid: 380f0489581d6154ca81127d4952af2c,
+        type: 3}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 282840810}
     - target: {fileID: 6377941357470542955, guid: 380f0489581d6154ca81127d4952af2c,
         type: 3}
       propertyPath: m_LocalPosition.x

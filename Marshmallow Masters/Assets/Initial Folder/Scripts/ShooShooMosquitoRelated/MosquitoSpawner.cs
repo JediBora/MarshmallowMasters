@@ -40,7 +40,7 @@ public class MosquitoSpawner : MonoBehaviour
             if (spawnSide == SpawnSide.Left)
             //GameObject g = Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity) as GameObject;
             {
-                rightFlyingMosquito.GetComponent<MosquitoMovement>().flydirection = MosquitoMovement.FlyDirection.Right;
+                rightFlyingMosquito.GetComponent<MosquitoStats>().flydirection = MosquitoStats.FlyDirection.Right;
                 Debug.Log("SpawnFlyLeftSideSpawner Coro has been ran");
             }
             //yield return new WaitForSeconds(spawnTime);
@@ -61,7 +61,7 @@ public class MosquitoSpawner : MonoBehaviour
             if (spawnSide == SpawnSide.Right)
             //GameObject g = Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity) as GameObject;
             {
-                leftFlyingMosquito.GetComponent<MosquitoMovement>().flydirection = MosquitoMovement.FlyDirection.Left;
+                leftFlyingMosquito.GetComponent<MosquitoStats>().flydirection = MosquitoStats.FlyDirection.Left;
                 Debug.Log("SpawnFlyRightSideSpawner Coro has been ran");
             }
             //yield return new WaitForSeconds(spawnTime);
@@ -82,7 +82,7 @@ public class MosquitoSpawner : MonoBehaviour
             if (spawnSide == SpawnSide.Up)
             //GameObject g = Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity) as GameObject;
             {
-                downFlyingMosquito.GetComponent<MosquitoMovement>().flydirection = MosquitoMovement.FlyDirection.Down;
+                downFlyingMosquito.GetComponent<MosquitoStats>().flydirection = MosquitoStats.FlyDirection.Down;
                 Debug.Log("SpawnFlyUpSideSpawner Coro has been ran");
             }
             //yield return new WaitForSeconds(spawnTime);
@@ -103,7 +103,7 @@ public class MosquitoSpawner : MonoBehaviour
             if (spawnSide == SpawnSide.Down)
             //GameObject g = Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity) as GameObject;
             {
-                upFlyingMosquito.GetComponent<MosquitoMovement>().flydirection = MosquitoMovement.FlyDirection.Up;
+                upFlyingMosquito.GetComponent<MosquitoStats>().flydirection = MosquitoStats.FlyDirection.Up;
                 Debug.Log("SpawnFlyDownSideSpawner Coro has been ran");
             }
             //yield return new WaitForSeconds(spawnTime);

@@ -2,8 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MosquitoMovement : MonoBehaviour
+public class MosquitoStats : MonoBehaviour
 {
+
+    public GameObject camera;
+    public Vector3 cameraShakeIntensity;
+    public float cameraShakeDuration;
 
     public Transform transform;
     public float mosquitoSpeed;
@@ -14,6 +18,8 @@ public class MosquitoMovement : MonoBehaviour
     public float levelTwoMinSpeed;
     public float levelTwoMaxSpeed;
 
+
+    public int mosquitoHP;
 
     public float lifetime;
     public float maxLifetime;
@@ -39,6 +45,11 @@ public class MosquitoMovement : MonoBehaviour
 
         }
 
+        if (GameObject.Find("Main Camera") != null)
+        {
+            camera = GameObject.Find("Main Camera");
+
+        }
 
         if (GameObject.Find("GameManager") != null)
         {
@@ -50,12 +61,12 @@ public class MosquitoMovement : MonoBehaviour
         if (!mosquitoSpawner.levelTwo)
         {
             mosquitoSpeed = (Random.Range(levelOneMinSpeed, levelOneMaxSpeed));
-
+            mosquitoHP = 1;
         }
         else if (mosquitoSpawner.levelTwo)
         {
             mosquitoSpeed = (Random.Range(levelTwoMinSpeed, levelTwoMaxSpeed));
-
+            mosquitoHP = (Random.Range(1, 3));
         }
     }
 
@@ -85,6 +96,8 @@ public class MosquitoMovement : MonoBehaviour
         if (lifetime >= maxLifetime)
         {
             gameManager.lives -= 1;
+
+            iTween.ShakePosition(camera, cameraShakeIntensity, cameraShakeDuration);
 
             Destroy(gameObject);
         }
