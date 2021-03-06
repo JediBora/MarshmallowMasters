@@ -5,6 +5,9 @@ using UnityEngine;
 public class PlayerFlashlightStats : MonoBehaviour
 {
 
+    public float minSanity, maxSanity;
+    public float minBattery, maxBattery;
+
     public float sanity;
     public float flashlightBattery;
 
@@ -16,6 +19,8 @@ public class PlayerFlashlightStats : MonoBehaviour
 
     public bool losingSanity;
     public bool flashlightLosingBattery;
+
+    public float gameEnd;
 
 
     // Start is called before the first frame update

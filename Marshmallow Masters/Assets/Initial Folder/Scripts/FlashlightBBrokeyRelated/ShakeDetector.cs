@@ -14,9 +14,13 @@ public class ShakeDetector : MonoBehaviour
     //Used in conjunction with Physics Controller
     //private PhysicsController physController;
 
+    public bool deviceIsShaking;
 
-
-
+    //Timer related
+    //The time limit (in seconds)
+    public float maxTime;
+    //The time (in seconds)
+    public float timePassing;
 
     // Start is called before the first frame update
     void Start()
@@ -37,11 +41,35 @@ public class ShakeDetector : MonoBehaviour
             //physController.ShakeRigidbodies(Input.acceleration);
             timeSinceLastShake = Time.unscaledTime;
 
+            timePassing = 0;
+            deviceIsShaking = true;
             Debug.Log("I've been shooketh!");
 
         }
-
+        else
+        {
+            TimerFunction();
+        }
 
 
     }
+
+    void TimerFunction()
+    {
+        timePassing += Time.deltaTime;
+
+        if (timePassing >= maxTime)
+        {
+            timerEnded();
+        }
+    }
+    void timerEnded()
+    {
+        //Do your stuff here.
+        deviceIsShaking = false;
+
+        //Only use if timer needs to be reset
+        //timePassing = 0;
+    }
+
 }
