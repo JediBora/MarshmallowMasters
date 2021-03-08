@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class GameController : MonoBehaviour
 {
@@ -14,11 +16,14 @@ public class GameController : MonoBehaviour
     public float timePassing;
 
     public bool wentInsane;
+    public bool outOfForest;
+
+    public TMP_Text winLossText;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        winLossText.text = "";
     }
 
     // Update is called once per frame
@@ -27,7 +32,7 @@ public class GameController : MonoBehaviour
         flashlightStats.sanity = Mathf.Clamp(flashlightStats.sanity, flashlightStats.minSanity, flashlightStats.maxSanity);
         flashlightStats.flashlightBattery = Mathf.Clamp(flashlightStats.flashlightBattery, flashlightStats.minBattery, flashlightStats.maxBattery);
 
-        if (!wentInsane)
+        if (!wentInsane && !outOfForest)
         {
             FlashlightIsShaking();
             TimerFunction();
@@ -39,6 +44,7 @@ public class GameController : MonoBehaviour
         {
 
             wentInsane = true;
+            winLossText.text = "You Lose";
             Debug.Log("You lose");
 
 
@@ -102,7 +108,8 @@ public class GameController : MonoBehaviour
     void timerEnded()
     {
         //Do your stuff here.
-
+        outOfForest = true;
+        winLossText.text = "You made it out!";
         Debug.Log("You win.");
         //Only use if timer needs to be reset
         //timePassing = 0;
