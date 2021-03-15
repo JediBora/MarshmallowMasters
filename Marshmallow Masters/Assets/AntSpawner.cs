@@ -6,16 +6,25 @@ public class AntSpawner : MonoBehaviour
 {
     public List<GameObject> spawnPoints;
     public GameObject ant;
+    public float timerEnd = 3;
+    float time = 0;
+
     // Start is called before the first frame update
     void Start()
     {
-        SpawnAnt();
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-         
+        time += Time.deltaTime;
+
+        if (time >= timerEnd)
+        {
+            SpawnAnt();
+            time = 0;
+        }
     }
 
     void SpawnAnt()
