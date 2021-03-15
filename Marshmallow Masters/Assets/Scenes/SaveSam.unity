@@ -660,6 +660,7 @@ MonoBehaviour:
   - {fileID: 158157994}
   - {fileID: 2049442793}
   ant: {fileID: 1707216533162890392, guid: 67a7781246536274ea3525353c84d0b4, type: 3}
+  timerEnd: 3
 --- !u!1 &2049442793
 GameObject:
   m_ObjectHideFlags: 0

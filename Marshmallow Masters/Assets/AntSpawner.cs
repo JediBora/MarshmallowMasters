@@ -29,8 +29,8 @@ public class AntSpawner : MonoBehaviour
 
     void SpawnAnt()
     {
-        GameObject spawnPoint = spawnPoints[(Random.Range(0, 3))];
-        
+        GameObject spawnPoint = spawnPoints[(Random.Range(0, 4))];
+        Debug.Log(spawnPoint);
         GameObject newAnt = Instantiate(ant, spawnPoint.transform.position, Quaternion.identity);
 
         newAnt.transform.parent = gameObject.transform;
