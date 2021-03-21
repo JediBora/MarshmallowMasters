@@ -1602,7 +1602,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1093b855cb0d31447b59ff0aa13724b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  overworldName: GreyBoxLevel
+  overworldName: CampOverworld
   gameManager: {fileID: 248021441}
 --- !u!1 &1546155741
 GameObject:

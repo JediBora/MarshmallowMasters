@@ -33,14 +33,14 @@ public class SceneChanger : MonoBehaviour
         if (other.tag == "MosquitoC")
         {
             //Add Shoo Shoo Mosquito Scene
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene("ShooShooMosquitoTest");
             print("Shoo Shoo Mosquito interaction");
         }
 
         if (other.tag == "FlashlightC")
         {
             //Add Flashlight B'Brokey Scene
-            // SceneManager.LoadScene(5);
+            SceneManager.LoadScene("FlashlightBBrokey");
             print("Flashlight B'Brokey interaction");
         }
 
