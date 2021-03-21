@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Fire
+  - FishingC
+  - SandwichC
+  - FlashlightC
+  - MarshmallowC
+  - MosquitoC
+  - CanoeC
   layers:
   - Default
   - TransparentFX
