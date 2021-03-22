@@ -19,14 +19,14 @@ public class SceneChanger : MonoBehaviour
         if (other.tag == "CanoeC")
         {
             //Add Canoe Boo Boo Scene
-            // SceneManager.LoadScene(2);
+            SceneManager.LoadScene("CanoeBooBoo");
             print("Canoe Boo Boo interaction");
         }
 
         if (other.tag == "FishingC")
         {
             //Add Fishing Fishers Scene
-            // SceneManager.LoadScene(3);
+            SceneManager.LoadScene("FishingFishers");
             print("Fishing Fishers interaction");
         }
 
@@ -47,7 +47,7 @@ public class SceneChanger : MonoBehaviour
         if (other.tag == "MarshmallowC")
         {
             //Add Marshmallow Masters Scene
-            // SceneManager.LoadScene(6);
+            SceneManager.LoadScene("MarshmallowRoasting");
             print("Marshmallow Masters interaction");
         }
 
