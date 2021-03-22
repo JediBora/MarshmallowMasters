@@ -5,10 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/GreyBoxLevel.unity
     guid: 99cda86058cdef146bf221fa6911a452
-  - enabled: 1
+  - enabled: 0
     path: Assets/Initial Folder/Scenes/TestScenes/ShooShooMosquitoTest.unity
     guid: 6a24644b6ab075446a13f1216dc16245
+  - enabled: 1
+    path: Assets/Initial Folder/Scenes/TestScenes/SaveSam.unity
+    guid: d03db4a78fc1eda40bbda818c37ecfb5
   m_configObjects: {}
