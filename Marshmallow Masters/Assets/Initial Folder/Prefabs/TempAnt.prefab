@@ -226,6 +226,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ant
       objectReference: {fileID: 0}
+    - target: {fileID: 2699085337426785787, guid: 3ba1f1673abbe454aa8e4bf333ea833e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cf12fb9657dad9243a07c08b0891a85b, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ba1f1673abbe454aa8e4bf333ea833e, type: 3}
 --- !u!4 &6801611418237314394 stripped
