@@ -12,7 +12,7 @@ public class SceneChanger : MonoBehaviour
         if (other.tag == "SandwichC")
         {
             //Add Save your Sandwich Scene
-            // SceneManager.LoadScene(1);
+            SceneManager.LoadScene("SaveSam");
             print("Save your Sandwich interaction");
         }
 
