@@ -9,6 +9,8 @@ TagManager:
   - SandwichC
   - FlashlightC
   - MarshmallowC
+  - MosquitoC
+  - CanoeC
   layers:
   - Default
   - TransparentFX

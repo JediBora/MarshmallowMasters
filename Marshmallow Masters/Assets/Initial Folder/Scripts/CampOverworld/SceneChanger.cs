@@ -19,35 +19,35 @@ public class SceneChanger : MonoBehaviour
         if (other.tag == "CanoeC")
         {
             //Add Canoe Boo Boo Scene
-            // SceneManager.LoadScene(2);
+            SceneManager.LoadScene("CanoeBooBoo");
             print("Canoe Boo Boo interaction");
         }
 
         if (other.tag == "FishingC")
         {
             //Add Fishing Fishers Scene
-            // SceneManager.LoadScene(3);
+            SceneManager.LoadScene("FishingFishers");
             print("Fishing Fishers interaction");
         }
 
         if (other.tag == "MosquitoC")
         {
             //Add Shoo Shoo Mosquito Scene
-            // SceneManager.LoadScene(4);
+            SceneManager.LoadScene("ShooShooMosquitoTest");
             print("Shoo Shoo Mosquito interaction");
         }
 
         if (other.tag == "FlashlightC")
         {
             //Add Flashlight B'Brokey Scene
-            // SceneManager.LoadScene(5);
+            SceneManager.LoadScene("FlashlightBBrokey");
             print("Flashlight B'Brokey interaction");
         }
 
         if (other.tag == "MarshmallowC")
         {
             //Add Marshmallow Masters Scene
-            // SceneManager.LoadScene(6);
+            SceneManager.LoadScene("MarshmallowRoasting");
             print("Marshmallow Masters interaction");
         }
 

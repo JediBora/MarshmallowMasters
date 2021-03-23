@@ -5,13 +5,22 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/GreyBoxLevel.unity
-    guid: 99cda86058cdef146bf221fa6911a452
-  - enabled: 0
-    path: Assets/Initial Folder/Scenes/TestScenes/ShooShooMosquitoTest.unity
+  - enabled: 1
+    path: Assets/Initial Folder/Scenes/CampOverworld.unity
+    guid: 5fa13082a1786cc4d9f165955d30aea4
+  - enabled: 1
+    path: Assets/Initial Folder/Scenes/Master Scenes/ShooShooMosquitoTest.unity
     guid: 6a24644b6ab075446a13f1216dc16245
   - enabled: 1
-    path: Assets/Initial Folder/Scenes/TestScenes/SaveSam.unity
-    guid: d03db4a78fc1eda40bbda818c37ecfb5
+    path: Assets/Initial Folder/Scenes/Master Scenes/FlashlightBBrokey.unity
+    guid: 86d3807bffe15a14e92ab0249e246614
+  - enabled: 1
+    path: Assets/Daniel_MarshRoasting/MarshmallowRoasting.unity
+    guid: 19db58a84b2d92440a40587b8266fcd8
+  - enabled: 1
+    path: Assets/Daniel-FishingMinigame/FishingFishers.unity
+    guid: e66cadd81d781d446a29fce7c94e53c6
+  - enabled: 1
+    path: Assets/Daniel-CanoeMinigame/CanoeBooBoo.unity
+    guid: 0f582f7fd56618d4298dbab00e7c26b3
   m_configObjects: {}
