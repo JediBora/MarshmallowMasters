@@ -8,6 +8,8 @@ using TMPro;
 
 public class LoadAndSave : MonoBehaviour
 {
+    [Header("Do not touch.")]
+    [Header("Other scripts should set the following.")]
     //Accessing saved data
     public SavedData savedData;
 

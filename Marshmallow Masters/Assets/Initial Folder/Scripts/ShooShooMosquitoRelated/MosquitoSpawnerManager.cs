@@ -25,6 +25,8 @@ public class MosquitoSpawnerManager : MonoBehaviour
 
 
     public float activatedSpawn;
+
+    public bool levelOne;
     public bool levelTwo;
 
     //The time limit (in seconds)

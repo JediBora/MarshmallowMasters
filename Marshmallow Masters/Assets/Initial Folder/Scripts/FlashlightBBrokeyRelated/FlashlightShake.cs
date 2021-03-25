@@ -51,13 +51,13 @@ public class FlashlightShake : MonoBehaviour
     {
         if (!shakeDetector.deviceIsShaking && flashStats.flashlightBattery > 0)
         {
-            Debug.Log("Ching chong?");
+            Debug.Log("Device is not shaking.");
             FlashlightOnWalk();
         }
         else if (shakeDetector.deviceIsShaking)
         {
             FlashlightOffShake();
-            Debug.Log("Proc 2 time yeh boi");
+            Debug.Log("Device is shaking.");
         }
 
     }
