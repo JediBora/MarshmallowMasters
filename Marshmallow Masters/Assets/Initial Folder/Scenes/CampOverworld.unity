@@ -35828,6 +35828,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3643341773594451068, guid: 50ab89beabe7a524baebdfa9a5328003,
+        type: 3}
+      propertyPath: MovementRange
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3643341773594451069, guid: 50ab89beabe7a524baebdfa9a5328003,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b810428a60e4b7b4380563a9cb140b20,
+        type: 3}
+    - target: {fileID: 3643341773594451071, guid: 50ab89beabe7a524baebdfa9a5328003,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 170
+      objectReference: {fileID: 0}
+    - target: {fileID: 3643341773594451071, guid: 50ab89beabe7a524baebdfa9a5328003,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 170
+      objectReference: {fileID: 0}
+    - target: {fileID: 3643341773623856647, guid: 50ab89beabe7a524baebdfa9a5328003,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 03a6840b07dfbdd438df5acb824c270d,
+        type: 3}
     - target: {fileID: 3643341773795678122, guid: 50ab89beabe7a524baebdfa9a5328003,
         type: 3}
       propertyPath: m_LocalPosition.x
