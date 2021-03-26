@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour
 {
+    //Used to check on marshmallow count, allowing or denying access to the marshmallow roasting mini game
+    public LoadAndSave loadNSave;
+
     private void OnTriggerEnter(Collider other)
     {
         ////Minigames
@@ -44,11 +47,16 @@ public class SceneChanger : MonoBehaviour
             print("Flashlight B'Brokey interaction");
         }
 
-        if (other.tag == "MarshmallowC")
+        if (other.tag == "MarshmallowC" && loadNSave.savedData.marshmallows > 0)
         {
             //Add Marshmallow Masters Scene
             SceneManager.LoadScene("MarshmallowRoasting");
             print("Marshmallow Masters interaction");
+        }
+
+        else if (other.tag == "MarshmallowC" && loadNSave.savedData.marshmallows <= 0)
+        {
+            Debug.Log("You don't have neough shmellows scrub.");
         }
 
     }

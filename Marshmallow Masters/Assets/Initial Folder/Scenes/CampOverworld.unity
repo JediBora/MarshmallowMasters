@@ -12257,7 +12257,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1870561446}
+      - m_Target: {fileID: 0}
         m_MethodName: RewriteSaveFile
         m_Mode: 1
         m_Arguments:
@@ -12410,7 +12410,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameField: {fileID: 289421979}
-  loadAndSave: {fileID: 1870561446}
+  loadAndSave: {fileID: 0}
   shmellowCount: {fileID: 202592037}
   nameDisplay: {fileID: 771247216}
 --- !u!224 &688583486
@@ -20406,6 +20406,80 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f92d6be5ab7d63243a8c0fa10d755b65, type: 3}
+--- !u!1001 &1200107783
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1163409362370165085, guid: 28bb4e60995f3c24cb42d199f7ea34e1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 423.01965
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163409362370165085, guid: 28bb4e60995f3c24cb42d199f7ea34e1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1071.7014
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163409362370165085, guid: 28bb4e60995f3c24cb42d199f7ea34e1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 102.604034
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163409362370165085, guid: 28bb4e60995f3c24cb42d199f7ea34e1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163409362370165085, guid: 28bb4e60995f3c24cb42d199f7ea34e1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163409362370165085, guid: 28bb4e60995f3c24cb42d199f7ea34e1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163409362370165085, guid: 28bb4e60995f3c24cb42d199f7ea34e1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163409362370165085, guid: 28bb4e60995f3c24cb42d199f7ea34e1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163409362370165085, guid: 28bb4e60995f3c24cb42d199f7ea34e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163409362370165085, guid: 28bb4e60995f3c24cb42d199f7ea34e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163409362370165085, guid: 28bb4e60995f3c24cb42d199f7ea34e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163409362370165086, guid: 28bb4e60995f3c24cb42d199f7ea34e1,
+        type: 3}
+      propertyPath: currentMinigame
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163409362370165154, guid: 28bb4e60995f3c24cb42d199f7ea34e1,
+        type: 3}
+      propertyPath: m_Name
+      value: LoadandSaveManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 28bb4e60995f3c24cb42d199f7ea34e1, type: 3}
 --- !u!1001 &1201860252
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31726,6 +31800,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ThirdPersonController Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1022136621332272643, guid: 13eb8ce690618254a9b4cb47d044614c,
+        type: 3}
+      propertyPath: loadNSave
+      value: 
+      objectReference: {fileID: 1833749092}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13eb8ce690618254a9b4cb47d044614c, type: 3}
 --- !u!4 &1819586791 stripped
@@ -31914,6 +31993,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1505315756}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1833749092 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1163409362370165084, guid: 28bb4e60995f3c24cb42d199f7ea34e1,
+    type: 3}
+  m_PrefabInstance: {fileID: 1200107783}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74c30cfc36277d146a21e5c1f44e35a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1846491421 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4664073522619982, guid: 9d30b5eb9fa4dda4ead9a13030de998a,
@@ -32237,73 +32328,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1538962409}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1870561445
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1870561447}
-  - component: {fileID: 1870561446}
-  - component: {fileID: 1870561448}
-  m_Layer: 0
-  m_Name: LoadandSaveManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1870561446
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1870561445}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74c30cfc36277d146a21e5c1f44e35a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  savedData:
-    playerName: 
-    marshmallows: 0
-    roastedMarshmallows: 0
-    shooShooMosquitoHighScore: 0
-    saveYourSandwichHighScore: 0
-    canoeBooBooHighScore: 0
-    flashlightBBrokeyHighScore: 0
-    fishingFishersHighScore: 0
-    endlessModeHighScore: 0
---- !u!4 &1870561447
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1870561445}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 423.01965, y: 1071.7014, z: 102.604034}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 20
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1870561448
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1870561445}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33fe90a7b5baefa42ae43661c5378f06, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  loadNSave: {fileID: 1870561446}
 --- !u!1001 &1872740134
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37730,7 +37754,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1870561446}
+      - m_Target: {fileID: 0}
         m_MethodName: LoadSaveFile
         m_Mode: 1
         m_Arguments:
