@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Initial Folder/Scenes/TestScenes/SaveSam.unity
     guid: d03db4a78fc1eda40bbda818c37ecfb5
+  - enabled: 1
+    path: Assets/Daniel-CanoeMinigame/CanoeBooBoo.unity
+    guid: 7bb2b2f15cdd32c4894ed53c94ab47e8
+  - enabled: 1
+    path: Assets/Daniel-FishingMinigame/FishingFishers.unity
+    guid: 752bd7433eac36a468f21134fee49cb4
   m_configObjects: {}

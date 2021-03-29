@@ -31,17 +31,16 @@ public class FlashlightDifficultyController : MonoBehaviour
         flashlightStats.minBattery = 0;
         flashlightStats.maxBattery = 100;
 
+        //STuff
+        //Starting Stats
         flashlightStats.sanity = 30;
         flashlightStats.flashlightBattery = 50;
+
 
         flashlightStats.gainSanityRate = 2.5f;
         flashlightStats.loseSanityRate = 3;
 
         flashlightStats.gainFlashlightBatteryRate = 3;
         flashlightStats.loseFlashlightBatteryRate = 4.5f;
-
-
-
-
     }
 }

@@ -68,6 +68,8 @@ public class MosquitoSpawnerManager : MonoBehaviour
 
 
         activatedSpawn = (Random.Range(1,4));
+
+        //Allows for spawning in two places
         if (levelTwo)
         {
             spawnerActivasionLevelTwo = (Random.Range(1, 4));
