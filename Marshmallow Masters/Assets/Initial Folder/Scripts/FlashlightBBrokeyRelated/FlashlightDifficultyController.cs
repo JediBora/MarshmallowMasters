@@ -19,8 +19,41 @@ public class FlashlightDifficultyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (difficultyTwo)
+        if (difficultyOne)
+        {
+            DifficultyOneActive();
+        }
+
+        else if (difficultyTwo)
+        {
             DifficultyTwoActive();
+        }
+
+        else if (difficultyThree)
+        {
+            DifficultyThreeActive();
+        }
+    }
+
+    public void DifficultyOneActive()
+    {
+        flashlightStats.minSanity = 0;
+        flashlightStats.maxSanity = 100;
+
+        flashlightStats.minBattery = 0;
+        flashlightStats.maxBattery = 100;
+
+        //STuff
+        //Starting Stats
+        flashlightStats.sanity = 50;
+        flashlightStats.flashlightBattery = 80;
+
+
+        flashlightStats.gainSanityRate = 4;
+        flashlightStats.loseSanityRate = 2;
+
+        flashlightStats.gainFlashlightBatteryRate = 5;
+        flashlightStats.loseFlashlightBatteryRate = 3;
     }
 
     public void DifficultyTwoActive()
@@ -42,5 +75,26 @@ public class FlashlightDifficultyController : MonoBehaviour
 
         flashlightStats.gainFlashlightBatteryRate = 3;
         flashlightStats.loseFlashlightBatteryRate = 4.5f;
+    }
+
+    public void DifficultyThreeActive()
+    {
+        flashlightStats.minSanity = 0;
+        flashlightStats.maxSanity = 100;
+
+        flashlightStats.minBattery = 0;
+        flashlightStats.maxBattery = 100;
+
+        //STuff
+        //Starting Stats
+        flashlightStats.sanity = 15;
+        flashlightStats.flashlightBattery = 25;
+
+
+        flashlightStats.gainSanityRate = 1.5f;
+        flashlightStats.loseSanityRate = 5;
+
+        flashlightStats.gainFlashlightBatteryRate = 1.5f;
+        flashlightStats.loseFlashlightBatteryRate = 7;
     }
 }
