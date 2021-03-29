@@ -2171,9 +2171,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flashlightStats: {fileID: 1841206097}
-  difficultyOne: 1
+  difficultyOne: 0
   difficultyTwo: 0
-  difficultyThree: 0
+  difficultyThree: 1
 --- !u!1 &1856576239
 GameObject:
   m_ObjectHideFlags: 0
