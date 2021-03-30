@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class MosquitoSpawnerManager : MonoBehaviour
 {
+
+    //Used for setting game difficulty
+    public LoadAndSave loadAndSave;
+
+    public bool loadComplete;
+
     public GameObject upSideSpawner;
     public GameObject downSideSpawner;
     public GameObject leftSideSpawner;
@@ -41,6 +47,29 @@ public class MosquitoSpawnerManager : MonoBehaviour
         mosquitoSpawnerD = downSideSpawner.GetComponent<MosquitoSpawner>();
         mosquitoSpawnerL = leftSideSpawner.GetComponent<MosquitoSpawner>();
         mosquitoSpawnerR = rightSideSpawner.GetComponent<MosquitoSpawner>();
+
+
+        if (loadAndSave.savedData.setMinigameDifficulty == 1)
+        {
+            levelOne = true;
+            levelTwo = false;
+            levelThree = false;
+            loadComplete = true;
+        }
+        else if (loadAndSave.savedData.setMinigameDifficulty == 2)
+        {
+            levelOne = false;
+            levelTwo = true;
+            levelThree = false;
+            loadComplete = true;
+        }
+        else if (loadAndSave.savedData.setMinigameDifficulty == 3)
+        {
+            levelOne = false;
+            levelTwo = false;
+            levelThree = true;
+            loadComplete = true;
+        }
 
     }
 

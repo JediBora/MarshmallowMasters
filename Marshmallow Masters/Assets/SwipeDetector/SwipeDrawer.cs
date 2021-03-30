@@ -2,7 +2,7 @@
 
 public class SwipeDrawer : MonoBehaviour
 {
-    private LineRenderer lineRenderer;
+    public LineRenderer lineRenderer;
 
     private float zOffset = 10;
 

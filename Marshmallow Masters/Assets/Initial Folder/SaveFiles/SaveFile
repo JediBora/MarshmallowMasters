@@ -7,5 +7,6 @@
     "canoeBooBooHighScore": 0,
     "flashlightBBrokeyHighScore": 0,
     "fishingFishersHighScore": 0,
-    "endlessModeHighScore": 0
+    "endlessModeHighScore": 0,
+    "setMinigameDifficulty": 1
 }

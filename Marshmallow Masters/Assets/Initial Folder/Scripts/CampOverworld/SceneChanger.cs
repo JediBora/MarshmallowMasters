@@ -2,16 +2,28 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class SceneChanger : MonoBehaviour
 {
     //Used to check on marshmallow count, allowing or denying access to the marshmallow roasting mini game
     public LoadAndSave loadNSave;
 
+    public GameObject difficultyCanvas;
+
+    //0 = Save Your Sanwich
+    //1 = Canoe Boo Boo
+    //2 = Fishing Fishers
+    //3 = Shoo Shoo Mosquito
+    //4 = Flashlight B' Brokey
+    //5 = Marshmallow Masters
+    public int miniGameToLoad;
+
+
     private void OnTriggerEnter(Collider other)
     {
         ////Minigames
-       
+
         if (other.tag == "SandwichC")
         {
             //Add Save your Sandwich Scene
@@ -35,15 +47,21 @@ public class SceneChanger : MonoBehaviour
 
         if (other.tag == "MosquitoC")
         {
+            miniGameToLoad = 3;
+            difficultyCanvas.SetActive(true);
+
             //Add Shoo Shoo Mosquito Scene
-            SceneManager.LoadScene("ShooShooMosquitoTest");
+            //SceneManager.LoadScene("ShooShooMosquitoTest");
             print("Shoo Shoo Mosquito interaction");
         }
 
         if (other.tag == "FlashlightC")
         {
+            miniGameToLoad = 4;
+            difficultyCanvas.SetActive(true);
+
             //Add Flashlight B'Brokey Scene
-            SceneManager.LoadScene("FlashlightBBrokey");
+            //SceneManager.LoadScene("FlashlightBBrokey");
             print("Flashlight B'Brokey interaction");
         }
 
@@ -60,4 +78,28 @@ public class SceneChanger : MonoBehaviour
         }
 
     }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.tag == "SandwichC" || other.tag == "CanoeC" || other.tag == "FlashlightC" || other.tag == "FishingC" || other.tag == "MosquitoC")
+
+            difficultyCanvas.SetActive(false);
+
+
+    }
+
+    //0 = Save Your Sanwich
+    //1 = Canoe Boo Boo
+    //2 = Fishing Fishers
+    //3 = Shoo Shoo Mosquito
+    //4 = Flashlight B' Brokey
+    //5 = Marshmallow Masters
+    public void LoadCorrespondingScene()
+    {
+        if (miniGameToLoad == 3)
+            SceneManager.LoadScene("ShooShooMosquitoTest");
+        else if (miniGameToLoad == 4)
+            SceneManager.LoadScene("FlashlightBBrokey");
+    }
+
 }

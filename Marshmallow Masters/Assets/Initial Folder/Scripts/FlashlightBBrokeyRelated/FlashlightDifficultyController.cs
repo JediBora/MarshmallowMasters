@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class FlashlightDifficultyController : MonoBehaviour
 {
+    //Used for setting game difficulty
+    public LoadAndSave loadAndSave;
+
+    public bool loadComplete;
+
     public PlayerFlashlightStats flashlightStats;
 
     public bool difficultyOne;
@@ -13,19 +18,44 @@ public class FlashlightDifficultyController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (difficultyOne)
+        if (loadAndSave.savedData.setMinigameDifficulty == 1)
         {
-            DifficultyOneActive();
+            difficultyOne = true;
+            difficultyTwo = false;
+            difficultyThree = false;
+            loadComplete = true;
+        }
+        else if (loadAndSave.savedData.setMinigameDifficulty == 2)
+        {
+            difficultyOne = false;
+            difficultyTwo = true;
+            difficultyThree = false;
+            loadComplete = true;
+        }
+        else if (loadAndSave.savedData.setMinigameDifficulty == 3)
+        {
+            difficultyOne = false;
+            difficultyTwo = false;
+            difficultyThree = true;
+            loadComplete = true;
         }
 
-        else if (difficultyTwo)
+        if (loadComplete)
         {
-            DifficultyTwoActive();
-        }
+            if (difficultyOne)
+            {
+                DifficultyOneActive();
+            }
 
-        else if (difficultyThree)
-        {
-            DifficultyThreeActive();
+            else if (difficultyTwo)
+            {
+                DifficultyTwoActive();
+            }
+
+            else if (difficultyThree)
+            {
+                DifficultyThreeActive();
+            }
         }
     }
 
