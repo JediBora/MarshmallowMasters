@@ -29,12 +29,13 @@ public class RewardMarshmallows : MonoBehaviour
 
     public GameController gameController;
     public FlashlightDifficultyController flashlightDifficultyController;
-    
+
     [Space]
 
     [Header("Shoo Shoo Mosquito Related")]
 
     public ShooShooMosquitoGameManger mosquitoGameManager;
+    public MosquitoSpawnerManager mosquitoSpawnerManager;
 
 
     public void Awake()
@@ -97,12 +98,16 @@ public class RewardMarshmallows : MonoBehaviour
                         //If the player is successful at mini game
                         if (gameController.outOfForest)
                         {
+                            if (flashlightDifficultyController.difficultyOne)
+                                autoLoadAndRewriteSave.RewriteMarshmallowCount(2, 0);
                             //This game currently awards based on the difficulty of the game
-                            if (flashlightDifficultyController.difficultyTwo)
+                            else if (flashlightDifficultyController.difficultyTwo)
                                 //Sets how many marshmallows to add. The first integer is Marshmallows, the second is Roasted Marshmallows.
                                 //To subtract marshmallows from the player, simply use negative values
-                                autoLoadAndRewriteSave.RewriteMarshmallowCount(2, 0);
+                                autoLoadAndRewriteSave.RewriteMarshmallowCount(4, 0);
 
+                            else if (flashlightDifficultyController.difficultyTwo)
+                                autoLoadAndRewriteSave.RewriteMarshmallowCount(6, 0);
 
                             Debug.Log("FlashlightBBrokey has ended.");
                             updatedMarshmallowCount = true;
@@ -141,35 +146,55 @@ public class RewardMarshmallows : MonoBehaviour
                         {
                             //Sets how many marshmallows to add. The first integer is Marshmallows, the second is Roasted Marshmallows.
                             //To subtract marshmallows from the player, simply use negative values
-                            autoLoadAndRewriteSave.RewriteMarshmallowCount(3, 0);
+                            if (mosquitoSpawnerManager.levelOne)
+                                autoLoadAndRewriteSave.RewriteMarshmallowCount(3, 0);
+                            else if (mosquitoSpawnerManager.levelTwo)
+                                autoLoadAndRewriteSave.RewriteMarshmallowCount(5, 0);
+                            else if (mosquitoSpawnerManager.levelThree)
+                                autoLoadAndRewriteSave.RewriteMarshmallowCount(7, 0);
 
                             updatedMarshmallowCount = true;
                         }
                         //If the player has made it to the end and lives with 3 lives remaining
                         else if (mosquitoGameManager.timeToSurvive <= 0 && mosquitoGameManager.lives == 3)
                         {
-                            autoLoadAndRewriteSave.RewriteMarshmallowCount(2, 0);
+                            if (mosquitoSpawnerManager.levelOne)
+                                autoLoadAndRewriteSave.RewriteMarshmallowCount(2, 0);
+                            else if (mosquitoSpawnerManager.levelTwo)
+                                autoLoadAndRewriteSave.RewriteMarshmallowCount(3, 0);
+                            else if (mosquitoSpawnerManager.levelThree)
+                                autoLoadAndRewriteSave.RewriteMarshmallowCount(5, 0);
 
                             updatedMarshmallowCount = true;
                         }
                         //If the player has made it to the end and lives with 2 lives remaining
                         else if (mosquitoGameManager.timeToSurvive <= 0 && mosquitoGameManager.lives == 2)
                         {
-                            autoLoadAndRewriteSave.RewriteMarshmallowCount(2, 0);
+                            if (mosquitoSpawnerManager.levelOne)
+                                autoLoadAndRewriteSave.RewriteMarshmallowCount(2, 0);
+                            else if (mosquitoSpawnerManager.levelTwo)
+                                autoLoadAndRewriteSave.RewriteMarshmallowCount(3, 0);
+                            else if (mosquitoSpawnerManager.levelThree)
+                                autoLoadAndRewriteSave.RewriteMarshmallowCount(5, 0);
 
                             updatedMarshmallowCount = true;
                         }
                         //If the player has made it to the end and lives with 1 lives remaining
                         else if (mosquitoGameManager.timeToSurvive <= 0 && mosquitoGameManager.lives == 1)
                         {
-                            autoLoadAndRewriteSave.RewriteMarshmallowCount(1, 0);
+                            if (mosquitoSpawnerManager.levelOne)
+                                autoLoadAndRewriteSave.RewriteMarshmallowCount(1, 0);
+                            else if (mosquitoSpawnerManager.levelTwo)
+                                autoLoadAndRewriteSave.RewriteMarshmallowCount(2, 0);
+                            else if (mosquitoSpawnerManager.levelThree)
+                                autoLoadAndRewriteSave.RewriteMarshmallowCount(4, 0);
 
                             updatedMarshmallowCount = true;
                         }
 
                         Debug.Log("ShooShooMosquito has ended.");
 
-                        
+
                     }
                 }
                 break;
