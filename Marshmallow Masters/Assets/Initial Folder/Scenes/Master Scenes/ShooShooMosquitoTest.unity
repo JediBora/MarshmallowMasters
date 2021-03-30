@@ -409,6 +409,7 @@ MonoBehaviour:
   activatedSpawn: 0
   levelOne: 0
   levelTwo: 0
+  levelThree: 1
   spawnActivasionTime: 1
   timePassing: 0
 --- !u!114 &248021444

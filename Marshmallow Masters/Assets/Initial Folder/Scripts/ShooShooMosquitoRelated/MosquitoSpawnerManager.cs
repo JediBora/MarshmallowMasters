@@ -28,6 +28,7 @@ public class MosquitoSpawnerManager : MonoBehaviour
 
     public bool levelOne;
     public bool levelTwo;
+    public bool levelThree;
 
     //The time limit (in seconds)
     public float spawnActivasionTime;
@@ -71,6 +72,31 @@ public class MosquitoSpawnerManager : MonoBehaviour
 
         //Allows for spawning in two places
         if (levelTwo)
+        {
+            spawnerActivasionLevelTwo = (Random.Range(1, 4));
+
+
+        }
+
+        if (activatedSpawn == 1 || spawnerActivasionLevelTwo == 1)
+        {
+            mosquitoSpawnerU.StartCoroutine("SpawnFlyUpSideSpawner");
+        }
+        if (activatedSpawn == 2 || spawnerActivasionLevelTwo == 2)
+        {
+            mosquitoSpawnerD.StartCoroutine("SpawnFlyDownSideSpawner");
+        }
+        if (activatedSpawn == 3 || spawnerActivasionLevelTwo == 3)
+        {
+            mosquitoSpawnerL.StartCoroutine("SpawnFlyLeftSideSpawner");
+        }
+        if (activatedSpawn == 4 || spawnerActivasionLevelTwo == 4)
+        {
+            mosquitoSpawnerR.StartCoroutine("SpawnFlyRightSideSpawner");
+        }
+
+        //Allows for spawning in two places
+        if (levelThree)
         {
             spawnerActivasionLevelTwo = (Random.Range(1, 4));
 
