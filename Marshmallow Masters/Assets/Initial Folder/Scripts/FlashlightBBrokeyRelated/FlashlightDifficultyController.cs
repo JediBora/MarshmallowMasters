@@ -39,15 +39,15 @@ public class FlashlightDifficultyController : MonoBehaviour
 
         //STuff
         //Starting Stats
-        flashlightStats.sanity = 50;
-        flashlightStats.flashlightBattery = 80;
+        flashlightStats.sanity = 40;
+        flashlightStats.flashlightBattery = 60;
 
 
-        flashlightStats.gainSanityRate = 4;
-        flashlightStats.loseSanityRate = 2;
+        flashlightStats.gainSanityRate = 3f;
+        flashlightStats.loseSanityRate = 2.5f;
 
-        flashlightStats.gainFlashlightBatteryRate = 5;
-        flashlightStats.loseFlashlightBatteryRate = 3;
+        flashlightStats.gainFlashlightBatteryRate = 3.5f;
+        flashlightStats.loseFlashlightBatteryRate = 4;
     }
 
     public void DifficultyTwoActive()
@@ -81,14 +81,14 @@ public class FlashlightDifficultyController : MonoBehaviour
 
         //STuff
         //Starting Stats
-        flashlightStats.sanity = 15;
-        flashlightStats.flashlightBattery = 25;
+        flashlightStats.sanity = 25;
+        flashlightStats.flashlightBattery = 45;
 
 
-        flashlightStats.gainSanityRate = 1.5f;
-        flashlightStats.loseSanityRate = 5;
+        flashlightStats.gainSanityRate = 2.4f;
+        flashlightStats.loseSanityRate = 3;
 
-        flashlightStats.gainFlashlightBatteryRate = 1.5f;
-        flashlightStats.loseFlashlightBatteryRate = 7;
+        flashlightStats.gainFlashlightBatteryRate = 2.8f;
+        flashlightStats.loseFlashlightBatteryRate = 4.5f;
     }
 }
