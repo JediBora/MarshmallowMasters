@@ -37,6 +37,25 @@ public class RewardMarshmallows : MonoBehaviour
     public ShooShooMosquitoGameManger mosquitoGameManager;
     public MosquitoSpawnerManager mosquitoSpawnerManager;
 
+    [Space]
+
+    [Header("Fishing Fishers Related")]
+
+    public GM_Fishing Fishing_GM;
+
+    [Space]
+
+    [Header("Canoe Boo Boo Related")]
+
+    public GM_CanoeBB Canoe_GM;
+
+    [Space]
+
+    [Header("Marshmallow Roastin' Related")]
+
+    public GM_MarshmallowRoasting MRoastin_GM;
+
+
 
     public void Awake()
     {
@@ -61,11 +80,15 @@ public class RewardMarshmallows : MonoBehaviour
                     {
                         Debug.Log("CanoeBooBoo has ended.");
 
-                        //Sets how many marshmallows to add. The first integer is Marshmallows, the second is Roasted Marshmallows.
-                        //To subtract marshmallows from the player, simply use negative values
-                        //Use the below commented code to add/subtract marshmallows from the player
-                        //autoLoadAndRewriteSave.RewriteMarshmallowCount(0, 0);
-
+                        // For now you get a fixed amount if you survive until the end.
+                        if (true)
+                        {
+                            autoLoadAndRewriteSave.RewriteMarshmallowCount(10, 0);
+                        }
+                        else
+                        {
+                            autoLoadAndRewriteSave.RewriteMarshmallowCount(1, 0);
+                        }
 
                         updatedMarshmallowCount = true;
                     }
@@ -78,11 +101,8 @@ public class RewardMarshmallows : MonoBehaviour
                     {
                         Debug.Log("FishingFishers has ended.");
 
-                        //Sets how many marshmallows to add. The first integer is Marshmallows, the second is Roasted Marshmallows.
-                        //To subtract marshmallows from the player, simply use negative values
-                        //Use the below commented code to add/subtract marshmallows from the player
-                        //autoLoadAndRewriteSave.RewriteMarshmallowCount(0, 0);
-
+                        // For now you get 3 marshamllows per fish
+                        autoLoadAndRewriteSave.RewriteMarshmallowCount(Fishing_GM.fishCaught * 3, 0);
 
                         updatedMarshmallowCount = true;
                     }
@@ -204,7 +224,7 @@ public class RewardMarshmallows : MonoBehaviour
                 {
                     if (!updatedMarshmallowCount)
                     {
-                        Debug.Log("SaveYourSandwich has ended.");
+                        autoLoadAndRewriteSave.RewriteMarshmallowCount(-MRoastin_GM.marshmallowsUsed, MRoastin_GM.successfullyRoastedMarshmallows);
 
                         updatedMarshmallowCount = true;
                     }

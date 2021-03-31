@@ -5,25 +5,39 @@ using UnityEngine.UI;
 
 public class GM_MarshmallowRoasting : MonoBehaviour
 {
-    int score = 0;
+    public int successfullyRoastedMarshmallows;
+    public int marshmallowsUsed;
     public int marshmallowsRemaining;
-    public Text scoreDisplay, marshmallowsRemainingDisplay;
+    public Text roastedMarshmallowsGained_txt, marshmallowsRemainingDisplay;
+    public Text message;
     
     // Start is called before the first frame update
     void Start()
     {
-        
+        //Load marshmallow count.
     }
 
     public void MarshmallowAdded()
     {
+        marshmallowsUsed++;
         marshmallowsRemaining--;
         marshmallowsRemainingDisplay.text = marshmallowsRemaining.ToString();
     }
 
-    public void MarshmallowRemoved(int score)
+    public void MarshmallowRemoved(bool success, string msg)
     {
-        this.score += score;
-        scoreDisplay.text = this.score.ToString();
+        if (success)
+        {
+            successfullyRoastedMarshmallows++;
+            roastedMarshmallowsGained_txt.text = successfullyRoastedMarshmallows.ToString();
+        }
+        message.text = msg;
+        Invoke("RemoveMessage", 2.0f);
+
+    }
+
+    public void RemoveMessage()
+    {
+        message.text = "";
     }
 }

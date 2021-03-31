@@ -9,13 +9,17 @@ public class GM_Fishing : MonoBehaviour
     public GameObject Rod;
     public GameObject meter;
     public float reactionTimeNeeded;
-    int fishCaught;
+    public int fishCaught;
     bool restartLoop;
     public bool meterComplete;
     public int percentNeededToCatch;
     public Text message;
     Gyroscope gyro;
     public float rotX, lastRotX;
+    
+    public EndGame Endgame;
+    public Vector2 marshmallowsGained = new Vector2();
+    
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +27,7 @@ public class GM_Fishing : MonoBehaviour
         gyro = Input.gyro;
         gyro.enabled = true;
         StartCoroutine("GameLoop");
+        Endgame.GetMarshmallowsGained(marshmallowsGained);
     }
 
     void Update()
@@ -76,7 +81,7 @@ public class GM_Fishing : MonoBehaviour
     // Stage 1 is waiting for a fish to bite and pulling back on the rod.
     IEnumerator Stage_1()
     {
-        message.text = "";
+        message.text = ". . .";
         restartLoop = false;
         float timeRodEnteredWater = Time.time;
         float timeUntilNextBite = Random.Range(3, 5); //Once your rod is lowered a fish will come in 3-5 seconds
@@ -144,9 +149,11 @@ public class GM_Fishing : MonoBehaviour
         }
     }
 
+    /*
     void OnGUI()
     {
         GUI.Label(new Rect(10, 10, 100, 20), "Fish Caught: " + fishCaught, guiStyle);
         GUI.Label(new Rect(10, 600, 100, 20), "RotX = " + rotX, guiStyle);
     }
+    */
 }
