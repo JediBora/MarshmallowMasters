@@ -204,6 +204,7 @@ PrefabInstance:
       value: Bench (10)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
   m_SourcePrefab: {fileID: 100100000, guid: b440c716fc0f7ee4c8026b1d1ced06ff, type: 3}
 --- !u!4 &472269 stripped
 Transform:
@@ -285,6 +286,15 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 3505de38c13dfd74e88b370e4aaa25d4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bca1cab92d3090446a5b135ce8027fbf, type: 3}
+=======
+  m_SourcePrefab: {fileID: 100100000, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
+--- !u!4 &5116961 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4664073522619982, guid: 9d30b5eb9fa4dda4ead9a13030de998a,
+    type: 3}
+  m_PrefabInstance: {fileID: 5116960}
+  m_PrefabAsset: {fileID: 0}
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!1001 &9069284
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1422,6 +1432,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f92d6be5ab7d63243a8c0fa10d755b65, type: 3}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 --- !u!1 &63123000
 GameObject:
   m_ObjectHideFlags: 0
@@ -1439,6 +1450,9 @@ GameObject:
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &63123001
+=======
+--- !u!4 &66182272 stripped
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1520,6 +1534,7 @@ PrefabInstance:
       value: 0.9999998
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
   m_SourcePrefab: {fileID: 100100000, guid: 3315ee48ccc2bce4fa73c4b39288def4, type: 3}
 --- !u!1 &66011734 stripped
 GameObject:
@@ -1541,11 +1556,22 @@ BoxCollider:
   m_Size: {x: 2.4801354, y: 3.6239686, z: 1.0000004}
   m_Center: {x: -0.5439986, y: 0.5255928, z: 0.50000024}
 --- !u!4 &66182272 stripped
+=======
+  m_SourcePrefab: {fileID: 100100000, guid: 8f10c449b09bb0b4491f0795b3645e46, type: 3}
+--- !u!4 &66510901 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5b2c140bf739f70479ddff834c7cf4cd,
+    type: 3}
+  m_PrefabInstance: {fileID: 386278013}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &67136125 stripped
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 Transform:
   m_CorrespondingSourceObject: {fileID: 4664073522619982, guid: 9d30b5eb9fa4dda4ead9a13030de998a,
     type: 3}
   m_PrefabInstance: {fileID: 1476662167}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 --- !u!1001 &66333963
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1643,6 +1669,9 @@ Transform:
   m_PrefabInstance: {fileID: 1664313462}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &73274372
+=======
+--- !u!1001 &69988667
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -1723,6 +1752,118 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2062945039}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+=======
+--- !u!1001 &77786308
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: d25e3a75700445048b96ce6eed1c4c88,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 70.49
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d25e3a75700445048b96ce6eed1c4c88,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.23
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d25e3a75700445048b96ce6eed1c4c88,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 94.064545
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d25e3a75700445048b96ce6eed1c4c88,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d25e3a75700445048b96ce6eed1c4c88,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d25e3a75700445048b96ce6eed1c4c88,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d25e3a75700445048b96ce6eed1c4c88,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d25e3a75700445048b96ce6eed1c4c88,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d25e3a75700445048b96ce6eed1c4c88,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d25e3a75700445048b96ce6eed1c4c88,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d25e3a75700445048b96ce6eed1c4c88,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d25e3a75700445048b96ce6eed1c4c88,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d25e3a75700445048b96ce6eed1c4c88,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: d25e3a75700445048b96ce6eed1c4c88,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -3652862870785322071, guid: d25e3a75700445048b96ce6eed1c4c88,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9fa2298bc395de94489308bb42764bbb, type: 2}
+    - target: {fileID: -2002446386325734172, guid: d25e3a75700445048b96ce6eed1c4c88,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 54e2cb7a098472b4898f218d7da67287, type: 2}
+    - target: {fileID: -1309253814036566207, guid: d25e3a75700445048b96ce6eed1c4c88,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f07d1349b9df09d4599cd5a7502e1390, type: 2}
+    - target: {fileID: -603099963602898726, guid: d25e3a75700445048b96ce6eed1c4c88,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 88580599303e96b418b4fd61e8df6698, type: 2}
+    - target: {fileID: 435677297802174649, guid: d25e3a75700445048b96ce6eed1c4c88,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 48c816e4a08e5764d8246ad63fb1b0d1, type: 2}
+    - target: {fileID: 919132149155446097, guid: d25e3a75700445048b96ce6eed1c4c88,
+        type: 3}
+      propertyPath: m_Name
+      value: Charlotte
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d25e3a75700445048b96ce6eed1c4c88, type: 3}
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!1001 &78057395
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2379,6 +2520,15 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1817033964}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+=======
+--- !u!4 &143073272 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1817033964}
+  m_PrefabAsset: {fileID: 0}
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!1001 &145231610
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2461,6 +2611,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree4 (13)
       objectReference: {fileID: 0}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 290057910daba554ea56ac40e3240fe2, type: 3}
 --- !u!1 &147197045
@@ -2494,6 +2645,21 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &152063274
+=======
+    - target: {fileID: 5028941979500379287, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 71f54d21aa50cbf4cb9d27a43fca70b9, type: 2}
+    - target: {fileID: 5362369228302084354, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c818efba588bba5438e11314bc902e44, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 290057910daba554ea56ac40e3240fe2, type: 3}
+--- !u!1001 &153669071
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -2503,7 +2669,11 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: -38.65026
+=======
+      value: -0.034820415
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
@@ -2513,7 +2683,11 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 20.300976
+=======
+      value: 0.25516683
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
@@ -2523,7 +2697,11 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
       propertyPath: m_LocalRotation.y
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: -1
+=======
+      value: -0.07561004
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
@@ -2533,12 +2711,20 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
       propertyPath: m_LocalRotation.w
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 0.0000005513429
+=======
+      value: 0.99713755
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 57
+=======
+      value: 7
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
@@ -2548,6 +2734,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: -180.00002
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
@@ -2638,6 +2825,8 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
+=======
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       value: -8.673
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
@@ -4579,6 +4768,89 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f10c449b09bb0b4491f0795b3645e46, type: 3}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+=======
+--- !u!1001 &222454278
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2063052374}
+    m_Modifications:
+    - target: {fileID: 1225987369796066, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
+      propertyPath: m_Name
+      value: Floor_2x-025x5 (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664073522619982, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -44.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664073522619982, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664073522619982, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -106.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664073522619982, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.70710605
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664073522619982, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.0010981782
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664073522619982, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0010981418
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664073522619982, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071059
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664073522619982, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
+      propertyPath: m_RootOrder
+      value: 79
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664073522619982, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664073522619982, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664073522619982, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.178
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664073522619982, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0250694
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664073522619982, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.1281583
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664073522619982, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8839798
+      objectReference: {fileID: 0}
+    - target: {fileID: 23465862557037834, guid: 9d30b5eb9fa4dda4ead9a13030de998a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c29ab08b606bb8b4d82a5a8bb755d14f, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
+--- !u!4 &222454279 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4664073522619982, guid: 9d30b5eb9fa4dda4ead9a13030de998a,
+    type: 3}
+  m_PrefabInstance: {fileID: 222454278}
+  m_PrefabAsset: {fileID: 0}
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!4 &226649827 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5b2c140bf739f70479ddff834c7cf4cd,
@@ -5238,7 +5510,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &266246126 stripped
 Transform:
@@ -5814,6 +6086,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 283907365}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 --- !u!1 &289421979
 GameObject:
   m_ObjectHideFlags: 0
@@ -5970,6 +6243,14 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+=======
+--- !u!4 &291333216 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
+    type: 3}
+  m_PrefabInstance: {fileID: 1782977443}
+  m_PrefabAsset: {fileID: 0}
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!1001 &293392510
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6505,22 +6786,38 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
     m_TransformParent: {fileID: 1654775662}
+=======
+    m_TransformParent: {fileID: 0}
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 5b2c140bf739f70479ddff834c7cf4cd,
         type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 0.381991
+=======
+      value: 141.47
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b2c140bf739f70479ddff834c7cf4cd,
         type: 3}
       propertyPath: m_LocalPosition.y
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 0
+=======
+      value: 1.3000002
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b2c140bf739f70479ddff834c7cf4cd,
         type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: -0.52316165
+=======
+      value: 16.76
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b2c140bf739f70479ddff834c7cf4cd,
         type: 3}
@@ -6545,7 +6842,11 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 5b2c140bf739f70479ddff834c7cf4cd,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 56
+=======
+      value: 19
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b2c140bf739f70479ddff834c7cf4cd,
         type: 3}
@@ -10809,11 +11110,16 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 34978325}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 --- !u!1001 &538110430
+=======
+--- !u!1001 &539764204
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
     m_TransformParent: {fileID: 2063052374}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
@@ -10832,20 +11138,50 @@ PrefabInstance:
       value: 35.370975
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
+=======
+    m_TransformParent: {fileID: 1654775662}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.486
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.004444567
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.74
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
         type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
       propertyPath: m_LocalRotation.y
       value: -1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
+=======
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.8610681
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -10857,20 +11193,43 @@ PrefabInstance:
       value: 59
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
+=======
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5084897
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 169
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -180.00002
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
+=======
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 118.87301
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -10900,6 +11259,41 @@ Transform:
   m_PrefabInstance: {fileID: 538110430}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &539764204
+=======
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0143998
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0143996
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0143998
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_Name
+      value: Tree4 (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5028941979500379287, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 71f54d21aa50cbf4cb9d27a43fca70b9, type: 2}
+    - target: {fileID: 5362369228302084354, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c818efba588bba5438e11314bc902e44, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 290057910daba554ea56ac40e3240fe2, type: 3}
+--- !u!1001 &545088980
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -10909,7 +11303,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.486
+      value: 0.467
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
         type: 3}
@@ -10919,6 +11313,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
         type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: -0.74
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
@@ -11004,6 +11399,9 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 45.660973
+=======
+      value: -1.033
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
@@ -12300,27 +12698,39 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 2063052374}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: -44.940254
+=======
+      value: 149.29
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
       propertyPath: m_LocalPosition.y
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 2.1422386
+=======
+      value: 0.92
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 0.78097534
+=======
+      value: 78.16
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
@@ -12340,7 +12750,11 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 32
+=======
+      value: 2
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
@@ -13858,12 +14272,280 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1769248830}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 --- !u!1 &755238783
+=======
+--- !u!1001 &756915953
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8874917061593106402, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 833cb65fce142f64687a112b9964623d, type: 2}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 141.16
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.3000002
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 51.73
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00437142
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99999046
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0.50100005
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7112139303654064900, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 67f02aefc9afe024fa460dc74492e99a, type: 2}
+    - target: {fileID: -6683518566963621992, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ce68cba7bda3fae4dbaa06a41678e75e, type: 2}
+    - target: {fileID: -6535035325462504207, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c09ed0184db70324884d3517650710f7, type: 2}
+    - target: {fileID: -6199097450048920620, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ff4783a7e2a26e043b5ab967ecc26460, type: 2}
+    - target: {fileID: -3393563066005626272, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 687c6e5d0ea796541b5e17f607fc2166, type: 2}
+    - target: {fileID: -3007137439173536914, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bb348683e1c1d424cb4979b59500fcf9, type: 2}
+    - target: {fileID: -2165098499130947961, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ff7a959decee21744bc358992d3ee51f, type: 2}
+    - target: {fileID: -1670865462802834258, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7e36e6fc8f4a64644b182761c2c56184, type: 2}
+    - target: {fileID: 911917165185257461, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 24e62706621f6e446900f4ac490854af, type: 2}
+    - target: {fileID: 919132149155446097, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Name
+      value: log cabin (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2522981793942825736, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ce68cba7bda3fae4dbaa06a41678e75e, type: 2}
+    - target: {fileID: 3326222325525583308, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82471a8598689f047869249a76a44c6e, type: 2}
+    - target: {fileID: 3486559382587550722, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ff7a959decee21744bc358992d3ee51f, type: 2}
+    - target: {fileID: 8809686767243311899, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d50311f33eaf6c24fad007251c075706, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1d8502cab8f0fd64298cd7ed51382f8f, type: 3}
+--- !u!1001 &759505907
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8792264142151816132, guid: c29a7d4af6e2911498dd9f5b37607b4c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 893d9f669eab1b2418ae2cbda80a7e1d, type: 2}
+    - target: {fileID: -8679921383154817045, guid: c29a7d4af6e2911498dd9f5b37607b4c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 62.33245
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c29a7d4af6e2911498dd9f5b37607b4c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.43
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c29a7d4af6e2911498dd9f5b37607b4c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.171195
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c29a7d4af6e2911498dd9f5b37607b4c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c29a7d4af6e2911498dd9f5b37607b4c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70710707
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c29a7d4af6e2911498dd9f5b37607b4c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c29a7d4af6e2911498dd9f5b37607b4c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710653
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c29a7d4af6e2911498dd9f5b37607b4c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c29a7d4af6e2911498dd9f5b37607b4c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c29a7d4af6e2911498dd9f5b37607b4c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c29a7d4af6e2911498dd9f5b37607b4c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c29a7d4af6e2911498dd9f5b37607b4c,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c29a7d4af6e2911498dd9f5b37607b4c,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c29a7d4af6e2911498dd9f5b37607b4c,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -7161726880878775531, guid: c29a7d4af6e2911498dd9f5b37607b4c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: fb98f862dc5d185489fd8792d9710e23, type: 2}
+    - target: {fileID: -3652862870785322071, guid: c29a7d4af6e2911498dd9f5b37607b4c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 18da9c676194d0840a4ad778511174c5, type: 2}
+    - target: {fileID: -2980614441141228358, guid: c29a7d4af6e2911498dd9f5b37607b4c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 893d9f669eab1b2418ae2cbda80a7e1d, type: 2}
+    - target: {fileID: -2002446386325734172, guid: c29a7d4af6e2911498dd9f5b37607b4c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7109863e26ae4874682539bda2e72fe6, type: 2}
+    - target: {fileID: -603099963602898726, guid: c29a7d4af6e2911498dd9f5b37607b4c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 20fde882ad912bf45a058388aef60544, type: 2}
+    - target: {fileID: 435677297802174649, guid: c29a7d4af6e2911498dd9f5b37607b4c,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6d33efb2d3bf5774f9f72743a53c315c, type: 2}
+    - target: {fileID: 919132149155446097, guid: c29a7d4af6e2911498dd9f5b37607b4c,
+        type: 3}
+      propertyPath: m_Name
+      value: Jonah
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c29a7d4af6e2911498dd9f5b37607b4c,
+        type: 3}
+      propertyPath: m_TagString
+      value: MarshmallowC
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c29a7d4af6e2911498dd9f5b37607b4c, type: 3}
+--- !u!1 &759505908 stripped
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
   serializedVersion: 6
   m_Component:
   - component: {fileID: 755238784}
@@ -13888,6 +14570,15 @@ Transform:
   m_Father: {fileID: 987362150}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+  m_GameObject: {fileID: 759505908}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.04587064, y: 0.04137949, z: 0.03772317}
+  m_Center: {x: -0.00054235844, y: 0.0069258073, z: 0.0032133658}
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!4 &763132304 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5b2c140bf739f70479ddff834c7cf4cd,
@@ -15064,6 +15755,152 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 290057910daba554ea56ac40e3240fe2, type: 3}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+=======
+--- !u!1001 &809678712
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: ecde82a87c3f5124f8c3f5c3bad04863,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 155.17212
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ecde82a87c3f5124f8c3f5c3bad04863,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ecde82a87c3f5124f8c3f5c3bad04863,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 99.83052
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ecde82a87c3f5124f8c3f5c3bad04863,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ecde82a87c3f5124f8c3f5c3bad04863,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7101244
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ecde82a87c3f5124f8c3f5c3bad04863,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ecde82a87c3f5124f8c3f5c3bad04863,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70407623
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ecde82a87c3f5124f8c3f5c3bad04863,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ecde82a87c3f5124f8c3f5c3bad04863,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ecde82a87c3f5124f8c3f5c3bad04863,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90.490005
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ecde82a87c3f5124f8c3f5c3bad04863,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ecde82a87c3f5124f8c3f5c3bad04863,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ecde82a87c3f5124f8c3f5c3bad04863,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ecde82a87c3f5124f8c3f5c3bad04863,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -5605547514979485474, guid: ecde82a87c3f5124f8c3f5c3bad04863,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 396069fb4e01c4140855323535df2226, type: 2}
+    - target: {fileID: -3652862870785322071, guid: ecde82a87c3f5124f8c3f5c3bad04863,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1710441885a75e74ea550001ce9707b8, type: 2}
+    - target: {fileID: -2002446386325734172, guid: ecde82a87c3f5124f8c3f5c3bad04863,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 71cb37871cc2f564f854fcce74e9fa16, type: 2}
+    - target: {fileID: -1309253814036566207, guid: ecde82a87c3f5124f8c3f5c3bad04863,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 396069fb4e01c4140855323535df2226, type: 2}
+    - target: {fileID: 435677297802174649, guid: ecde82a87c3f5124f8c3f5c3bad04863,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b7d610a5840f92b4d9e2be5557a0790e, type: 2}
+    - target: {fileID: 919132149155446097, guid: ecde82a87c3f5124f8c3f5c3bad04863,
+        type: 3}
+      propertyPath: m_Name
+      value: Ziyad
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ecde82a87c3f5124f8c3f5c3bad04863,
+        type: 3}
+      propertyPath: m_TagString
+      value: FlashlightC
+      objectReference: {fileID: 0}
+    - target: {fileID: 3139439615515763203, guid: ecde82a87c3f5124f8c3f5c3bad04863,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: cd97b39bac5cf9e47bc4214dacde0158, type: 2}
+    - target: {fileID: 8476903005205796310, guid: ecde82a87c3f5124f8c3f5c3bad04863,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a8a121112ce364d4190beea6ee760e67, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ecde82a87c3f5124f8c3f5c3bad04863, type: 3}
+--- !u!1 &809678713 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ecde82a87c3f5124f8c3f5c3bad04863,
+    type: 3}
+  m_PrefabInstance: {fileID: 809678712}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &809678714
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 809678713}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.072704606, y: 0.08863294, z: 0.06488143}
+  m_Center: {x: -0.00926613, y: 0.020707816, z: -0.011041555}
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!4 &810409320 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
@@ -15151,6 +15988,7 @@ Transform:
   m_PrefabInstance: {fileID: 1421796895}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &821893378 stripped
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
     type: 3}
@@ -15245,6 +16083,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
     type: 3}
   m_PrefabInstance: {fileID: 824442571}
+=======
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1256472871}
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &828578865 stripped
 Transform:
@@ -15429,6 +16273,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 313682931}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+=======
+--- !u!1 &853295036 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f6d10a986bdb7274f807c7bf924739ab,
+    type: 3}
+  m_PrefabInstance: {fileID: 1305975978}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &853295037
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 853295036}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.072704606, y: 0.08863294, z: 0.06488143}
+  m_Center: {x: -0.00926613, y: 0.020707816, z: -0.011041555}
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!1001 &856370927
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16747,6 +17613,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1703991805}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 --- !u!1001 &941419242
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16816,6 +17683,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 03e346b2ac44b784cba1bcd9d09140ca, type: 3}
+=======
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!4 &945647658 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5b2c140bf739f70479ddff834c7cf4cd,
@@ -17446,7 +18315,41 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1198951620}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 --- !u!1001 &995165167
+=======
+--- !u!1 &994257697 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1774083568}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &994257703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 994257697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ffb2e0e57a3b9642b913c0b4fda0190, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1003217656 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+    type: 3}
+  m_PrefabInstance: {fileID: 331520213}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1004875506 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5b2c140bf739f70479ddff834c7cf4cd,
+    type: 3}
+  m_PrefabInstance: {fileID: 411612982}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1006560954
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -17590,6 +18493,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 331520213}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 --- !u!4 &1004875506 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5b2c140bf739f70479ddff834c7cf4cd,
@@ -17597,6 +18501,16 @@ Transform:
   m_PrefabInstance: {fileID: 411612982}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1006560954
+=======
+  m_GameObject: {fileID: 1009167771}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.044014014, y: 0.047021907, z: 0.05156587}
+  m_Center: {x: -0.002317226, y: 0.009271076, z: -0.0030191669}
+--- !u!1001 &1011491760
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -18135,7 +19049,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4106337375065928, guid: 93c085334f50f9945b11554ed7978063, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 20
+=======
+      value: 8
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4106337375065928, guid: 93c085334f50f9945b11554ed7978063, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -18157,10 +19075,13 @@ PrefabInstance:
       propertyPath: m_LocalScale.x
       value: 43.466877
       objectReference: {fileID: 0}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
     - target: {fileID: 4106337375065928, guid: 93c085334f50f9945b11554ed7978063, type: 3}
       propertyPath: m_LocalScale.y
       value: 2.4416068
       objectReference: {fileID: 0}
+=======
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93c085334f50f9945b11554ed7978063, type: 3}
 --- !u!4 &1046412489 stripped
@@ -21153,6 +22074,7 @@ PrefabInstance:
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
@@ -21223,6 +22145,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28bb4e60995f3c24cb42d199f7ea34e1, type: 3}
+=======
+  m_Size: {x: 0.038744353, y: 0.04604653, z: 0.043257102}
+  m_Center: {x: -0.0007442343, y: 0.008278487, z: 0.0039144685}
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!1001 &1201860252
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21913,7 +22839,11 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 62
+=======
+      value: 9
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
@@ -21948,7 +22878,11 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: Bench (32)
+=======
+      value: Adam
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b440c716fc0f7ee4c8026b1d1ced06ff, type: 3}
@@ -21956,9 +22890,102 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
     type: 3}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
   m_PrefabInstance: {fileID: 1238894949}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1245525236 stripped
+=======
+  m_PrefabInstance: {fileID: 1246777907}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1246777909
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1246777908}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.044014014, y: 0.047021907, z: 0.05156587}
+  m_Center: {x: -0.002317226, y: 0.009271076, z: -0.0030191669}
+--- !u!1001 &1250057710
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2063052374}
+    m_Modifications:
+    - target: {fileID: 1225987369796066, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
+      propertyPath: m_Name
+      value: Floor_2x-025x5 (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664073522619982, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -31.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664073522619982, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664073522619982, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -106.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664073522619982, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.70710605
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664073522619982, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.0010981782
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664073522619982, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0010981418
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664073522619982, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071059
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664073522619982, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
+      propertyPath: m_RootOrder
+      value: 78
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664073522619982, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664073522619982, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664073522619982, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.178
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664073522619982, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0250694
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664073522619982, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.1281583
+      objectReference: {fileID: 0}
+    - target: {fileID: 4664073522619982, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8839798
+      objectReference: {fileID: 0}
+    - target: {fileID: 23465862557037834, guid: 9d30b5eb9fa4dda4ead9a13030de998a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c29ab08b606bb8b4d82a5a8bb755d14f, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
+--- !u!4 &1250057711 stripped
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
     type: 3}
@@ -22542,6 +23569,238 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b2c140bf739f70479ddff834c7cf4cd, type: 3}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+=======
+--- !u!1001 &1284133052
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8874917061593106402, guid: bffe8098dc6ac784cbb113770661584b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a0689493e0ee6d744ba03b364ba9238f, type: 2}
+    - target: {fileID: -8679921383154817045, guid: bffe8098dc6ac784cbb113770661584b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 39.53
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bffe8098dc6ac784cbb113770661584b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.17
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bffe8098dc6ac784cbb113770661584b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 142.67
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bffe8098dc6ac784cbb113770661584b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bffe8098dc6ac784cbb113770661584b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071065
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bffe8098dc6ac784cbb113770661584b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bffe8098dc6ac784cbb113770661584b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071072
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bffe8098dc6ac784cbb113770661584b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bffe8098dc6ac784cbb113770661584b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bffe8098dc6ac784cbb113770661584b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: bffe8098dc6ac784cbb113770661584b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7112139303654064900, guid: bffe8098dc6ac784cbb113770661584b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5d2d9a484cc30bc4ea5f2086b2799d0e, type: 2}
+    - target: {fileID: -6683518566963621992, guid: bffe8098dc6ac784cbb113770661584b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7e22d7e588a2d984392a4cf317169b38, type: 2}
+    - target: {fileID: -6535035325462504207, guid: bffe8098dc6ac784cbb113770661584b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7c591c32797c8b54c814ad7b8b6d52e8, type: 2}
+    - target: {fileID: -6199097450048920620, guid: bffe8098dc6ac784cbb113770661584b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5c874fd4caa021246b40e949311b475a, type: 2}
+    - target: {fileID: -3393563066005626272, guid: bffe8098dc6ac784cbb113770661584b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3d0c231f174344944b9884342ebb977e, type: 2}
+    - target: {fileID: -3007137439173536914, guid: bffe8098dc6ac784cbb113770661584b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 66335367888c75e4bbf813c1c74af180, type: 2}
+    - target: {fileID: -2165098499130947961, guid: bffe8098dc6ac784cbb113770661584b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: edbe214daba021c429a3ef182e59d674, type: 2}
+    - target: {fileID: -1670865462802834258, guid: bffe8098dc6ac784cbb113770661584b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0665af716a4e79a4faa4e08fb8ce0cf6, type: 2}
+    - target: {fileID: 919132149155446097, guid: bffe8098dc6ac784cbb113770661584b,
+        type: 3}
+      propertyPath: m_Name
+      value: Big Log Cabin
+      objectReference: {fileID: 0}
+    - target: {fileID: 2522981793942825736, guid: bffe8098dc6ac784cbb113770661584b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7e22d7e588a2d984392a4cf317169b38, type: 2}
+    - target: {fileID: 3326222325525583308, guid: bffe8098dc6ac784cbb113770661584b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0f367faa3065f4045a7456169948e0f0, type: 2}
+    - target: {fileID: 3486559382587550722, guid: bffe8098dc6ac784cbb113770661584b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: edbe214daba021c429a3ef182e59d674, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bffe8098dc6ac784cbb113770661584b, type: 3}
+--- !u!1001 &1288627208
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1654775662}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.667
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.004444567
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.222
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.07561004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99713755
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -8.673
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0143996
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0143996
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0143996
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_Name
+      value: Tree4 (77)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5028941979500379287, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 71f54d21aa50cbf4cb9d27a43fca70b9, type: 2}
+    - target: {fileID: 5362369228302084354, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c818efba588bba5438e11314bc902e44, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 290057910daba554ea56ac40e3240fe2, type: 3}
+--- !u!4 &1288627209 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1288627208}
+  m_PrefabAsset: {fileID: 0}
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!1001 &1288774387
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22736,27 +23995,39 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 2063052374}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: -44.940254
+=======
+      value: 81.77
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
       propertyPath: m_LocalPosition.y
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 2.1422386
+=======
+      value: -1.44
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: -24.329025
+=======
+      value: 91.1
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
@@ -22776,7 +24047,11 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 30
+=======
+      value: 3
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
@@ -22905,6 +24180,128 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 290057910daba554ea56ac40e3240fe2, type: 3}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+=======
+--- !u!1001 &1305975978
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f6d10a986bdb7274f807c7bf924739ab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 155.17
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f6d10a986bdb7274f807c7bf924739ab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f6d10a986bdb7274f807c7bf924739ab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 84.43842
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f6d10a986bdb7274f807c7bf924739ab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f6d10a986bdb7274f807c7bf924739ab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f6d10a986bdb7274f807c7bf924739ab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f6d10a986bdb7274f807c7bf924739ab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f6d10a986bdb7274f807c7bf924739ab,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f6d10a986bdb7274f807c7bf924739ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f6d10a986bdb7274f807c7bf924739ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f6d10a986bdb7274f807c7bf924739ab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f6d10a986bdb7274f807c7bf924739ab,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f6d10a986bdb7274f807c7bf924739ab,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f6d10a986bdb7274f807c7bf924739ab,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -3652862870785322071, guid: f6d10a986bdb7274f807c7bf924739ab,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 329ad2bf65845a24b831e92ed10d219b, type: 2}
+    - target: {fileID: -2002446386325734172, guid: f6d10a986bdb7274f807c7bf924739ab,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 95caa89129e534d448c13ae4707cf8e3, type: 2}
+    - target: {fileID: -1530471587062118578, guid: f6d10a986bdb7274f807c7bf924739ab,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: eda3f1d4c3662844ab76c3fa578eaed8, type: 2}
+    - target: {fileID: -1309253814036566207, guid: f6d10a986bdb7274f807c7bf924739ab,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1612ac2e247d0554d81cae49e45faa6f, type: 2}
+    - target: {fileID: -603099963602898726, guid: f6d10a986bdb7274f807c7bf924739ab,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8f23d1fab67236342b973fdb547eb4da, type: 2}
+    - target: {fileID: 435677297802174649, guid: f6d10a986bdb7274f807c7bf924739ab,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c410608225a8123479299ba1ffd2d4e5, type: 2}
+    - target: {fileID: 919132149155446097, guid: f6d10a986bdb7274f807c7bf924739ab,
+        type: 3}
+      propertyPath: m_Name
+      value: Diane
+      objectReference: {fileID: 0}
+    - target: {fileID: 4924122983729960812, guid: f6d10a986bdb7274f807c7bf924739ab,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4661efcd73f96354fb27accabf51c81b, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f6d10a986bdb7274f807c7bf924739ab, type: 3}
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!4 &1309787244 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
@@ -24159,6 +25556,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 --- !u!1 &1369438350 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1916851760937628, guid: 3315ee48ccc2bce4fa73c4b39288def4,
@@ -24179,6 +25577,148 @@ BoxCollider:
   m_Size: {x: 2.4801354, y: 3.6239686, z: 1.0000004}
   m_Center: {x: -0.5439986, y: 0.5255928, z: 0.50000024}
 --- !u!1001 &1371629832
+=======
+--- !u!1001 &1370066118
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8874917061593106402, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 833cb65fce142f64687a112b9964623d, type: 2}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 141.32
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.3000002
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 33.99
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00437142
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99999046
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0.50100005
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7112139303654064900, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 67f02aefc9afe024fa460dc74492e99a, type: 2}
+    - target: {fileID: -6683518566963621992, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ce68cba7bda3fae4dbaa06a41678e75e, type: 2}
+    - target: {fileID: -6535035325462504207, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c09ed0184db70324884d3517650710f7, type: 2}
+    - target: {fileID: -6199097450048920620, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ff4783a7e2a26e043b5ab967ecc26460, type: 2}
+    - target: {fileID: -3393563066005626272, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 687c6e5d0ea796541b5e17f607fc2166, type: 2}
+    - target: {fileID: -3007137439173536914, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bb348683e1c1d424cb4979b59500fcf9, type: 2}
+    - target: {fileID: -2165098499130947961, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ff7a959decee21744bc358992d3ee51f, type: 2}
+    - target: {fileID: -1670865462802834258, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7e36e6fc8f4a64644b182761c2c56184, type: 2}
+    - target: {fileID: 911917165185257461, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 24e62706621f6e446900f4ac490854af, type: 2}
+    - target: {fileID: 919132149155446097, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Name
+      value: log cabin (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2522981793942825736, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ce68cba7bda3fae4dbaa06a41678e75e, type: 2}
+    - target: {fileID: 3326222325525583308, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82471a8598689f047869249a76a44c6e, type: 2}
+    - target: {fileID: 3486559382587550722, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ff7a959decee21744bc358992d3ee51f, type: 2}
+    - target: {fileID: 8809686767243311899, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d50311f33eaf6c24fad007251c075706, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1d8502cab8f0fd64298cd7ed51382f8f, type: 3}
+--- !u!1001 &1371925118
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -24262,12 +25802,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b440c716fc0f7ee4c8026b1d1ced06ff, type: 3}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 --- !u!4 &1371629833 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
     type: 3}
   m_PrefabInstance: {fileID: 1371629832}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!1001 &1377529194
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24358,6 +25901,172 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1772515859}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+=======
+--- !u!43 &1381995806
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: pb_Mesh-7358
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 144
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 80
+    localAABB:
+      m_Center: {x: -1.5, y: 0.32470793, z: 0}
+      m_Extent: {x: 1.5, y: 0.32470793, z: 1.5}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e00100011001200110013001200140015001600150017001600180019001a0019001b001a001c001d0000001d00010000001e001f00200021001f001e0022001f00210023001f00220024001f00230025001f00240026001f00250020001f002600270028002900290028002a002a0028002b002b0028002c002c0028002d002d0028002e002e0028002f002f0028002700300031003200310033003200340035003600350037003600380039003a0039003b003a003c003d003e003d003f003e00400041004200410043004200440045004600450047004600480049004a0049004b004a004c004d004e004d004f004e00
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 80
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 3840
+    _typelessdata: 0000000000000000000000000000803f000000000000000000000000000000000000803f000080bf0000000000000000000000004e83063f000000000000803f000000000000000000000000000000000000803f000080bf000000004e83063f28f1e0be00000000b6c3873ff304353f00000000f304353ff30435bf00000000f304353f000080bf50f3923f0000000028f1e0be4e83063fb6c3873ff304353f00000000f304353ff30435bf00000000f304353f000080bf50f3923f4e83063f28f1e0be00000000b6c3873ff304353f00000000f304353ff20435bf00000000f404353f000080bfbfd14f3f0000000028f1e0be4e83063fb6c3873ff304353f00000000f304353ff20435bf00000000f404353f000080bfbfd14f3f4e83063f0100c0bf000000000000c03f00000000000000000000803f000080bf0000000000000000000080bf30dcfa3f000000000100c0bf4e83063f0000c03f00000000000000000000803f000080bf0000000000000000000080bf30dcfa3f4e83063f0100c0bf000000000000c03f00000000000000000000803f000080bf0000000000000000000080bfbdd14f3f000000000100c0bf4e83063f0000c03f00000000000000000000803f000080bf0000000000000000000080bfbdd14f3f4e83063fdbe123c000000000b6c3873ff40435bf00000000f304353ff20435bf00000000f40435bf000080bf2cdcfa3f00000000dbe123c04e83063fb6c3873ff40435bf00000000f304353ff20435bf00000000f40435bf000080bf2cdcfa3f4e83063fdbe123c000000000b6c3873ff40435bf00000000f304353ff30435bf00000000f30435bf000080bf9036643300000000dbe123c04e83063fb6c3873ff40435bf00000000f304353ff30435bf00000000f30435bf000080bf903664334e83063f000040c000000000e2cd0cb4000080bf00000000c82ead33d58b8ab300000000000080bf000080bf52f3923f00000000000040c04e83063fe2cd0cb4000080bf00000000c82ead33d58b8ab300000000000080bf000080bf52f3923f4e83063f000040c000000000e2cd0cb4000080bf00000000c82ead33d48b8ab300000000000080bf000080bf4cf392bf00000000000040c04e83063fe2cd0cb4000080bf00000000c82ead33d48b8ab300000000000080bf000080bf4cf392bf4e83063fdce123c000000000b6c387bff40435bf00000000f30435bff304353f00000000f30435bf000080bf77af7e3400000000dce123c04e83063fb6c387bff40435bf00000000f30435bff304353f00000000f30435bf000080bf77af7e344e83063fdce123c000000000b6c387bff40435bf00000000f30435bff204353f00000000f40435bf000080bf31dcfabf00000000dce123c04e83063fb6c387bff40435bf00000000f30435bff204353f00000000f40435bf000080bf31dcfabf4e83063f0000c0bf000000000000c0bfd48b8ab300000000000080bf0000803f00000000d58b8ab3000080bfbfd14fbf000000000000c0bf4e83063f0000c0bfd48b8ab300000000000080bf0000803f00000000d58b8ab3000080bfbfd14fbf4e83063f0000c0bf000000000000c0bfd48b8ab300000000000080bf0000803f00000000d48b8ab3000080bf2edcfabf000000000000c0bf4e83063f0000c0bfd48b8ab300000000000080bf0000803f00000000d48b8ab3000080bf2edcfabf4e83063f2cf1e0be00000000b8c387bff204353f00000000f40435bff304353f00000000f204353f000080bfc0d14fbf000000002cf1e0be4e83063fb8c387bff204353f00000000f40435bff304353f00000000f204353f000080bfc0d14fbf4e83063f2cf1e0be00000000b8c387bff204353f00000000f40435bff404353f00000000f304353f000080bf52f392bf000000002cf1e0be4e83063fb8c387bff204353f00000000f40435bff404353f00000000f304353f000080bf52f392bf4e83063f28f1e0be00000000b6c3873f00000000000080bf00000000000080bf0000000000000000000080bf28f1e03eb6c3873f0000c0bf000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000c03f0000000000000000000000000000000000000000000080bf00000000000080bf0000000000000000000080bf00000000000000000100c0bf000000000000c03f00000000000080bf00000000000080bf0000000000000000000080bf0100c03f0000c03fdbe123c000000000b6c3873f00000000000080bf00000000000080bf0000000000000000000080bfdbe12340b6c3873f000040c000000000e2cd0cb400000000000080bf00000000000080bf0000000000000000000080bf00004040e2cd0cb4dce123c000000000b6c387bf00000000000080bf00000000000080bf0000000000000000000080bfdce12340b6c387bf0000c0bf000000000000c0bf00000000000080bf00000000000080bf0000000000000000000080bf0000c03f0000c0bf2cf1e0be00000000b8c387bf00000000000080bf00000000000080bf0000000000000000000080bf2cf1e03eb8c387bfb0e930bf1e40263f00000000000000000000803f000000000000803f0000000000000000000080bfb0e930bf000000000000c0bf1e40263f00000000000000000000803f000000000000803f0000000000000000000080bf0000c0bf0000000039916dbf1e40263fc76e123f000000000000803f000000000000803f0000000000000000000080bf39916dbfc76e123f0100c0bf1e40263f50164f3f000000000000803f000000000000803f0000000000000000000080bf0100c0bf50164f3fb29b04c01e40263fc76e123f000000000000803f000000000000803f0000000000000000000080bfb29b04c0c76e123f94c513c01e40263f55de97b3000000000000803f000000000000803f0000000000000000000080bf94c513c055de97b3b29b04c01e40263fc76e12bf000000000000803f000000000000803f0000000000000000000080bfb29b04c0c76e12bf0000c0bf1e40263f50164fbf000000000000803f000000000000803f0000000000000000000080bf0000c0bf50164fbf3a916dbf1e40263fc96e12bf000000000000803f000000000000803f0000000000000000000080bf3a916dbfc96e12bf000040c04e83063fe2cd0cb4735534be5d4e7b3fb664953d37fa7b3fc4d0343ec9092931000080bf890b37c020679cbddbe123c04e83063fb6c3873f735534be5d4e7b3fb564953d37fa7b3fc5d0343ef2bb4c33000080bf7f5e1bc039b47c3f94c513c01e40263f55de97b3735534be5d4e7b3fb564953d37fa7b3fc5d0343ef2bb4c33000080bf5c1c0ac018679cbdb29b04c01e40263fc76e123f735534be5d4e7b3fb464953d37fa7b3fc5d0343e7cc8c233000080bff35ef6bf108cfe3edce123c04e83063fb6c387bf705534be5d4e7b3fb16495bd37fa7b3fc2d0343e91e31633000080bf805e1bc039b47cbf000040c04e83063fe2cd0cb4705534be5d4e7b3fb36495bd37fa7b3fc1d0343ea075af32000080bf890b37c0f7669c3db29b04c01e40263fc76e12bf705534be5d4e7b3fb36495bd37fa7b3fc1d0343ea075af32000080bff35ef6bf128cfebe94c513c01e40263f55de97b3705534be5d4e7b3fb56495bd37fa7b3fc1d0343e33bc7331000080bf5c1c0ac0ff669c3ddbe123c04e83063fb6c3873fb76495bd5d4e7b3f7255343ecf4b7f3feec3973d5f273533000080bf8ef020c05c1b6b3f0100c0bf4e83063f0000c03fb86495bd5d4e7b3f7255343ecf4b7f3ff0c3973d8bebf7b2000080bff67cbabf8aaeae3fb29b04c01e40263fc76e123fb86495bd5d4e7b3f7255343ecf4b7f3ff0c3973d8bebf7b2000080bfe32901c0820cd83e0100c0bf1e40263f50164f3fb86495bd5d4e7b3f7155343ecf4b7f3ff1c3973d7789d6b3000080bfeb4fb9bf53a4293f0100c0bf4e83063f0000c03fb564953d5d4e7b3f7255343ecf4b7f3fedc397bda5c9cbb1000080bfc374c4bf6fb1b33f28f1e0be4e83063fb6c3873fb564953d5d4e7b3f7255343ecf4b7f3fedc397bdd6796f32000080bf6d42f4be2621753f0100c0bf1e40263f50164f3fb564953d5d4e7b3f7255343ecf4b7f3fedc397bdd6796f32000080bfcda1c5bf1daa333f39916dbf1e40263fc76e123fb564953d5d4e7b3f7255343ecf4b7f3feec397bd74930b33000080bfe33b79bf1618ec3e28f1e0be4e83063fb6c3873f7255343e5d4e7b3fb664953d37fa7b3fc3d034be64b753b3000080bfa87406bf544c833f000000004e83063f000000007255343e5d4e7b3fb664953d37fa7b3fc3d034bef31bbdb2000080bf0804bebd27871abd39916dbf1e40263fc76e123f7255343e5d4e7b3fb664953d37fa7b3fc3d034bef31bbdb2000080bf609883bf772a093fb0e930bf1e40263f000000007155343e5d4e7b3fb764953d37fa7b3fc3d034beb534da31000080bf347d4bbf26871abd000000004e83063f000000007255343e5d4e7b3fb76495bd37fa7b3fc4d034be00000000000080bf0804bebd28871a3d2cf1e0be4e83063fb8c387bf7255343e5d4e7b3fb76495bd37fa7b3fc4d034bedad14833000080bfaa7406bf564c83bfb0e930bf1e40263f000000007255343e5d4e7b3fb76495bd37fa7b3fc4d034bedad14833000080bf347d4bbf28871a3d3a916dbf1e40263fc96e12bf7155343e5d4e7b3fb76495bd38fa7b3fc4d034be477cc633000080bf609883bf792a09bf2cf1e0be4e83063fb8c387bfb264953d5d4e7b3f725534becf4b7f3fe9c397bd2ad82b33000080bf7042f4be2a2175bf0000c0bf4e83063f0000c0bfb264953d5d4e7b3f725534bed04b7f3fe9c397bdc6ea1e33000080bfc174c4bf6fb1b3bf3a916dbf1e40263fc96e12bfb264953d5d4e7b3f725534bed04b7f3fe9c397bdc6ea1e33000080bfe43b79bf1a18ecbe0000c0bf1e40263f50164fbfb364953d5d4e7b3f715534bed04b7f3feac397bd0da01733000080bfcca1c5bf1caa33bf0000c0bf4e83063f0000c0bfb46495bd5d4e7b3f725534becf4b7f3fedc3973d1d6b1333000080bff57cbabf8baeaebfdce123c04e83063fb6c387bfb46495bd5d4e7b3f705534becf4b7f3fedc3973d7675d132000080bf8ff020c05c1b6bbf0000c0bf1e40263f50164fbfb46495bd5d4e7b3f705534becf4b7f3fedc3973d7675d132000080bfea4fb9bf53a429bfb29b04c01e40263fc76e12bfb56495bd5d4e7b3f6f5534becf4b7f3fecc3973db89e6132000080bfe32901c0830cd8be
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: -1.5, y: 0.32470793, z: 0}
+    m_Extent: {x: 1.5, y: 0.32470793, z: 1.5}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!1001 &1382727031
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25681,7 +27390,11 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 46
+=======
+      value: 17
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
         type: 3}
@@ -25716,11 +27429,43 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 290057910daba554ea56ac40e3240fe2,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: Tree4 (15)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 290057910daba554ea56ac40e3240fe2, type: 3}
 --- !u!4 &1434683189 stripped
+=======
+      value: Tyler
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7ea7ca6495d5a8941b644da814a645e8,
+        type: 3}
+      propertyPath: m_TagString
+      value: MosquitoC
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7ea7ca6495d5a8941b644da814a645e8, type: 3}
+--- !u!1 &1431741736 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7ea7ca6495d5a8941b644da814a645e8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1431741735}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1431741737
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431741736}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.044252183, y: 0.0339662, z: 0.069085695}
+  m_Center: {x: 0.00043553466, y: 0.005205066, z: -0.009659281}
+--- !u!4 &1434017965 stripped
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
     type: 3}
@@ -27404,15 +29149,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4474712263105832, guid: 3315ee48ccc2bce4fa73c4b39288def4, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 34.8
+=======
+      value: 117.09
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4474712263105832, guid: 3315ee48ccc2bce4fa73c4b39288def4, type: 3}
       propertyPath: m_LocalPosition.y
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 1
+=======
+      value: 1.29
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4474712263105832, guid: 3315ee48ccc2bce4fa73c4b39288def4, type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: -57.7
+=======
+      value: 142.05
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4474712263105832, guid: 3315ee48ccc2bce4fa73c4b39288def4, type: 3}
       propertyPath: m_LocalRotation.x
@@ -27432,7 +29189,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4474712263105832, guid: 3315ee48ccc2bce4fa73c4b39288def4, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 15
+=======
+      value: 21
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     - target: {fileID: 4474712263105832, guid: 3315ee48ccc2bce4fa73c4b39288def4, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -29164,42 +30925,66 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: -44.940254
+=======
+      value: 135.81
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
       propertyPath: m_LocalPosition.y
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 2.1422386
+=======
+      value: 2.31
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 5.4209785
+=======
+      value: -38.41
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
       propertyPath: m_LocalRotation.y
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: -1
+=======
+      value: 1
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
       propertyPath: m_LocalRotation.w
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 0.0000005513429
+=======
+      value: 0
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 45
+=======
+      value: 1
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
@@ -29209,7 +30994,11 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: -180.00002
+=======
+      value: 180
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
@@ -29219,17 +31008,29 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
       propertyPath: m_LocalScale.x
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 52.350746
+=======
+      value: 100
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
       propertyPath: m_LocalScale.y
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 32.25553
+=======
+      value: 100
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
       propertyPath: m_LocalScale.z
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 32.25553
+=======
+      value: 100
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
@@ -29738,6 +31539,172 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1658885720}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+=======
+--- !u!43 &1621629402
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: pb_Mesh-7356
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 84
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 48
+    localAABB:
+      m_Center: {x: 1.1323087, y: 0.71571445, z: -0.67943954}
+      m_Extent: {x: 1.1323087, y: 0.71571445, z: 0.67943954}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e001000110012001100130012001400150016001500170016000200030018000300190018000e000f001a000f001b001a00060007001c0007001d001c000a000b001e000b001f001e00200021002200200023002100240025002600240027002500280029002a0028002b0029002c002d002e002c002f002d00
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 48
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 2304
+    _typelessdata: 00000000000000000000000000000000000000000000803f000080bf0000000000000000000080bf00000000000000007eef1040000000b20000000000000000000000000000803f000080bf0000000000000000000080bf7eef10c0000000b2000000000000803f0000000000000000000000000000803f000080bf0000000000000000000080bf000000000000803f7eef10400000803f0000000000000000000000000000803f000080bf0000000000000000000080bf7eef10c00000803f7eef1040000000b2000000000000803f000000000000000000000000000000000000803f000080bf00000000000000b27eef1040000000b2c0efadbf0000803f000000000000000000000000000000000000803f000080bfc0efadbf000000b27eef10400000803f000000000000803f000000000000000000000000000000000000803f000080bf000000000000803f7eef10400000803fc0efadbf0000803f000000000000000000000000000000000000803f000080bfc0efadbf0000803f7eef1040000000b2c0efadbf0000000000000000000080bf0000803f0000000000000000000080bf7eef1040000000b200000000000000b2c0efadbf0000000000000000000080bf0000803f0000000000000000000080bf00000000000000b27eef10400000803fc0efadbf0000000000000000000080bf0000803f0000000000000000000080bf7eef10400000803f000000000000803fc0efadbf0000000000000000000080bf0000803f0000000000000000000080bf000000000000803f00000000000000b2c0efadbf000080bf00000000000000000000000000000000000080bf000080bfc0efad3f000000b2000000000000000000000000000080bf00000000000000000000000000000000000080bf000080bf0000000000000000000000000000803fc0efadbf000080bf00000000000000000000000000000000000080bf000080bfc0efad3f0000803f000000000000803f00000000000080bf00000000000000000000000000000000000080bf000080bf000000000000803fbecc4c3e1039b73fd7cc4cbe000000000000803f000000000000803f00000000f29d2bb3000080bfcdcc4c3ecdcc4cbeb02204401039b73fdccc4cbe000000000000803f000000000000803f00000000a432b4b3000080bfb1220440cdcc4cbec9cc4c3e1039b73f265694bf000000000000803f000000000000803f00000000a432b4b3000080bfcdcc4c3e265694bfb02204401039b73f285694bf000000000000803f000000000000803f00000000294b09b4000080bfb1220440265694bf00000000000000b2c0efadbf00000000000080bffc63bc31000080bf0000000000000000000080bf00000080c0efadbf7eef1040000000b2c0efadbf3516e2b0000080bffc633c31000080bf3516e230fd63bc16000080bf7eef10c0c0efadbf0000000000000000000000003516e2b0000080bffc633c31000080bf3516e230fd63bc16000080bf00000000000000007eef1040000000b200000000351662b1000080bf00000000000080bf3516623100000000000080bf7eef10c0fc633ca4000000006666a63f0000000000000000000000000000803f000080bf0000000000000000000080bf000000006666a63f7eef10406666a63f0000000000000000000000000000803f000080bf0000000000000000000080bf7eef10c06666a63f000000006666a63fc0efadbf000080bf00000000000000000000000000000000000080bf000080bfc0efad3f6666a63f000000006666a63f00000000000080bf00000000000000000000000000000000000080bf000080bf000000006666a63f7eef10406666a63f000000000000803f000000000000000000000000000000000000803f000080bf000000006666a63f7eef10406666a63fc0efadbf0000803f000000000000000000000000000000000000803f000080bfc0efadbf6666a63f7eef10406666a63fc0efadbf0000000000000000000080bf0000803f0000000000000000000080bf7eef10406666a63f000000006666a63fc0efadbf0000000000000000000080bf0000803f0000000000000000000080bf000000006666a63f000000006666a63f000000002e7f3c32c3f0553ffa960c3f0000803f25cc96b2766de731000080bf3a9c12b346c436bfb02204401039b73fdccc4cbe2e7f3c32c3f0553ffa960c3f0000803f25cc96b2766de731000080bfb02204404c0874bfbecc4c3e1039b73fd7cc4cbe2e7fbc32c2f0553ffb960c3f0000803f26cc16b3756d6732000080bfbbcc4c3e4a0874bf7eef10406666a63f0000000000000000c4f0553ff8960c3f0000803f0000000000000000000080bf7eef104046c436bf7eef10406666a63f00000000f6960c3fc5f0553f00000000c5f0553ff6960cbf00000000000080bf09dd963f00000000b02204401039b73f285694bff6960c3fc5f0553f00000000c5f0553ff6960cbf00000000000080bf0b76703f285694bfb02204401039b73fdccc4cbef5960c3fc5f0553f00000000c6f0553ff5960cbf00000000000080bf0b76703fdccc4cbe7eef10406666a63fc0efadbff6960c3fc5f0553f00000000c5f0553ff6960cbf00000000000080bf09dd963fc0efadbf7eef10406666a63fc0efadbf33cc16b3bef0553f02970cbf0000803f0ca261333d888932000080bf7eef104085e7d7bec9cc4c3e1039b73f265694bf33cc16b3bef0553f02970cbf0000803f0ca261333d888932000080bfd1cc4c3efabe3abeb02204401039b73f285694bf33cc96b3bbf0553f06970cbf0000803f7d12b333119385b0000080bfb12204400dbf3abe000000006666a63fc0efadbf00000000c0f0553ffd960cbf0000803f3d3eba32d3b40d33000080bfad93ea3382e7d7be000000006666a63fc0efadbf03970cbfbcf0553fe19949b3bcf0553f04970c3fe29949a7000080bf4cc4363fbfefadbfbecc4c3e1039b73fd7cc4cbe03970cbfbcf0553fe19949b3bcf0553f04970c3fe29949a7000080bf4b08743fd0cc4cbec9cc4c3e1039b73f265694bf00970cbfbef0553fe199c9b3bef0553f01970c3fe399c9a7000080bf4e08743f255694bf000000006666a63f0000000006970cbfbaf0553f00000000baf0553f07970c3f00000000000080bf4cc4363fcd05db33
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 1.1323087, y: 0.71571445, z: -0.67943954}
+    m_Extent: {x: 1.1323087, y: 0.71571445, z: 0.67943954}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!1001 &1624863667
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29812,6 +31779,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 3505de38c13dfd74e88b370e4aaa25d4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bca1cab92d3090446a5b135ce8027fbf, type: 3}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 --- !u!1 &1636633244 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1916851760937628, guid: 3315ee48ccc2bce4fa73c4b39288def4,
@@ -29831,6 +31799,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.4801354, y: 3.6239686, z: 1.0000004}
   m_Center: {x: -0.5439986, y: 0.5255928, z: 0.50000024}
+=======
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!1001 &1638023225
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30450,7 +32420,7 @@ Transform:
   - {fileID: 1538200743}
   - {fileID: 1740984192}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1655176264 stripped
 Transform:
@@ -32212,7 +34182,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f10c449b09bb0b4491f0795b3645e46, type: 3}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 --- !u!1001 &1750724363
+=======
+--- !u!4 &1757840981 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+    type: 3}
+  m_PrefabInstance: {fileID: 928210945}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1759571998
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -32385,8 +34365,22 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       objectReference: {fileID: 2100000, guid: 3505de38c13dfd74e88b370e4aaa25d4, type: 2}
     - target: {fileID: 65101632397159846, guid: 9d30b5eb9fa4dda4ead9a13030de998a,
+=======
+      objectReference: {fileID: 2100000, guid: 9e89049d9a242cd4d97f6d9609d7279e, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
+--- !u!1001 &1768591727
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2063052374}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
         type: 3}
       propertyPath: m_Size.x
       value: 2.0000026
@@ -32578,6 +34572,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f10c449b09bb0b4491f0795b3645e46, type: 3}
+--- !u!1001 &1774083568
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_Name
+      value: FPSController
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 46.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.0000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 131.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
 --- !u!1001 &1776196645
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33488,18 +35539,29 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1200107783}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 74c30cfc36277d146a21e5c1f44e35a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+  m_GameObject: {fileID: 1830329931}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.044252183, y: 0.0339662, z: 0.069085695}
+  m_Center: {x: 0.00043553466, y: 0.005205066, z: -0.009659281}
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!4 &1846491421 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4664073522619982, guid: 9d30b5eb9fa4dda4ead9a13030de998a,
     type: 3}
   m_PrefabInstance: {fileID: 236746183}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 --- !u!1001 &1857881757
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33574,6 +35636,8 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 14b951b33d2eed44691f2c333e5118af, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
+=======
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!1001 &1859012203
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33809,6 +35873,144 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree4 (66)
       objectReference: {fileID: 0}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+=======
+    - target: {fileID: 5028941979500379287, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 71f54d21aa50cbf4cb9d27a43fca70b9, type: 2}
+    - target: {fileID: 5362369228302084354, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c818efba588bba5438e11314bc902e44, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 290057910daba554ea56ac40e3240fe2, type: 3}
+--- !u!4 &1869900473 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1538962409}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1871712690
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e6718cb29d19cea41bca734d0c2ced1d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 53.72
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e6718cb29d19cea41bca734d0c2ced1d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.23
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e6718cb29d19cea41bca734d0c2ced1d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -18.51
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e6718cb29d19cea41bca734d0c2ced1d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e6718cb29d19cea41bca734d0c2ced1d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70710707
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e6718cb29d19cea41bca734d0c2ced1d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e6718cb29d19cea41bca734d0c2ced1d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710653
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e6718cb29d19cea41bca734d0c2ced1d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e6718cb29d19cea41bca734d0c2ced1d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e6718cb29d19cea41bca734d0c2ced1d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90.00001
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e6718cb29d19cea41bca734d0c2ced1d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e6718cb29d19cea41bca734d0c2ced1d,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e6718cb29d19cea41bca734d0c2ced1d,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e6718cb29d19cea41bca734d0c2ced1d,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -5605547514979485474, guid: e6718cb29d19cea41bca734d0c2ced1d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d568b5d0eca324647a494b5c0449bb75, type: 2}
+    - target: {fileID: -3652862870785322071, guid: e6718cb29d19cea41bca734d0c2ced1d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1aeaefaa5cc7ec443b5c63547aa6e867, type: 2}
+    - target: {fileID: -2002446386325734172, guid: e6718cb29d19cea41bca734d0c2ced1d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c2d030e777963f34992297e86f93d060, type: 2}
+    - target: {fileID: -1309253814036566207, guid: e6718cb29d19cea41bca734d0c2ced1d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: eb9e1cdbf910f9144b53c59e77817821, type: 2}
+    - target: {fileID: -603099963602898726, guid: e6718cb29d19cea41bca734d0c2ced1d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 01dcb351e2ead4d48a27ca36d1e63ae1, type: 2}
+    - target: {fileID: 435677297802174649, guid: e6718cb29d19cea41bca734d0c2ced1d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 895f696f7bf03e947a545a4c3fccfe4f, type: 2}
+    - target: {fileID: 919132149155446097, guid: e6718cb29d19cea41bca734d0c2ced1d,
+        type: 3}
+      propertyPath: m_Name
+      value: Bora
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e6718cb29d19cea41bca734d0c2ced1d,
+        type: 3}
+      propertyPath: m_TagString
+      value: FishingC
+      objectReference: {fileID: 0}
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 290057910daba554ea56ac40e3240fe2, type: 3}
 --- !u!4 &1869900473 stripped
@@ -33913,12 +36115,154 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 217678555}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 --- !u!4 &1875860434 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
     type: 3}
   m_PrefabInstance: {fileID: 423496186}
   m_PrefabAsset: {fileID: 0}
+=======
+--- !u!1001 &1876137190
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8874917061593106402, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 833cb65fce142f64687a112b9964623d, type: 2}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 140.99
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.3000002
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 71.45
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00437142
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99999046
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0.50100005
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7112139303654064900, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 67f02aefc9afe024fa460dc74492e99a, type: 2}
+    - target: {fileID: -6683518566963621992, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ce68cba7bda3fae4dbaa06a41678e75e, type: 2}
+    - target: {fileID: -6535035325462504207, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c09ed0184db70324884d3517650710f7, type: 2}
+    - target: {fileID: -6199097450048920620, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ff4783a7e2a26e043b5ab967ecc26460, type: 2}
+    - target: {fileID: -3393563066005626272, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 687c6e5d0ea796541b5e17f607fc2166, type: 2}
+    - target: {fileID: -3007137439173536914, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bb348683e1c1d424cb4979b59500fcf9, type: 2}
+    - target: {fileID: -2165098499130947961, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ff7a959decee21744bc358992d3ee51f, type: 2}
+    - target: {fileID: -1670865462802834258, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7e36e6fc8f4a64644b182761c2c56184, type: 2}
+    - target: {fileID: 911917165185257461, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 24e62706621f6e446900f4ac490854af, type: 2}
+    - target: {fileID: 919132149155446097, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Name
+      value: log cabin (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2522981793942825736, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ce68cba7bda3fae4dbaa06a41678e75e, type: 2}
+    - target: {fileID: 3326222325525583308, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82471a8598689f047869249a76a44c6e, type: 2}
+    - target: {fileID: 3486559382587550722, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ff7a959decee21744bc358992d3ee51f, type: 2}
+    - target: {fileID: 8809686767243311899, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d50311f33eaf6c24fad007251c075706, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1d8502cab8f0fd64298cd7ed51382f8f, type: 3}
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!1001 &1877101954
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34400,6 +36744,341 @@ PrefabInstance:
       value: -1.5436498
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+=======
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.8610681
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5084897
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 99
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 118.87301
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0143998
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0143996
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0143998
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_Name
+      value: Tree4 (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5028941979500379287, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 71f54d21aa50cbf4cb9d27a43fca70b9, type: 2}
+    - target: {fileID: 5362369228302084354, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c818efba588bba5438e11314bc902e44, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 290057910daba554ea56ac40e3240fe2, type: 3}
+--- !u!4 &1905745795 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+    type: 3}
+  m_PrefabInstance: {fileID: 62203050}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1905914029 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+    type: 3}
+  m_PrefabInstance: {fileID: 643810060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1906245694
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: c3e14ab60276bb14fb5d3e959985fc78,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 62.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c3e14ab60276bb14fb5d3e959985fc78,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.43
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c3e14ab60276bb14fb5d3e959985fc78,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 20.08
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c3e14ab60276bb14fb5d3e959985fc78,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c3e14ab60276bb14fb5d3e959985fc78,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c3e14ab60276bb14fb5d3e959985fc78,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c3e14ab60276bb14fb5d3e959985fc78,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c3e14ab60276bb14fb5d3e959985fc78,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c3e14ab60276bb14fb5d3e959985fc78,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c3e14ab60276bb14fb5d3e959985fc78,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c3e14ab60276bb14fb5d3e959985fc78,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c3e14ab60276bb14fb5d3e959985fc78,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c3e14ab60276bb14fb5d3e959985fc78,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c3e14ab60276bb14fb5d3e959985fc78,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -3652862870785322071, guid: c3e14ab60276bb14fb5d3e959985fc78,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3e12e6f5024895b4b8e42b229a83d3fe, type: 2}
+    - target: {fileID: -2792418861908569021, guid: c3e14ab60276bb14fb5d3e959985fc78,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 67a2f67a9e535b9449c08b855fe36523, type: 2}
+    - target: {fileID: -2002446386325734172, guid: c3e14ab60276bb14fb5d3e959985fc78,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 959e4ed3b71f2f84ea3e6b46bcd07489, type: 2}
+    - target: {fileID: -603099963602898726, guid: c3e14ab60276bb14fb5d3e959985fc78,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1f84880e6915fcc4ba7ff07716035b49, type: 2}
+    - target: {fileID: 435677297802174649, guid: c3e14ab60276bb14fb5d3e959985fc78,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9670a66f2c0d31d4a8eaa1b2f8945653, type: 2}
+    - target: {fileID: 919132149155446097, guid: c3e14ab60276bb14fb5d3e959985fc78,
+        type: 3}
+      propertyPath: m_Name
+      value: Dylan
+      objectReference: {fileID: 0}
+    - target: {fileID: 4653331929886659572, guid: c3e14ab60276bb14fb5d3e959985fc78,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6c8a03bd6643f6346853333f125497b0, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c3e14ab60276bb14fb5d3e959985fc78, type: 3}
+--- !u!4 &1907800869 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4649988019643402, guid: bca1cab92d3090446a5b135ce8027fbf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1062223226}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1908788008
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1654775662}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.448
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.004444567
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.121
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.07561004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99713755
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 242
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -8.673
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0143996
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0143996
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0143996
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_Name
+      value: Tree4 (73)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5028941979500379287, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 71f54d21aa50cbf4cb9d27a43fca70b9, type: 2}
+    - target: {fileID: 5362369228302084354, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c818efba588bba5438e11314bc902e44, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 290057910daba554ea56ac40e3240fe2, type: 3}
+--- !u!4 &1908788009 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1908788008}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1914283828 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5b2c140bf739f70479ddff834c7cf4cd,
+    type: 3}
+  m_PrefabInstance: {fileID: 156699795}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1916581425
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1654775662}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.108
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.006458786
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.037
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
         type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
@@ -34497,6 +37176,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1116808710}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 --- !u!1 &1920466315
 GameObject:
   m_ObjectHideFlags: 0
@@ -34627,6 +37307,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1920466315}
   m_CullTransparentMesh: 0
+=======
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!4 &1925805599 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
@@ -34947,7 +37629,7 @@ PrefabInstance:
     - target: {fileID: 7991646367508167532, guid: 31695273dcb478f4abd9a47eba1b255d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7991646367508167532, guid: 31695273dcb478f4abd9a47eba1b255d,
         type: 3}
@@ -35887,7 +38569,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 40.550003, y: 14.118001, z: 32.227}
 --- !u!4 &1998143294 stripped
 Transform:
@@ -36832,6 +39514,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree3 (7)
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f92d6be5ab7d63243a8c0fa10d755b65, type: 3}
@@ -37190,6 +39873,250 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f10c449b09bb0b4491f0795b3645e46, type: 3}
 --- !u!1001 &2045038817
+=======
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f92d6be5ab7d63243a8c0fa10d755b65, type: 3}
+--- !u!1001 &2037416831
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1654775662}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+      value: 0.45091224
+=======
+      value: 0.45737115
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.002768053
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+      value: -1.3385032
+=======
+      value: -1.7417161
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.8610681
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5084897
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_RootOrder
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+      value: 101
+=======
+      value: 106
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 118.87301
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.94226736
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.94226724
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.94226736
+      objectReference: {fileID: 0}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+    - target: {fileID: 919132149155446097, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_Name
+      value: Tree3 (33)
+      objectReference: {fileID: 0}
+=======
+    - target: {fileID: -6468798673690563166, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2ff9d82f05d9a42438874a450e5bc0ab, type: 2}
+    - target: {fileID: -3447279898074019344, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c818efba588bba5438e11314bc902e44, type: 2}
+    - target: {fileID: 919132149155446097, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_Name
+      value: Tree3 (35)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f92d6be5ab7d63243a8c0fa10d755b65, type: 3}
+--- !u!1 &2041304458 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c3e14ab60276bb14fb5d3e959985fc78,
+    type: 3}
+  m_PrefabInstance: {fileID: 1906245694}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2041304459
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041304458}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.04587064, y: 0.04137949, z: 0.03772317}
+  m_Center: {x: -0.00054235844, y: 0.0069258073, z: 0.0032133658}
+--- !u!1001 &2041517896
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1654775662}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.024844572
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.004444567
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.4404471
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.07561004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99713755
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -8.673
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0143996
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0143996
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0143996
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_Name
+      value: Tree4 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5028941979500379287, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 71f54d21aa50cbf4cb9d27a43fca70b9, type: 2}
+    - target: {fileID: 5362369228302084354, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c818efba588bba5438e11314bc902e44, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 290057910daba554ea56ac40e3240fe2, type: 3}
+--- !u!4 &2043587019 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5b2c140bf739f70479ddff834c7cf4cd,
+    type: 3}
+  m_PrefabInstance: {fileID: 1229637680}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2043903778 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
+    type: 3}
+  m_PrefabInstance: {fileID: 1800066987}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2045038817
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -37234,7 +40161,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
         type: 3}
       propertyPath: m_RootOrder
-      value: 101
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
         type: 3}
@@ -37266,11 +40193,22 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.94226736
       objectReference: {fileID: 0}
+    - target: {fileID: -6468798673690563166, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2ff9d82f05d9a42438874a450e5bc0ab, type: 2}
+    - target: {fileID: -3447279898074019344, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c818efba588bba5438e11314bc902e44, type: 2}
     - target: {fileID: 919132149155446097, guid: f92d6be5ab7d63243a8c0fa10d755b65,
         type: 3}
       propertyPath: m_Name
       value: Tree3 (33)
       objectReference: {fileID: 0}
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f92d6be5ab7d63243a8c0fa10d755b65, type: 3}
 --- !u!1001 &2047621633
@@ -37740,6 +40678,7 @@ Transform:
   - {fileID: 968724318}
   - {fileID: 874040995}
   - {fileID: 1743329092}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
   - {fileID: 2107192291}
   - {fileID: 1706799269}
   - {fileID: 1653551528}
@@ -37760,8 +40699,34 @@ Transform:
   - {fileID: 1062379985}
   - {fileID: 784651449}
   - {fileID: 269367534}
+=======
+  - {fileID: 166294096}
+  - {fileID: 1792756599}
+  - {fileID: 1645632131}
+  - {fileID: 291333216}
+  - {fileID: 1555514396}
+  - {fileID: 1221664428}
+  - {fileID: 1369000477}
+  - {fileID: 632754944}
+  - {fileID: 1927025891}
+  - {fileID: 1202136234}
+  - {fileID: 1392580371}
+  - {fileID: 5116961}
+  - {fileID: 69988668}
+  - {fileID: 127081330}
+  - {fileID: 1250057711}
+  - {fileID: 222454279}
+  - {fileID: 54020655}
+  - {fileID: 1105900732}
+  - {fileID: 1527794012}
+  - {fileID: 473663050}
+  - {fileID: 346468193}
+  - {fileID: 193412106}
+  - {fileID: 1023213200}
+  - {fileID: 14607583}
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2065300610 stripped
 Transform:
@@ -38192,6 +41157,7 @@ Transform:
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
   m_Modification:
     m_TransformParent: {fileID: 2063052374}
     m_Modifications:
@@ -38278,6 +41244,10 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2089540006}
   m_PrefabAsset: {fileID: 0}
+=======
+  m_Size: {x: 0.031692363, y: 0.040177383, z: 0.03353395}
+  m_Center: {x: -0.00059717195, y: 0.0060581467, z: 0.0010901273}
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!1001 &2091634954
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39541,6 +42511,128 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f10c449b09bb0b4491f0795b3645e46, type: 3}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+=======
+--- !u!1001 &2139350239
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 1e795205f41723a44945d3084dffaf53,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 53.5841
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1e795205f41723a44945d3084dffaf53,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.35
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1e795205f41723a44945d3084dffaf53,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.172855
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1e795205f41723a44945d3084dffaf53,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1e795205f41723a44945d3084dffaf53,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.71094084
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1e795205f41723a44945d3084dffaf53,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1e795205f41723a44945d3084dffaf53,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70325184
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1e795205f41723a44945d3084dffaf53,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1e795205f41723a44945d3084dffaf53,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1e795205f41723a44945d3084dffaf53,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90.623
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1e795205f41723a44945d3084dffaf53,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1e795205f41723a44945d3084dffaf53,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1e795205f41723a44945d3084dffaf53,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1e795205f41723a44945d3084dffaf53,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -5279266874776560498, guid: 1e795205f41723a44945d3084dffaf53,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9b8edc47cdc6bfa49adcfe4c09a1bbd1, type: 2}
+    - target: {fileID: -3652862870785322071, guid: 1e795205f41723a44945d3084dffaf53,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3a7a68152e938e04f899da537d240fcd, type: 2}
+    - target: {fileID: -2002446386325734172, guid: 1e795205f41723a44945d3084dffaf53,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 29169e67bcb22464fb170221c675310d, type: 2}
+    - target: {fileID: -1309253814036566207, guid: 1e795205f41723a44945d3084dffaf53,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8e20f5a0914338b43b62b97a76fa3792, type: 2}
+    - target: {fileID: -603099963602898726, guid: 1e795205f41723a44945d3084dffaf53,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d2e39b9126272114ba312bd2df792060, type: 2}
+    - target: {fileID: 410489009059611504, guid: 1e795205f41723a44945d3084dffaf53,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2b0bd1581b761104ba602f079384e69b, type: 2}
+    - target: {fileID: 919132149155446097, guid: 1e795205f41723a44945d3084dffaf53,
+        type: 3}
+      propertyPath: m_Name
+      value: Daniel
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1e795205f41723a44945d3084dffaf53,
+        type: 3}
+      propertyPath: m_TagString
+      value: CanoeC
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1e795205f41723a44945d3084dffaf53, type: 3}
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!4 &2140498137 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
@@ -39553,3 +42645,308 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1665393085}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+=======
+--- !u!1001 &2141688432
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8874917061593106402, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 833cb65fce142f64687a112b9964623d, type: 2}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 141.62
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.3000002
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.27
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00437142
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99999046
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0.50100005
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7112139303654064900, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 67f02aefc9afe024fa460dc74492e99a, type: 2}
+    - target: {fileID: -6683518566963621992, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ce68cba7bda3fae4dbaa06a41678e75e, type: 2}
+    - target: {fileID: -6535035325462504207, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c09ed0184db70324884d3517650710f7, type: 2}
+    - target: {fileID: -6199097450048920620, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ff4783a7e2a26e043b5ab967ecc26460, type: 2}
+    - target: {fileID: -3393563066005626272, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 687c6e5d0ea796541b5e17f607fc2166, type: 2}
+    - target: {fileID: -3007137439173536914, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bb348683e1c1d424cb4979b59500fcf9, type: 2}
+    - target: {fileID: -2165098499130947961, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ff7a959decee21744bc358992d3ee51f, type: 2}
+    - target: {fileID: -1670865462802834258, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7e36e6fc8f4a64644b182761c2c56184, type: 2}
+    - target: {fileID: 911917165185257461, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 24e62706621f6e446900f4ac490854af, type: 2}
+    - target: {fileID: 919132149155446097, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Name
+      value: log cabin (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2522981793942825736, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ce68cba7bda3fae4dbaa06a41678e75e, type: 2}
+    - target: {fileID: 3326222325525583308, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82471a8598689f047869249a76a44c6e, type: 2}
+    - target: {fileID: 3486559382587550722, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ff7a959decee21744bc358992d3ee51f, type: 2}
+    - target: {fileID: 8809686767243311899, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d50311f33eaf6c24fad007251c075706, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1d8502cab8f0fd64298cd7ed51382f8f, type: 3}
+--- !u!43 &2147317250
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: pb_Mesh-7360
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 84
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 48
+    localAABB:
+      m_Center: {x: 1.1323087, y: 0.71571445, z: -0.67943954}
+      m_Extent: {x: 1.1323087, y: 0.71571445, z: 0.67943954}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200010003000200040005000600050007000600080009000a0009000b000a000c000d000e000d000f000e001000110012001100130012001400150016001500170016000200030018000300190018000e000f001a000f001b001a00060007001c0007001d001c000a000b001e000b001f001e00200021002200200023002100240025002600240027002500280029002a0028002b0029002c002d002e002c002f002d00
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 48
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 2304
+    _typelessdata: 00000000000000000000000000000000000000000000803f000080bf0000000000000000000080bf00000000000000007eef1040000000b20000000000000000000000000000803f000080bf0000000000000000000080bf7eef10c0000000b2000000000000803f0000000000000000000000000000803f000080bf0000000000000000000080bf000000000000803f7eef10400000803f0000000000000000000000000000803f000080bf0000000000000000000080bf7eef10c00000803f7eef1040000000b2000000000000803f000000000000000000000000000000000000803f000080bf00000000000000b27eef1040000000b2c0efadbf0000803f000000000000000000000000000000000000803f000080bfc0efadbf000000b27eef10400000803f000000000000803f000000000000000000000000000000000000803f000080bf000000000000803f7eef10400000803fc0efadbf0000803f000000000000000000000000000000000000803f000080bfc0efadbf0000803f7eef1040000000b2c0efadbf0000000000000000000080bf0000803f0000000000000000000080bf7eef1040000000b200000000000000b2c0efadbf0000000000000000000080bf0000803f0000000000000000000080bf00000000000000b27eef10400000803fc0efadbf0000000000000000000080bf0000803f0000000000000000000080bf7eef10400000803f000000000000803fc0efadbf0000000000000000000080bf0000803f0000000000000000000080bf000000000000803f00000000000000b2c0efadbf000080bf00000000000000000000000000000000000080bf000080bfc0efad3f000000b2000000000000000000000000000080bf00000000000000000000000000000000000080bf000080bf0000000000000000000000000000803fc0efadbf000080bf00000000000000000000000000000000000080bf000080bfc0efad3f0000803f000000000000803f00000000000080bf00000000000000000000000000000000000080bf000080bf000000000000803fbecc4c3e1039b73fd7cc4cbe000000000000803f000000000000803f00000000f29d2bb3000080bfcdcc4c3ecdcc4cbeb02204401039b73fdccc4cbe000000000000803f000000000000803f00000000a432b4b3000080bfb1220440cdcc4cbec9cc4c3e1039b73f265694bf000000000000803f000000000000803f00000000a432b4b3000080bfcdcc4c3e265694bfb02204401039b73f285694bf000000000000803f000000000000803f00000000294b09b4000080bfb1220440265694bf00000000000000b2c0efadbf00000000000080bffc63bc31000080bf0000000000000000000080bf00000080c0efadbf7eef1040000000b2c0efadbf3516e2b0000080bffc633c31000080bf3516e230fd63bc16000080bf7eef10c0c0efadbf0000000000000000000000003516e2b0000080bffc633c31000080bf3516e230fd63bc16000080bf00000000000000007eef1040000000b200000000351662b1000080bf00000000000080bf3516623100000000000080bf7eef10c0fc633ca4000000006666a63f0000000000000000000000000000803f000080bf0000000000000000000080bf000000006666a63f7eef10406666a63f0000000000000000000000000000803f000080bf0000000000000000000080bf7eef10c06666a63f000000006666a63fc0efadbf000080bf00000000000000000000000000000000000080bf000080bfc0efad3f6666a63f000000006666a63f00000000000080bf00000000000000000000000000000000000080bf000080bf000000006666a63f7eef10406666a63f000000000000803f000000000000000000000000000000000000803f000080bf000000006666a63f7eef10406666a63fc0efadbf0000803f000000000000000000000000000000000000803f000080bfc0efadbf6666a63f7eef10406666a63fc0efadbf0000000000000000000080bf0000803f0000000000000000000080bf7eef10406666a63f000000006666a63fc0efadbf0000000000000000000080bf0000803f0000000000000000000080bf000000006666a63f000000006666a63f000000002e7f3c32c3f0553ffa960c3f0000803f25cc96b2766de731000080bf3a9c12b346c436bfb02204401039b73fdccc4cbe2e7f3c32c3f0553ffa960c3f0000803f25cc96b2766de731000080bfb02204404c0874bfbecc4c3e1039b73fd7cc4cbe2e7fbc32c2f0553ffb960c3f0000803f26cc16b3756d6732000080bfbbcc4c3e4a0874bf7eef10406666a63f0000000000000000c4f0553ff8960c3f0000803f0000000000000000000080bf7eef104046c436bf7eef10406666a63f00000000f6960c3fc5f0553f00000000c5f0553ff6960cbf00000000000080bf09dd963f00000000b02204401039b73f285694bff6960c3fc5f0553f00000000c5f0553ff6960cbf00000000000080bf0b76703f285694bfb02204401039b73fdccc4cbef5960c3fc5f0553f00000000c6f0553ff5960cbf00000000000080bf0b76703fdccc4cbe7eef10406666a63fc0efadbff6960c3fc5f0553f00000000c5f0553ff6960cbf00000000000080bf09dd963fc0efadbf7eef10406666a63fc0efadbf33cc16b3bef0553f02970cbf0000803f0ca261333d888932000080bf7eef104085e7d7bec9cc4c3e1039b73f265694bf33cc16b3bef0553f02970cbf0000803f0ca261333d888932000080bfd1cc4c3efabe3abeb02204401039b73f285694bf33cc96b3bbf0553f06970cbf0000803f7d12b333119385b0000080bfb12204400dbf3abe000000006666a63fc0efadbf00000000c0f0553ffd960cbf0000803f3d3eba32d3b40d33000080bfad93ea3382e7d7be000000006666a63fc0efadbf03970cbfbcf0553fe19949b3bcf0553f04970c3fe29949a7000080bf4cc4363fbfefadbfbecc4c3e1039b73fd7cc4cbe03970cbfbcf0553fe19949b3bcf0553f04970c3fe29949a7000080bf4b08743fd0cc4cbec9cc4c3e1039b73f265694bf00970cbfbef0553fe199c9b3bef0553f01970c3fe399c9a7000080bf4e08743f255694bf000000006666a63f0000000006970cbfbaf0553f00000000baf0553f07970c3f00000000000080bf4cc4363fcd05db33
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 1.1323087, y: 0.71571445, z: -0.67943954}
+    m_Extent: {x: 1.1323087, y: 0.71571445, z: 0.67943954}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    offset: 0
+    size: 0
+    path: 
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
