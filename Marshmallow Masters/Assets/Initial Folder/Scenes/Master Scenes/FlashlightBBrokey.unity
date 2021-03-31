@@ -2192,6 +2192,7 @@ MonoBehaviour:
   shakeDetector: {fileID: 1841206096}
   shakeNoiseChosen: 0
   flashlightClickPlayed: 0
+  loadAndSave: {fileID: 663500722}
 --- !u!4 &1338652726
 Transform:
   m_ObjectHideFlags: 0

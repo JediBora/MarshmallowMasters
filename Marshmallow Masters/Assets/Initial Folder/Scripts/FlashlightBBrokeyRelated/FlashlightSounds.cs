@@ -20,34 +20,33 @@ public class FlashlightSounds : MonoBehaviour
     public bool shakeNoiseChosen;
     public bool flashlightClickPlayed;
 
-
+    public LoadAndSave loadAndSave;
     // Update is called once per frame
     void Update()
     {
-        if (shakeDetector.deviceIsShaking)
-        {
-            PlayRandomShake();
-
-            if (flashlightClickPlayed)
+        if (loadAndSave.savedData.toggleOnSFX)
             {
-                PlayClickOff();
-                flashlightClickPlayed = false;
-
-            }
-
-
-            
-
-        }
-        else if (!shakeDetector.deviceIsShaking)
-        {
-            if (!flashlightClickPlayed)
+            if (shakeDetector.deviceIsShaking)
             {
-                PlayClickOn();
-                flashlightClickPlayed = true;
+                PlayRandomShake();
+
+                if (flashlightClickPlayed)
+                {
+                    PlayClickOff();
+                    flashlightClickPlayed = false;
+
+                }
             }
+            else if (!shakeDetector.deviceIsShaking)
+            {
+                if (!flashlightClickPlayed)
+                {
+                    PlayClickOn();
+                    flashlightClickPlayed = true;
+                }
                 shakeNoiseChosen = false;
-            audioSourceShake.Stop();
+                audioSourceShake.Stop();
+            }
         }
     }
 
