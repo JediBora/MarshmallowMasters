@@ -314,9 +314,12 @@ MonoBehaviour:
   spawnRangeY1: 6.5
   spawnRangeY2: -3.5
   canSpawnFlies: 1
-  flyPrefab: {fileID: 6377941357470542959, guid: 380f0489581d6154ca81127d4952af2c,
+  flyPrefab: {fileID: 148727414425201602, guid: 53152cc052f8eec42a1e309581a10f0f,
     type: 3}
+  fly1: {fileID: 2100000, guid: 63dbd0ad1d0a7a842ac72029e6134e6c, type: 2}
+  fly2: {fileID: 2100000, guid: 3a596683b1665494aa080cb8a67008f9, type: 2}
   spawnSide: 2
+  mosquitoSpawner: {fileID: 248021443}
 --- !u!4 &206503124
 Transform:
   m_ObjectHideFlags: 0
@@ -1117,9 +1120,12 @@ MonoBehaviour:
   spawnRangeY1: 6.5
   spawnRangeY2: -3.5
   canSpawnFlies: 1
-  flyPrefab: {fileID: 6377941357470542959, guid: 380f0489581d6154ca81127d4952af2c,
+  flyPrefab: {fileID: 148727414425201602, guid: 53152cc052f8eec42a1e309581a10f0f,
     type: 3}
+  fly1: {fileID: 2100000, guid: 63dbd0ad1d0a7a842ac72029e6134e6c, type: 2}
+  fly2: {fileID: 2100000, guid: 3a596683b1665494aa080cb8a67008f9, type: 2}
   spawnSide: 3
+  mosquitoSpawner: {fileID: 248021443}
 --- !u!4 &1059424462
 Transform:
   m_ObjectHideFlags: 0
@@ -1260,9 +1266,12 @@ MonoBehaviour:
   spawnRangeY1: 7
   spawnRangeY2: 7
   canSpawnFlies: 1
-  flyPrefab: {fileID: 6377941357470542959, guid: 380f0489581d6154ca81127d4952af2c,
+  flyPrefab: {fileID: 148727414425201602, guid: 53152cc052f8eec42a1e309581a10f0f,
     type: 3}
+  fly1: {fileID: 2100000, guid: 63dbd0ad1d0a7a842ac72029e6134e6c, type: 2}
+  fly2: {fileID: 2100000, guid: 3a596683b1665494aa080cb8a67008f9, type: 2}
   spawnSide: 0
+  mosquitoSpawner: {fileID: 248021443}
 --- !u!4 &1321376931
 Transform:
   m_ObjectHideFlags: 0
@@ -1310,6 +1319,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3250272ed4290b84aaa84ee12e3c715d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lineRenderer: {fileID: 0}
   boxCollider: {fileID: 1322807965}
   maxTime: 0.1
   timePassing: 0
@@ -1736,9 +1746,12 @@ MonoBehaviour:
   spawnRangeY1: -5.5
   spawnRangeY2: -5.5
   canSpawnFlies: 1
-  flyPrefab: {fileID: 6377941357470542959, guid: 380f0489581d6154ca81127d4952af2c,
+  flyPrefab: {fileID: 148727414425201602, guid: 53152cc052f8eec42a1e309581a10f0f,
     type: 3}
+  fly1: {fileID: 2100000, guid: 63dbd0ad1d0a7a842ac72029e6134e6c, type: 2}
+  fly2: {fileID: 2100000, guid: 3a596683b1665494aa080cb8a67008f9, type: 2}
   spawnSide: 1
+  mosquitoSpawner: {fileID: 248021443}
 --- !u!4 &1546155743
 Transform:
   m_ObjectHideFlags: 0

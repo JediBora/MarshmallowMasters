@@ -13,29 +13,30 @@ public class MosquitoSpawner : MonoBehaviour
 
     public bool canSpawnFlies;
     public GameObject flyPrefab;
+    public Material fly1;
+    public Material fly2;
 
     public enum SpawnSide {Up, Down, Left, Right }
 
     public SpawnSide spawnSide;
+    public MosquitoSpawnerManager mosquitoSpawner;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     IEnumerator SpawnFlyLeftSideSpawner()
     {
         while (canSpawnFlies)
         {
-            GameObject rightFlyingMosquito = Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity) as GameObject;
-
+         
+                GameObject rightFlyingMosquito = Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity) as GameObject;
+                
+            if (rightFlyingMosquito.GetComponent<MosquitoStats>().mosquitoHP == 1)
+            {
+                rightFlyingMosquito.transform.GetChild(0).GetComponent<Renderer>().material = fly1;
+            }
+            else
+            {
+                rightFlyingMosquito.transform.GetChild(0).GetComponentInChildren<Renderer>().material = fly2;
+            }
             //Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity);
             if (spawnSide == SpawnSide.Left)
             //GameObject g = Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity) as GameObject;
@@ -55,7 +56,18 @@ public class MosquitoSpawner : MonoBehaviour
     {
         while (canSpawnFlies)
         {
-            GameObject leftFlyingMosquito = Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity) as GameObject;
+            
+                GameObject leftFlyingMosquito = Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity) as GameObject;
+            
+            if (leftFlyingMosquito.GetComponent<MosquitoStats>().mosquitoHP == 1)
+            {
+                leftFlyingMosquito.transform.GetChild(0).GetComponentInChildren<Renderer>().material = fly1;
+            }
+            else
+            {
+                leftFlyingMosquito.transform.GetChild(0).GetComponentInChildren<Renderer>().material = fly2;
+            }
+            
 
             //Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity);
             if (spawnSide == SpawnSide.Right)
@@ -78,6 +90,15 @@ public class MosquitoSpawner : MonoBehaviour
         {
             GameObject downFlyingMosquito = Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity) as GameObject;
 
+            if (downFlyingMosquito.GetComponent<MosquitoStats>().mosquitoHP == 1)
+            {
+                downFlyingMosquito.transform.GetChild(0).GetComponentInChildren<Renderer>().material = fly1;
+            }
+            else
+            {
+                downFlyingMosquito.transform.GetChild(0).GetComponentInChildren<Renderer>().material = fly2;
+            }
+
             //Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity);
             if (spawnSide == SpawnSide.Up)
             //GameObject g = Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity) as GameObject;
@@ -99,6 +120,14 @@ public class MosquitoSpawner : MonoBehaviour
         {
             GameObject upFlyingMosquito = Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity) as GameObject;
 
+            if (upFlyingMosquito.GetComponent<MosquitoStats>().mosquitoHP == 1)
+            {
+                upFlyingMosquito.transform.GetChild(0).GetComponentInChildren<Renderer>().material = fly1;
+            }
+            else
+            {
+                upFlyingMosquito.transform.GetChild(0).GetComponentInChildren<Renderer>().material = fly2;
+            }
             //Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity);
             if (spawnSide == SpawnSide.Down)
             //GameObject g = Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity) as GameObject;

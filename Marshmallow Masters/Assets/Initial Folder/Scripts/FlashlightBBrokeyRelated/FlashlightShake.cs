@@ -9,6 +9,7 @@ public class FlashlightShake : MonoBehaviour
     public PlayerFlashlightStats flashStats;
 
     public GameObject flashlight;
+    public GameObject flashlightLight;
 
     public GameObject flashlightShakePositionA;
     public GameObject flashlightShakePositionB;
@@ -52,14 +53,18 @@ public class FlashlightShake : MonoBehaviour
         if (!shakeDetector.deviceIsShaking && flashStats.flashlightBattery > 0)
         {
             Debug.Log("Device is not shaking.");
+            flashlightLight.SetActive(true);
             FlashlightOnWalk();
         }
         else if (shakeDetector.deviceIsShaking)
         {
             FlashlightOffShake();
+            flashlightLight.SetActive(false);
             Debug.Log("Device is shaking.");
-        }
 
+        }
+        else if (flashStats.flashlightBattery <= 0)
+            flashlightLight.SetActive(false);
     }
 
 
