@@ -6,6 +6,7 @@ public class Squish : MonoBehaviour
 {
     public float speed = 1f;
     private GameObject AntSpawn;
+    public GameObject squishSound;
     // Update is called once per frame
 
     private void Start()
@@ -30,6 +31,7 @@ public class Squish : MonoBehaviour
 
     public void squish()
     {
+        Instantiate(squishSound);
         Destroy(gameObject);
 
     }

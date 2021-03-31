@@ -146,6 +146,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  squishSound: {fileID: 4917702486448133364, guid: 225c0d7a4d8706c48a312915bb6249d4,
+    type: 3}
 --- !u!65 &4097156915706033586
 BoxCollider:
   m_ObjectHideFlags: 0
