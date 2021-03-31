@@ -12,7 +12,7 @@ public class FlashlightSounds : MonoBehaviour
     public AudioSource audioSourceClickOff;
 
 
-    public AudioSource bGM;
+    public AudioSource bGMPlayer;
     public AudioListener audioListener;
 
     public ShakeDetector shakeDetector;
