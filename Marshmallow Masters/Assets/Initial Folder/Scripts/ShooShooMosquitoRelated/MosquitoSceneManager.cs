@@ -5,6 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class MosquitoSceneManager : MonoBehaviour
 {
+
+    //The time limit (in seconds)
+    public float maxTime;
+    //The time (in seconds)
+    public float timePassing;
+
+
     public string overworldName;
 
     public ShooShooMosquitoGameManger gameManager;
@@ -18,13 +25,35 @@ public class MosquitoSceneManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if (gameManager.timeToSurvive <= 0 || gameManager.lives <= 0)
         {
-            SceneManager.LoadScene(overworldName);
+            TimerFunction();
+            
 
         }
         
 
+    }
+
+    
+
+    void TimerFunction()
+    {
+        timePassing += Time.deltaTime;
+
+        if (timePassing >= maxTime)
+        {
+            timerEnded();
+        }
+    }
+    void timerEnded()
+    {
+        //Do your stuff here.
+        SceneManager.LoadScene(overworldName);
+
+        //Only use if timer needs to be reset
+        //timePassing = 0;
     }
 
 

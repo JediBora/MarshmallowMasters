@@ -18,6 +18,9 @@ public class MosquitoStats : MonoBehaviour
     public float levelTwoMinSpeed;
     public float levelTwoMaxSpeed;
 
+    public float levelThreeMinSpeed;
+    public float levelThreeMaxSpeed;
+
 
     public int mosquitoHP;
 
@@ -67,8 +70,8 @@ public class MosquitoStats : MonoBehaviour
 
         }
 
-
-        if (!mosquitoSpawner.levelTwo)
+        //Mosquito Health/Speed - GROVER
+        if (mosquitoSpawner.levelOne)
         {
             mosquitoSpeed = (Random.Range(levelOneMinSpeed, levelOneMaxSpeed));
             mosquitoHP = 1;
@@ -78,6 +81,12 @@ public class MosquitoStats : MonoBehaviour
             mosquitoSpeed = (Random.Range(levelTwoMinSpeed, levelTwoMaxSpeed));
             mosquitoHP = (Random.Range(1, 3));
         }
+        else if (mosquitoSpawner.levelThree)
+        {
+            mosquitoSpeed = (Random.Range(levelThreeMinSpeed, levelThreeMaxSpeed));
+            mosquitoHP = (Random.Range(1, 1));
+        }
+
     }
 
     // Update is called once per frame

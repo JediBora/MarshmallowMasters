@@ -29,4 +29,17 @@ public class SavedData
 
     public int endlessModeHighScore;
 
+    [Space(10)]
+
+    [Header("High Scores")]
+
+    // 1 = 1, 2 = 2, 3 = 3
+    public int setMinigameDifficulty;
+
+    [Space(10)]
+
+    [Header("Sound Toggles")]
+
+    public bool toggleOnSFX;
+    public bool toggleOnBGM;
 }

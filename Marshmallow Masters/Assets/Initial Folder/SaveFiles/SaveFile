@@ -1,11 +1,14 @@
 {
-    "playerName": "George Lopez​",
-    "marshmallows": 14,
+    "playerName": "Darwin",
+    "marshmallows": 0,
     "roastedMarshmallows": 0,
     "shooShooMosquitoHighScore": 0,
     "saveYourSandwichHighScore": 0,
     "canoeBooBooHighScore": 0,
     "flashlightBBrokeyHighScore": 0,
     "fishingFishersHighScore": 0,
-    "endlessModeHighScore": 0
+    "endlessModeHighScore": 0,
+    "setMinigameDifficulty": 1,
+    "toggleOnSFX": true,
+    "toggleOnBGM": true
 }

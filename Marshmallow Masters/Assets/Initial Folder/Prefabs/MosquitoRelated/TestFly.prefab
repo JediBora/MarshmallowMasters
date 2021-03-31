@@ -120,6 +120,8 @@ MonoBehaviour:
   levelOneMaxSpeed: 0.02
   levelTwoMinSpeed: 0.02
   levelTwoMaxSpeed: 0.03
+  levelThreeMinSpeed: 0.04
+  levelThreeMaxSpeed: 0.07
   mosquitoHP: 1
   lifetime: 0
   maxLifetime: 7
