@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public enum Minigames
 {
+    NotMiniGame,
     CanoeBooBoo,
     FishingFishers,
     FlashlightBBrokey,

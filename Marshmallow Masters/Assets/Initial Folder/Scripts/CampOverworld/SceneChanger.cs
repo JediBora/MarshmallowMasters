@@ -27,7 +27,7 @@ public class SceneChanger : MonoBehaviour
         if (other.tag == "SandwichC")
         {
             //Add Save your Sandwich Scene
-            loadNSave.savedData.levelToLoadName = "SaveSam";
+            loadNSave.savedData.levelToLoadName = "SaveSamI";
 
             loadNSave.RewriteSaveFile();
 
@@ -38,7 +38,7 @@ public class SceneChanger : MonoBehaviour
         if (other.tag == "CanoeC")
         {
             //Add Canoe Boo Boo Scene
-            loadNSave.savedData.levelToLoadName = "CanoeBooBoo";
+            loadNSave.savedData.levelToLoadName = "CanoeBooBooI";
 
             loadNSave.RewriteSaveFile();
 
@@ -49,7 +49,7 @@ public class SceneChanger : MonoBehaviour
         if (other.tag == "FishingC")
         {
             //Add Fishing Fishers Scene
-            loadNSave.savedData.levelToLoadName = "FishingFishers";
+            loadNSave.savedData.levelToLoadName = "FishingFishersI";
 
             loadNSave.RewriteSaveFile();
 
@@ -58,7 +58,7 @@ public class SceneChanger : MonoBehaviour
         }
 
         if (other.tag == "MosquitoC")
-        { loadNSave.savedData.levelToLoadName = "FishingFishers";
+        { loadNSave.savedData.levelToLoadName = "FishingFishersI";
 
             loadNSave.RewriteSaveFile();
             miniGameToLoad = 3;
@@ -82,7 +82,7 @@ public class SceneChanger : MonoBehaviour
         if (other.tag == "MarshmallowC" && loadNSave.savedData.marshmallows > 0)
         {
             //Add Marshmallow Masters Scene
-            loadNSave.savedData.levelToLoadName = "MarshmallowRoasting";
+            loadNSave.savedData.levelToLoadName = "MarshmallowRoastingI";
 
             loadNSave.RewriteSaveFile();
 
@@ -118,36 +118,36 @@ public class SceneChanger : MonoBehaviour
 
              if (miniGameToLoad == 0)
         {
-            loadNSave.savedData.levelToLoadName = "SaveSam";
+            loadNSave.savedData.levelToLoadName = "SaveSamI";
 
             loadNSave.RewriteSaveFile();
         }
         else if (miniGameToLoad == 1)
         {
-            loadNSave.savedData.levelToLoadName = "CanoeBooBoo";
+            loadNSave.savedData.levelToLoadName = "CanoeBooBooI";
 
             loadNSave.RewriteSaveFile();
         }
         else if (miniGameToLoad == 2)
         {
-            loadNSave.savedData.levelToLoadName = "FishingFishers";
+            loadNSave.savedData.levelToLoadName = "FishingFishersI";
 
             loadNSave.RewriteSaveFile();
         }
         else if (miniGameToLoad == 3)
         {
-            loadNSave.savedData.levelToLoadName = "ShooShooMosquitoTest";
+            loadNSave.savedData.levelToLoadName = "ShooShooMosquitoTestI";
 
             loadNSave.RewriteSaveFile();
         }
         else if (miniGameToLoad == 4)
         {
-            loadNSave.savedData.levelToLoadName = "FlashlightBBrokey";
+            loadNSave.savedData.levelToLoadName = "FlashlightBBrokeyI";
             loadNSave.RewriteSaveFile();
         }
         else if (miniGameToLoad == 5)
         {
-            loadNSave.savedData.levelToLoadName = "MarshmallowRoasting";
+            loadNSave.savedData.levelToLoadName = "MarshmallowRoastingI";
             loadNSave.RewriteSaveFile();
         }
 
