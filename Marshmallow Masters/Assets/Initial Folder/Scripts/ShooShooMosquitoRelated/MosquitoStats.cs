@@ -33,6 +33,16 @@ public class MosquitoStats : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if (flydirection == FlyDirection.Right)
+        {
+            gameObject.transform.eulerAngles = new Vector3(gameObject.transform.eulerAngles.x, gameObject.transform.eulerAngles.y, gameObject.transform.eulerAngles.z + 90);
+        }else if (flydirection == FlyDirection.Left)
+        {
+            gameObject.transform.eulerAngles = new Vector3(gameObject.transform.eulerAngles.x, gameObject.transform.eulerAngles.y, gameObject.transform.eulerAngles.z - 90);
+        }else if (flydirection == FlyDirection.Up)
+        {
+            gameObject.transform.eulerAngles = new Vector3(gameObject.transform.eulerAngles.x, gameObject.transform.eulerAngles.y, gameObject.transform.eulerAngles.z - 180);
+        }
         
     }
 
@@ -74,7 +84,7 @@ public class MosquitoStats : MonoBehaviour
     void Update()
     {
         if (flydirection == FlyDirection.Right)
-            transform.position += new Vector3 (mosquitoSpeed, 0,0);
+            transform.position += new Vector3(mosquitoSpeed, 0, 0);
         else if (flydirection == FlyDirection.Left)
             transform.position -= new Vector3(mosquitoSpeed, 0, 0);
         else if (flydirection == FlyDirection.Up)
