@@ -120,17 +120,22 @@ public class Stick : MonoBehaviour
         {
             if (marshmallow.timeCooked >= 55 && marshmallow.timeCooked <= 70)
             {
-                gameManager.MarshmallowRemoved(100);
+                gameManager.MarshmallowRemoved(true, "Perfect!");
 
             }
             else if (marshmallow.timeCooked >= 30 && marshmallow.timeCooked <= 85)
             {
 
-                gameManager.MarshmallowRemoved(50);
+                gameManager.MarshmallowRemoved(true, "Nice.");
             }
-            else
+            else if (marshmallow.timeCooked > 85)
             {
-                gameManager.MarshmallowRemoved(10);
+
+                gameManager.MarshmallowRemoved(false, "Whoops, too burnt :(");
+            }
+            else if (marshmallow.timeCooked < 30)
+            {
+                gameManager.MarshmallowRemoved(false, "Whoops, too raw :(");
             }
 
             Destroy(marshmallow.gameObject);
