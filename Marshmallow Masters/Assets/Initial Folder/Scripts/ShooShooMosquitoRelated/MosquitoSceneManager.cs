@@ -14,6 +14,8 @@ public class MosquitoSceneManager : MonoBehaviour
 
     public string overworldName;
 
+    public LoadAndSave loadAndSave;
+
     public ShooShooMosquitoGameManger gameManager;
 
     // Start is called before the first frame update
@@ -50,8 +52,10 @@ public class MosquitoSceneManager : MonoBehaviour
     void timerEnded()
     {
         //Do your stuff here.
-        SceneManager.LoadScene(overworldName);
+        loadAndSave.savedData.levelToLoadName = "CampOverworld";
+        loadAndSave.RewriteSaveFile();
 
+        SceneManager.LoadScene("LoadingScreen");
         //Only use if timer needs to be reset
         //timePassing = 0;
     }

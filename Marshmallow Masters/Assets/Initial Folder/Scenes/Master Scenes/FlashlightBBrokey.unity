@@ -1757,6 +1757,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameController: {fileID: 1841206099}
   overworldName: CampOverworld
+  loadAndSave: {fileID: 663500722}
   maxTime: 3
   timePassing: 0
 --- !u!4 &1203481439
@@ -2187,7 +2188,7 @@ MonoBehaviour:
   audioSourceShake: {fileID: 1338652724}
   audioSourceClickOn: {fileID: 1338652728}
   audioSourceClickOff: {fileID: 1338652728}
-  bGM: {fileID: 0}
+  bGMPlayer: {fileID: 0}
   audioListener: {fileID: 1338652723}
   shakeDetector: {fileID: 1841206096}
   shakeNoiseChosen: 0

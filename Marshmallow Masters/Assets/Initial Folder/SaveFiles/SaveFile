@@ -10,5 +10,6 @@
     "endlessModeHighScore": 0,
     "setMinigameDifficulty": 1,
     "toggleOnSFX": true,
-    "toggleOnBGM": true
+    "toggleOnBGM": true,
+    "levelToLoadName": "FlashlightBBrokey"
 }

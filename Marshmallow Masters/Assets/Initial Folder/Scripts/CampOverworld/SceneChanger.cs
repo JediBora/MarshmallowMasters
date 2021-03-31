@@ -97,9 +97,18 @@ public class SceneChanger : MonoBehaviour
     public void LoadCorrespondingScene()
     {
         if (miniGameToLoad == 3)
-            SceneManager.LoadScene("ShooShooMosquitoTest");
+        {
+            loadNSave.savedData.levelToLoadName = "ShooShooMosquitoTest";
+
+            loadNSave.RewriteSaveFile();
+        }
         else if (miniGameToLoad == 4)
-            SceneManager.LoadScene("FlashlightBBrokey");
+        {
+            loadNSave.savedData.levelToLoadName = "FlashlightBBrokey";
+            loadNSave.RewriteSaveFile();
+        }
+
+        SceneManager.LoadScene("LoadingScreen");
     }
 
 }

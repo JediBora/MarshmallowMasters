@@ -42,4 +42,8 @@ public class SavedData
 
     public bool toggleOnSFX;
     public bool toggleOnBGM;
+
+    [Space(10)]
+
+    public string levelToLoadName;
 }

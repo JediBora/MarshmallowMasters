@@ -10,7 +10,7 @@ public class FlashlightScenemanager : MonoBehaviour
 
     public string overworldName;
 
-
+    public LoadAndSave loadAndSave;
 
 
     //The time limit (in seconds)
@@ -48,8 +48,9 @@ public class FlashlightScenemanager : MonoBehaviour
     void timerEnded()
     {
         //Do your stuff here.
-
-        SceneManager.LoadScene(overworldName);
+        loadAndSave.savedData.levelToLoadName = "CampOverworld";
+        loadAndSave.RewriteSaveFile();
+        SceneManager.LoadScene("LoadingScreen");
         //Only use if timer needs to be reset
         //timePassing = 0;
     }
