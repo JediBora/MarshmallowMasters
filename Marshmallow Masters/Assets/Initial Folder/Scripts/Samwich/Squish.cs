@@ -41,7 +41,7 @@ public class Squish : MonoBehaviour
    
     private void OnTriggerEnter(Collider other)
     {
-        screenShake.GetComponent<ScreenShake>().shakeScreen(new Vector3(0.5f,0.5f,0.5f), 1);
+        screenShake.GetComponent<ScreenShake>().shakeScreen(new Vector3(0.2f,0.2f,0.2f), 1);
         AntSpawn.GetComponent<AntSpawner>().lives--;
         Destroy(gameObject);
     }
