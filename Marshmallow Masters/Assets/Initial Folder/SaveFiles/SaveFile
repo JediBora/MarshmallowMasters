@@ -1,6 +1,6 @@
 {
     "playerName": "Darwin",
-    "marshmallows": 4,
+    "marshmallows": 8,
     "roastedMarshmallows": 0,
     "shooShooMosquitoHighScore": 0,
     "saveYourSandwichHighScore": 0,
@@ -8,8 +8,8 @@
     "flashlightBBrokeyHighScore": 0,
     "fishingFishersHighScore": 0,
     "endlessModeHighScore": 0,
-    "setMinigameDifficulty": 3,
+    "setMinigameDifficulty": 1,
     "toggleOnSFX": true,
     "toggleOnBGM": true,
-    "levelToLoadName": "CampOverworld"
+    "levelToLoadName": "SaveSam"
 }
