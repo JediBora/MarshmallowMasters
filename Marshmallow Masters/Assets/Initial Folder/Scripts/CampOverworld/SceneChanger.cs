@@ -27,26 +27,40 @@ public class SceneChanger : MonoBehaviour
         if (other.tag == "SandwichC")
         {
             //Add Save your Sandwich Scene
-            SceneManager.LoadScene("SaveSam");
+            loadNSave.savedData.levelToLoadName = "SaveSam";
+
+            loadNSave.RewriteSaveFile();
+
+            SceneManager.LoadScene("LoadingScreen");
             print("Save your Sandwich interaction");
         }
 
         if (other.tag == "CanoeC")
         {
             //Add Canoe Boo Boo Scene
-            SceneManager.LoadScene("CanoeBooBoo");
+            loadNSave.savedData.levelToLoadName = "CanoeBooBoo";
+
+            loadNSave.RewriteSaveFile();
+
+            SceneManager.LoadScene("LoadingScreen");
             print("Canoe Boo Boo interaction");
         }
 
         if (other.tag == "FishingC")
         {
             //Add Fishing Fishers Scene
-            SceneManager.LoadScene("FishingFishers");
+            loadNSave.savedData.levelToLoadName = "FishingFishers";
+
+            loadNSave.RewriteSaveFile();
+
+            SceneManager.LoadScene("LoadingScreen");
             print("Fishing Fishers interaction");
         }
 
         if (other.tag == "MosquitoC")
-        {
+        { loadNSave.savedData.levelToLoadName = "FishingFishers";
+
+            loadNSave.RewriteSaveFile();
             miniGameToLoad = 3;
             difficultyCanvas.SetActive(true);
 
@@ -68,7 +82,11 @@ public class SceneChanger : MonoBehaviour
         if (other.tag == "MarshmallowC" && loadNSave.savedData.marshmallows > 0)
         {
             //Add Marshmallow Masters Scene
-            SceneManager.LoadScene("MarshmallowRoasting");
+            loadNSave.savedData.levelToLoadName = "MarshmallowRoasting";
+
+            loadNSave.RewriteSaveFile();
+
+            SceneManager.LoadScene("LoadingScreen");
             print("Marshmallow Masters interaction");
         }
 
@@ -96,10 +114,44 @@ public class SceneChanger : MonoBehaviour
     //5 = Marshmallow Masters
     public void LoadCorrespondingScene()
     {
-        if (miniGameToLoad == 3)
-            SceneManager.LoadScene("ShooShooMosquitoTest");
+        
+
+             if (miniGameToLoad == 0)
+        {
+            loadNSave.savedData.levelToLoadName = "SaveSam";
+
+            loadNSave.RewriteSaveFile();
+        }
+        else if (miniGameToLoad == 1)
+        {
+            loadNSave.savedData.levelToLoadName = "CanoeBooBoo";
+
+            loadNSave.RewriteSaveFile();
+        }
+        else if (miniGameToLoad == 2)
+        {
+            loadNSave.savedData.levelToLoadName = "FishingFishers";
+
+            loadNSave.RewriteSaveFile();
+        }
+        else if (miniGameToLoad == 3)
+        {
+            loadNSave.savedData.levelToLoadName = "ShooShooMosquitoTest";
+
+            loadNSave.RewriteSaveFile();
+        }
         else if (miniGameToLoad == 4)
-            SceneManager.LoadScene("FlashlightBBrokey");
+        {
+            loadNSave.savedData.levelToLoadName = "FlashlightBBrokey";
+            loadNSave.RewriteSaveFile();
+        }
+        else if (miniGameToLoad == 5)
+        {
+            loadNSave.savedData.levelToLoadName = "MarshmallowRoasting";
+            loadNSave.RewriteSaveFile();
+        }
+
+        SceneManager.LoadScene("LoadingScreen");
     }
 
 }

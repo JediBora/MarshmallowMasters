@@ -1710,6 +1710,7 @@ MonoBehaviour:
   maxTime: 1
   timePassing: 0
   overworldName: CampOverworld
+  loadAndSave: {fileID: 1203729431}
   gameManager: {fileID: 248021441}
 --- !u!1 &1546155741
 GameObject:
