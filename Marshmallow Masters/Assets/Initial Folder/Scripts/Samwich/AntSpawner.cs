@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AntSpawner : MonoBehaviour
 {
@@ -13,6 +14,9 @@ public class AntSpawner : MonoBehaviour
     public int antSpawnIncreaseTime;
     public float spawnTimeIncrease= 0.1f;
     float time = 0;
+
+    public float lives = 3;
+    float gameTime;
 
     // Start is called before the first frame update
     void Start()
@@ -45,15 +49,22 @@ public class AntSpawner : MonoBehaviour
             }
           
         }
+        if (lives <= 0)
+        {
+            SceneManager.LoadScene(0);
+
+        }
+
     }
 
     void SpawnAnt()
     {
         GameObject spawnPoint = spawnPoints[(Random.Range(0, 4))];
-        Debug.Log(spawnPoint);
+        //Debug.Log(spawnPoint);
         GameObject newAnt = Instantiate(ant, spawnPoint.transform.position, Quaternion.identity);
         newAnt.GetComponent<Squish>().speed = antSpeed;
 
-        newAnt.transform.parent = gameObject.transform;
+        newAnt.transform.SetParent(gameObject.transform, true);
+        //newAnt.transform.parent = gameObject.transform;
     }
 }

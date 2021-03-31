@@ -35,4 +35,11 @@ public class SavedData
 
     // 1 = 1, 2 = 2, 3 = 3
     public int setMinigameDifficulty;
+
+    [Space(10)]
+
+    [Header("Sound Toggles")]
+
+    public bool toggleOnSFX;
+    public bool toggleOnBGM;
 }
