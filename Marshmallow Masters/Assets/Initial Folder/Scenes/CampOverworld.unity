@@ -294,6 +294,9 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 5116960}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
+=======
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!1001 &9069284
 PrefabInstance:
@@ -1433,6 +1436,7 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f92d6be5ab7d63243a8c0fa10d755b65, type: 3}
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 --- !u!1 &63123000
 GameObject:
   m_ObjectHideFlags: 0
@@ -1451,6 +1455,8 @@ GameObject:
   m_IsActive: 1
 --- !u!4 &63123001
 =======
+=======
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!4 &66182272 stripped
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 Transform:
@@ -1535,6 +1541,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
   m_SourcePrefab: {fileID: 100100000, guid: 3315ee48ccc2bce4fa73c4b39288def4, type: 3}
 --- !u!1 &66011734 stripped
 GameObject:
@@ -1557,6 +1564,8 @@ BoxCollider:
   m_Center: {x: -0.5439986, y: 0.5255928, z: 0.50000024}
 --- !u!4 &66182272 stripped
 =======
+=======
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
   m_SourcePrefab: {fileID: 100100000, guid: 8f10c449b09bb0b4491f0795b3645e46, type: 3}
 --- !u!4 &66510901 stripped
 Transform:
@@ -1571,6 +1580,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1476662167}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 --- !u!1001 &66333963
 PrefabInstance:
@@ -1670,6 +1680,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &73274372
 =======
+=======
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!1001 &69988667
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 PrefabInstance:
@@ -2521,13 +2533,19 @@ Transform:
   m_PrefabInstance: {fileID: 1817033964}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 =======
+=======
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!4 &143073272 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
     type: 3}
   m_PrefabInstance: {fileID: 1817033964}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
+=======
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!1001 &145231610
 PrefabInstance:
@@ -2612,6 +2630,7 @@ PrefabInstance:
       value: Tree4 (13)
       objectReference: {fileID: 0}
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 290057910daba554ea56ac40e3240fe2, type: 3}
 --- !u!1 &147197045
@@ -2660,6 +2679,21 @@ Transform:
   m_SourcePrefab: {fileID: 100100000, guid: 290057910daba554ea56ac40e3240fe2, type: 3}
 --- !u!1001 &153669071
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
+=======
+    - target: {fileID: 5028941979500379287, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 71f54d21aa50cbf4cb9d27a43fca70b9, type: 2}
+    - target: {fileID: 5362369228302084354, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c818efba588bba5438e11314bc902e44, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 290057910daba554ea56ac40e3240fe2, type: 3}
+--- !u!1001 &153669071
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -2670,7 +2704,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: -38.65026
+=======
+      value: -0.034820415
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 =======
       value: -0.034820415
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
@@ -2684,7 +2722,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 20.300976
+=======
+      value: 0.25516683
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 =======
       value: 0.25516683
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
@@ -2698,7 +2740,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.y
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: -1
+=======
+      value: -0.07561004
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 =======
       value: -0.07561004
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
@@ -2712,7 +2758,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.w
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 0.0000005513429
+=======
+      value: 0.99713755
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 =======
       value: 0.99713755
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
@@ -2721,7 +2771,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 57
+=======
+      value: 7
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 =======
       value: 7
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
@@ -2734,6 +2788,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: -180.00002
       objectReference: {fileID: 0}
@@ -2825,6 +2880,8 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
+=======
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 =======
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       value: -8.673
@@ -4769,7 +4826,10 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f10c449b09bb0b4491f0795b3645e46, type: 3}
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 =======
+=======
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!1001 &222454278
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4850,6 +4910,9 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 222454278}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
+=======
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!4 &226649827 stripped
 Transform:
@@ -6087,6 +6150,7 @@ Transform:
   m_PrefabInstance: {fileID: 283907365}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 --- !u!1 &289421979
 GameObject:
   m_ObjectHideFlags: 0
@@ -6244,6 +6308,8 @@ RectTransform:
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 =======
+=======
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!4 &291333216 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
@@ -6885,6 +6951,148 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b2c140bf739f70479ddff834c7cf4cd, type: 3}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+=======
+--- !u!1001 &315671812
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8874917061593106402, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 833cb65fce142f64687a112b9964623d, type: 2}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 141.47
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.3000002
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 16.76
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.00437142
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99999046
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0.50100005
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7112139303654064900, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 67f02aefc9afe024fa460dc74492e99a, type: 2}
+    - target: {fileID: -6683518566963621992, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ce68cba7bda3fae4dbaa06a41678e75e, type: 2}
+    - target: {fileID: -6535035325462504207, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c09ed0184db70324884d3517650710f7, type: 2}
+    - target: {fileID: -6199097450048920620, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ff4783a7e2a26e043b5ab967ecc26460, type: 2}
+    - target: {fileID: -3393563066005626272, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 687c6e5d0ea796541b5e17f607fc2166, type: 2}
+    - target: {fileID: -3007137439173536914, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bb348683e1c1d424cb4979b59500fcf9, type: 2}
+    - target: {fileID: -2165098499130947961, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ff7a959decee21744bc358992d3ee51f, type: 2}
+    - target: {fileID: -1670865462802834258, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7e36e6fc8f4a64644b182761c2c56184, type: 2}
+    - target: {fileID: 911917165185257461, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 24e62706621f6e446900f4ac490854af, type: 2}
+    - target: {fileID: 919132149155446097, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Name
+      value: log cabin (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2522981793942825736, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ce68cba7bda3fae4dbaa06a41678e75e, type: 2}
+    - target: {fileID: 3326222325525583308, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 82471a8598689f047869249a76a44c6e, type: 2}
+    - target: {fileID: 3486559382587550722, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ff7a959decee21744bc358992d3ee51f, type: 2}
+    - target: {fileID: 8809686767243311899, guid: 1d8502cab8f0fd64298cd7ed51382f8f,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d50311f33eaf6c24fad007251c075706, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1d8502cab8f0fd64298cd7ed51382f8f, type: 3}
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!1001 &324881216
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11111,7 +11319,11 @@ Transform:
   m_PrefabInstance: {fileID: 34978325}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 --- !u!1001 &538110430
+=======
+--- !u!1001 &539764204
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 =======
 --- !u!1001 &539764204
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
@@ -11119,6 +11331,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
     m_TransformParent: {fileID: 2063052374}
     m_Modifications:
@@ -11139,6 +11352,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
 =======
+=======
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
     m_TransformParent: {fileID: 1654775662}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
@@ -11157,11 +11372,15 @@ PrefabInstance:
       value: -0.74
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
+=======
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
         type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
@@ -11170,17 +11389,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
 =======
+=======
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
     - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
         type: 3}
       propertyPath: m_LocalRotation.y
       value: 0.8610681
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
+=======
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
@@ -11206,10 +11431,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
+=======
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5084897
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 169
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
@@ -11218,17 +11457,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
 =======
+=======
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
     - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 118.87301
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
+=======
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
@@ -11275,6 +11520,23 @@ Transform:
       propertyPath: m_LocalScale.z
       value: 1.0143998
       objectReference: {fileID: 0}
+=======
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0143998
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0143996
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0143998
+      objectReference: {fileID: 0}
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
     - target: {fileID: 919132149155446097, guid: 290057910daba554ea56ac40e3240fe2,
         type: 3}
       propertyPath: m_Name
@@ -11293,6 +11555,9 @@ Transform:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 290057910daba554ea56ac40e3240fe2, type: 3}
 --- !u!1001 &545088980
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
+=======
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11313,6 +11578,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
         type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: -0.74
       objectReference: {fileID: 0}
@@ -11491,6 +11757,8 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
         type: 3}
       propertyPath: m_LocalPosition.z
+=======
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       value: -1.033
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
@@ -12704,7 +12972,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: -44.940254
+=======
+      value: 149.29
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 =======
       value: 149.29
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
@@ -12713,7 +12985,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 2.1422386
+=======
+      value: 0.92
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 =======
       value: 0.92
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
@@ -12722,7 +12998,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 0.78097534
+=======
+      value: 78.16
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 =======
       value: 78.16
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
@@ -12751,7 +13031,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 32
+=======
+      value: 2
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 =======
       value: 2
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
@@ -14578,6 +14862,9 @@ Transform:
   serializedVersion: 2
   m_Size: {x: 0.04587064, y: 0.04137949, z: 0.03772317}
   m_Center: {x: -0.00054235844, y: 0.0069258073, z: 0.0032133658}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
+=======
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!4 &763132304 stripped
 Transform:
@@ -15900,6 +16187,9 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.072704606, y: 0.08863294, z: 0.06488143}
   m_Center: {x: -0.00926613, y: 0.020707816, z: -0.011041555}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
+=======
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!4 &810409320 stripped
 Transform:
@@ -15988,6 +16278,7 @@ Transform:
   m_PrefabInstance: {fileID: 1421796895}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &821893378 stripped
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
@@ -16084,6 +16375,8 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 824442571}
 =======
+=======
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
     type: 3}
@@ -16383,9 +16676,28 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5b2c140bf739f70479ddff834c7cf4cd,
     type: 3}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
   m_PrefabInstance: {fileID: 208778903}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &863421786
+=======
+  m_PrefabInstance: {fileID: 1305975978}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &853295037
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 853295036}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.072704606, y: 0.08863294, z: 0.06488143}
+  m_Center: {x: -0.00926613, y: 0.020707816, z: -0.011041555}
+--- !u!1001 &856370927
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -17614,6 +17926,7 @@ Transform:
   m_PrefabInstance: {fileID: 1703991805}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 --- !u!1001 &941419242
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17683,6 +17996,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 03e346b2ac44b784cba1bcd9d09140ca, type: 3}
+=======
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 =======
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!4 &945647658 stripped
@@ -18316,8 +18631,11 @@ Transform:
   m_PrefabInstance: {fileID: 1198951620}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 --- !u!1001 &995165167
 =======
+=======
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!1 &994257697 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0,
@@ -18594,6 +18912,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5b2c140bf739f70479ddff834c7cf4cd, type: 3}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+=======
+--- !u!1 &1009167771 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8e6eff503bc393b46bcb7e16a1d5a157,
+    type: 3}
+  m_PrefabInstance: {fileID: 1040140024}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1009167772
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1009167771}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.044014014, y: 0.047021907, z: 0.05156587}
+  m_Center: {x: -0.002317226, y: 0.009271076, z: -0.0030191669}
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!1001 &1011491760
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19050,7 +19390,11 @@ PrefabInstance:
     - target: {fileID: 4106337375065928, guid: 93c085334f50f9945b11554ed7978063, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 20
+=======
+      value: 8
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 =======
       value: 8
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
@@ -19076,10 +19420,13 @@ PrefabInstance:
       value: 43.466877
       objectReference: {fileID: 0}
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
     - target: {fileID: 4106337375065928, guid: 93c085334f50f9945b11554ed7978063, type: 3}
       propertyPath: m_LocalScale.y
       value: 2.4416068
       objectReference: {fileID: 0}
+=======
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 =======
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
     m_RemovedComponents: []
@@ -22148,6 +22495,9 @@ PrefabInstance:
 =======
   m_Size: {x: 0.038744353, y: 0.04604653, z: 0.043257102}
   m_Center: {x: -0.0007442343, y: 0.008278487, z: 0.0039144685}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
+=======
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!1001 &1201860252
 PrefabInstance:
@@ -22601,7 +22951,11 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 5b2c140bf739f70479ddff834c7cf4cd,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 86
+=======
+      value: 9
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5b2c140bf739f70479ddff834c7cf4cd,
         type: 3}
@@ -22831,6 +23185,7 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
     - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -22884,6 +23239,8 @@ PrefabInstance:
       value: Adam
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
+=======
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b440c716fc0f7ee4c8026b1d1ced06ff, type: 3}
 --- !u!4 &1238894950 stripped
@@ -24001,7 +24358,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: -44.940254
+=======
+      value: 81.77
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 =======
       value: 81.77
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
@@ -24010,7 +24371,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 2.1422386
+=======
+      value: -1.44
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 =======
       value: -1.44
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
@@ -24019,7 +24384,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: -24.329025
+=======
+      value: 91.1
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 =======
       value: 91.1
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
@@ -24048,7 +24417,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 30
+=======
+      value: 3
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 =======
       value: 3
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
@@ -25557,6 +25930,7 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 --- !u!1 &1369438350 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1916851760937628, guid: 3315ee48ccc2bce4fa73c4b39288def4,
@@ -25578,6 +25952,8 @@ BoxCollider:
   m_Center: {x: -0.5439986, y: 0.5255928, z: 0.50000024}
 --- !u!1001 &1371629832
 =======
+=======
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!1001 &1370066118
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25803,12 +26179,15 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b440c716fc0f7ee4c8026b1d1ced06ff, type: 3}
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 --- !u!4 &1371629833 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
     type: 3}
   m_PrefabInstance: {fileID: 1371629832}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 =======
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!1001 &1377529194
@@ -27391,7 +27770,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 46
+=======
+      value: 17
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 =======
       value: 17
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
@@ -29150,7 +29533,11 @@ PrefabInstance:
     - target: {fileID: 4474712263105832, guid: 3315ee48ccc2bce4fa73c4b39288def4, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 34.8
+=======
+      value: 117.09
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 =======
       value: 117.09
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
@@ -29158,7 +29545,11 @@ PrefabInstance:
     - target: {fileID: 4474712263105832, guid: 3315ee48ccc2bce4fa73c4b39288def4, type: 3}
       propertyPath: m_LocalPosition.y
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 1
+=======
+      value: 1.29
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 =======
       value: 1.29
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
@@ -29166,7 +29557,11 @@ PrefabInstance:
     - target: {fileID: 4474712263105832, guid: 3315ee48ccc2bce4fa73c4b39288def4, type: 3}
       propertyPath: m_LocalPosition.z
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: -57.7
+=======
+      value: 142.05
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 =======
       value: 142.05
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
@@ -29190,7 +29585,11 @@ PrefabInstance:
     - target: {fileID: 4474712263105832, guid: 3315ee48ccc2bce4fa73c4b39288def4, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 15
+=======
+      value: 21
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 =======
       value: 21
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
@@ -30926,7 +31325,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: -44.940254
+=======
+      value: 135.81
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 =======
       value: 135.81
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
@@ -30935,7 +31338,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 2.1422386
+=======
+      value: 2.31
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 =======
       value: 2.31
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
@@ -30944,7 +31351,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 5.4209785
+=======
+      value: -38.41
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 =======
       value: -38.41
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
@@ -30958,7 +31369,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.y
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: -1
+=======
+      value: 1
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 =======
       value: 1
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
@@ -30972,7 +31387,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.w
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 0.0000005513429
+=======
+      value: 0
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 =======
       value: 0
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
@@ -30981,7 +31400,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 45
+=======
+      value: 1
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 =======
       value: 1
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
@@ -30995,7 +31418,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: -180.00002
+=======
+      value: 180
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 =======
       value: 180
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
@@ -31009,7 +31436,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 52.350746
+=======
+      value: 100
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 =======
       value: 100
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
@@ -31018,7 +31449,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.y
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 32.25553
+=======
+      value: 100
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 =======
       value: 100
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
@@ -31027,7 +31462,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: 32.25553
+=======
+      value: 100
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 =======
       value: 100
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
@@ -31780,6 +32219,7 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bca1cab92d3090446a5b135ce8027fbf, type: 3}
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 --- !u!1 &1636633244 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1916851760937628, guid: 3315ee48ccc2bce4fa73c4b39288def4,
@@ -31799,6 +32239,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.4801354, y: 3.6239686, z: 1.0000004}
   m_Center: {x: -0.5439986, y: 0.5255928, z: 0.50000024}
+=======
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 =======
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!1001 &1638023225
@@ -34183,8 +34625,11 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f10c449b09bb0b4491f0795b3645e46, type: 3}
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 --- !u!1001 &1750724363
 =======
+=======
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!4 &1757840981 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
@@ -35554,6 +35999,9 @@ MonoBehaviour:
   serializedVersion: 2
   m_Size: {x: 0.044252183, y: 0.0339662, z: 0.069085695}
   m_Center: {x: 0.00043553466, y: 0.005205066, z: -0.009659281}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
+=======
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!4 &1846491421 stripped
 Transform:
@@ -35561,6 +36009,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 236746183}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 --- !u!1001 &1857881757
 PrefabInstance:
@@ -35636,6 +36085,8 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 14b951b33d2eed44691f2c333e5118af, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d30b5eb9fa4dda4ead9a13030de998a, type: 3}
+=======
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 =======
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!1001 &1859012203
@@ -36010,6 +36461,9 @@ PrefabInstance:
       propertyPath: m_TagString
       value: FishingC
       objectReference: {fileID: 0}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
+=======
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 290057910daba554ea56ac40e3240fe2, type: 3}
@@ -37177,6 +37631,7 @@ Transform:
   m_PrefabInstance: {fileID: 1116808710}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
 --- !u!1 &1920466315
 GameObject:
   m_ObjectHideFlags: 0
@@ -37309,6 +37764,8 @@ CanvasRenderer:
   m_CullTransparentMesh: 0
 =======
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
+=======
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!4 &1925805599 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
@@ -37415,7 +37872,633 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
         type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: -1.3102108
+=======
+      value: -1.329
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.006458786
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 217
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.7752279
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.7752279
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.7752279
+      objectReference: {fileID: 0}
+    - target: {fileID: 109242183611632535, guid: 8f10c449b09bb0b4491f0795b3645e46,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ebc7370318383ef45b7f43b1a2345f98, type: 2}
+    - target: {fileID: 919132149155446097, guid: 8f10c449b09bb0b4491f0795b3645e46,
+        type: 3}
+      propertyPath: m_Name
+      value: Tree1 (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7353934517535333994, guid: 8f10c449b09bb0b4491f0795b3645e46,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4844ff215df53624eb78ad995c05c0ba, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8f10c449b09bb0b4491f0795b3645e46, type: 3}
+--- !u!1001 &1934531576
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1654775662}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.38
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.006458786
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.113
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 177
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.7752279
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.7752279
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.7752279
+      objectReference: {fileID: 0}
+    - target: {fileID: 109242183611632535, guid: 8f10c449b09bb0b4491f0795b3645e46,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ebc7370318383ef45b7f43b1a2345f98, type: 2}
+    - target: {fileID: 919132149155446097, guid: 8f10c449b09bb0b4491f0795b3645e46,
+        type: 3}
+      propertyPath: m_Name
+      value: Tree1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7353934517535333994, guid: 8f10c449b09bb0b4491f0795b3645e46,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4844ff215df53624eb78ad995c05c0ba, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8f10c449b09bb0b4491f0795b3645e46, type: 3}
+--- !u!1001 &1947093292
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7991646367397423184, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 16.729
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991646367397423184, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991646367397423184, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991646367397423184, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5009215
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991646367397423184, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3.7707186
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991646367397423187, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 1621629402}
+    - target: {fileID: 7991646367397423188, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 1621629402}
+    - target: {fileID: 7991646367508167532, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 73.645424
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991646367508167532, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.7593923
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991646367508167532, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 23.248547
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991646367508167532, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.00006322179
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991646367508167532, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9987571
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991646367508167532, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0012672549
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991646367508167532, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.049826745
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991646367508167532, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991646367508167532, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.14500001
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991646367508167532, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 174.28801
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991646367508167532, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991646367508167532, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.38399
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991646367508167532, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.38399
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991646367508167532, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.38399
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991646367508167535, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_Name
+      value: Campfire Area
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991646368615330736, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 1381995806}
+    - target: {fileID: 7991646368615330739, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 84dbf4f494f51934fb1b7933105e73dc, type: 2}
+    - target: {fileID: 7991646368615330741, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 1381995806}
+    - target: {fileID: 7991646369084084006, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 2147317250}
+    - target: {fileID: 7991646369084084007, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 18.748
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991646369084084007, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 31.743
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991646369084084007, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991646369084084007, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5009215
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991646369084084007, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3.7707186
+      objectReference: {fileID: 0}
+    - target: {fileID: 7991646369084084011, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 2147317250}
+    - target: {fileID: 8028078251225538352, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ebc7370318383ef45b7f43b1a2345f98, type: 2}
+    - target: {fileID: 8028078251598592290, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.0726984
+      objectReference: {fileID: 0}
+    - target: {fileID: 8028078251598592290, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11.02276
+      objectReference: {fileID: 0}
+    - target: {fileID: 8028078251598592290, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 23.98137
+      objectReference: {fileID: 0}
+    - target: {fileID: 8028078251598592290, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.0090449285
+      objectReference: {fileID: 0}
+    - target: {fileID: 8028078251598592290, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.81681424
+      objectReference: {fileID: 0}
+    - target: {fileID: 8028078251598592290, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.013850097
+      objectReference: {fileID: 0}
+    - target: {fileID: 8028078251598592290, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5766636
+      objectReference: {fileID: 0}
+    - target: {fileID: 8028078251598592290, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -109.55501
+      objectReference: {fileID: 0}
+    - target: {fileID: 8028078251598592290, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.069000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 8028078251601017794, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ebc7370318383ef45b7f43b1a2345f98, type: 2}
+    - target: {fileID: 8028078251745576994, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ebc7370318383ef45b7f43b1a2345f98, type: 2}
+    - target: {fileID: 8028078252150755653, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ebc7370318383ef45b7f43b1a2345f98, type: 2}
+    - target: {fileID: 8814551209624807135, guid: 31695273dcb478f4abd9a47eba1b255d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ebc7370318383ef45b7f43b1a2345f98, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31695273dcb478f4abd9a47eba1b255d, type: 3}
+--- !u!1001 &1949683818
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2063052374}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -30.000008
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.1422386
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -11.979996
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.0000005513429
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 71
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -180.00002
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 52.350746
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 32.25553
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 32.25553
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1ace751e94ddc724782eb4725f9685f9, type: 2}
+    - target: {fileID: 919132149155446097, guid: b440c716fc0f7ee4c8026b1d1ced06ff,
+        type: 3}
+      propertyPath: m_Name
+      value: Bench (30)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b440c716fc0f7ee4c8026b1d1ced06ff, type: 3}
+--- !u!4 &1949809459 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
+    type: 3}
+  m_PrefabInstance: {fileID: 1934094717}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1954326124
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1654775662}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.786
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.002768053
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.111
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.07561004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99713755
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 251
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -8.673
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.94226724
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.94226724
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.94226724
+      objectReference: {fileID: 0}
+    - target: {fileID: -6468798673690563166, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2ff9d82f05d9a42438874a450e5bc0ab, type: 2}
+    - target: {fileID: -3447279898074019344, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c818efba588bba5438e11314bc902e44, type: 2}
+    - target: {fileID: 919132149155446097, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_Name
+      value: Tree3 (75)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f92d6be5ab7d63243a8c0fa10d755b65, type: 3}
+--- !u!4 &1954326125 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+    type: 3}
+  m_PrefabInstance: {fileID: 1954326124}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1956906929
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1654775662}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.5593355
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
         type: 3}
@@ -39868,6 +40951,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 8f10c449b09bb0b4491f0795b3645e46,
         type: 3}
       propertyPath: m_Name
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
       value: Tree1 (46)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -40207,10 +41291,329 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Tree3 (33)
+=======
+      value: Tree3 (7)
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
       objectReference: {fileID: 0}
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f92d6be5ab7d63243a8c0fa10d755b65, type: 3}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+=======
+--- !u!1001 &2037416831
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1654775662}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.45737115
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.002768053
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.7417161
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.8610681
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5084897
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 106
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 118.87301
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.94226736
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.94226724
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.94226736
+      objectReference: {fileID: 0}
+    - target: {fileID: -6468798673690563166, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2ff9d82f05d9a42438874a450e5bc0ab, type: 2}
+    - target: {fileID: -3447279898074019344, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c818efba588bba5438e11314bc902e44, type: 2}
+    - target: {fileID: 919132149155446097, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_Name
+      value: Tree3 (35)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f92d6be5ab7d63243a8c0fa10d755b65, type: 3}
+--- !u!1 &2041304458 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c3e14ab60276bb14fb5d3e959985fc78,
+    type: 3}
+  m_PrefabInstance: {fileID: 1906245694}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2041304459
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2041304458}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.04587064, y: 0.04137949, z: 0.03772317}
+  m_Center: {x: -0.00054235844, y: 0.0069258073, z: 0.0032133658}
+--- !u!1001 &2041517896
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1654775662}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.024844572
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.004444567
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.4404471
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.07561004
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99713755
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -8.673
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.0143996
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.0143996
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.0143996
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_Name
+      value: Tree4 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5028941979500379287, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 71f54d21aa50cbf4cb9d27a43fca70b9, type: 2}
+    - target: {fileID: 5362369228302084354, guid: 290057910daba554ea56ac40e3240fe2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c818efba588bba5438e11314bc902e44, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 290057910daba554ea56ac40e3240fe2, type: 3}
+--- !u!4 &2043587019 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5b2c140bf739f70479ddff834c7cf4cd,
+    type: 3}
+  m_PrefabInstance: {fileID: 1229637680}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2043903778 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8f10c449b09bb0b4491f0795b3645e46,
+    type: 3}
+  m_PrefabInstance: {fileID: 1800066987}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2045038817
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1654775662}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.45091224
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.002768053
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.3385032
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.8610681
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5084897
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 118.87301
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.94226736
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.94226724
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.94226736
+      objectReference: {fileID: 0}
+    - target: {fileID: -6468798673690563166, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2ff9d82f05d9a42438874a450e5bc0ab, type: 2}
+    - target: {fileID: -3447279898074019344, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: c818efba588bba5438e11314bc902e44, type: 2}
+    - target: {fileID: 919132149155446097, guid: f92d6be5ab7d63243a8c0fa10d755b65,
+        type: 3}
+      propertyPath: m_Name
+      value: Tree3 (33)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f92d6be5ab7d63243a8c0fa10d755b65, type: 3}
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!1001 &2047621633
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40724,6 +42127,9 @@ Transform:
   - {fileID: 193412106}
   - {fileID: 1023213200}
   - {fileID: 14607583}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
+=======
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
   m_Father: {fileID: 0}
   m_RootOrder: 7
@@ -41247,6 +42653,9 @@ Transform:
 =======
   m_Size: {x: 0.031692363, y: 0.040177383, z: 0.03353395}
   m_Center: {x: -0.00059717195, y: 0.0060581467, z: 0.0010901273}
+<<<<<<< HEAD:Marshmallow Masters/Assets/Initial Folder/Scenes/CampOverworld.unity
+>>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
+=======
 >>>>>>> parent of a99aab4 (Added counselor animations):Marshmallow Masters/Assets/Scenes/CampOverworld.unity
 --- !u!1001 &2091634954
 PrefabInstance:
