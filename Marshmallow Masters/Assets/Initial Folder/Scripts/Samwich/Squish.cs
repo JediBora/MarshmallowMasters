@@ -7,11 +7,13 @@ public class Squish : MonoBehaviour
     public float speed = 1f;
     private GameObject AntSpawn;
     public GameObject squishSound;
+    private GameObject screenShake;
     // Update is called once per frame
 
     private void Start()
     {
         AntSpawn = GameObject.Find("Canvas");
+        screenShake = GameObject.Find("ScreenShake");
     }
     void FixedUpdate()
     {
@@ -39,7 +41,7 @@ public class Squish : MonoBehaviour
    
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Collision");
+        screenShake.GetComponent<ScreenShake>().shakeScreen(new Vector3(0.5f,0.5f,0.5f), 1);
         AntSpawn.GetComponent<AntSpawner>().lives--;
         Destroy(gameObject);
     }
