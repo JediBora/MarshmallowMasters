@@ -36,6 +36,12 @@ public class GM_MarshmallowRoasting : MonoBehaviour
 
     }
 
+    public int CalculateMarshmallowsGained()
+    {
+        // Or in this case, 'roasted' marshmallows
+        return (successfullyRoastedMarshmallows);
+    }
+
     public void RemoveMessage()
     {
         message.text = "";

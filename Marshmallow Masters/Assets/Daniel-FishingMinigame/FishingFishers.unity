@@ -298,14 +298,12 @@ MonoBehaviour:
   Rod: {fileID: 316082463}
   meter: {fileID: 626624495}
   reactionTimeNeeded: 2
-  fishCaught: 0
+  fishCaught: 15
   meterComplete: 1
   percentNeededToCatch: 50
   message: {fileID: 1694108759}
   rotX: 0
   lastRotX: 0
-  Endgame: {fileID: 0}
-  marshmallowsGained: {x: 16, y: 0}
 --- !u!4 &613911695
 Transform:
   m_ObjectHideFlags: 0
@@ -1834,6 +1832,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1999943370}
     m_Modifications:
+    - target: {fileID: 7772469594823834819, guid: 19903aea766fa7b4fa98f39ac7242344,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7772469595603759140, guid: 19903aea766fa7b4fa98f39ac7242344,
         type: 3}
       propertyPath: m_Name
@@ -1943,6 +1946,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7772469595603759146, guid: 19903aea766fa7b4fa98f39ac7242344,
+        type: 3}
+      propertyPath: timeRemaining
+      value: 61
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19903aea766fa7b4fa98f39ac7242344, type: 3}

@@ -17,9 +17,6 @@ public class GM_Fishing : MonoBehaviour
     Gyroscope gyro;
     public float rotX, lastRotX;
     
-    public EndGame Endgame;
-    public Vector2 marshmallowsGained = new Vector2();
-    
 
     // Start is called before the first frame update
     void Start()
@@ -27,7 +24,6 @@ public class GM_Fishing : MonoBehaviour
         gyro = Input.gyro;
         gyro.enabled = true;
         StartCoroutine("GameLoop");
-        Endgame.GetMarshmallowsGained(marshmallowsGained);
     }
 
     void Update()
@@ -147,6 +143,11 @@ public class GM_Fishing : MonoBehaviour
             message.text = "The fish got away...";
             yield return new WaitForSeconds(2.0f);
         }
+    }
+
+    public int CalculateMarshmallowsGained()
+    {
+        return (fishCaught * 3);
     }
 
     /*

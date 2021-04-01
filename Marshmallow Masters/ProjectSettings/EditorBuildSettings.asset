@@ -5,13 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Initial Folder/Scenes/CampOverworld.unity
     guid: 5fa13082a1786cc4d9f165955d30aea4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Initial Folder/Scenes/Master Scenes/ShooShooMosquitoTest.unity
     guid: 6a24644b6ab075446a13f1216dc16245
-  - enabled: 1
+  - enabled: 0
     path: Assets/Initial Folder/Scenes/Master Scenes/FlashlightBBrokey.unity
     guid: 86d3807bffe15a14e92ab0249e246614
   - enabled: 1
@@ -23,34 +23,34 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/Initial Folder/Scenes/Master Scenes/SaveSam.unity
     guid: d03db4a78fc1eda40bbda818c37ecfb5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Daniel-CanoeMinigame/CanoeBooBoo.unity
     guid: 7bb2b2f15cdd32c4894ed53c94ab47e8
-  - enabled: 1
+  - enabled: 0
     path: Assets/Daniel-FishingMinigame/FishingFishers.unity
     guid: 752bd7433eac36a468f21134fee49cb4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Initial Folder/Scenes/LoadingScreen.unity
     guid: c58cecb0dc6bff746a31098d2abd08a5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Initial Folder/Scenes/InstructionsScenes/CanoeBooBooI.unity
     guid: 76b395ff6e0a46e4b817071419ceb8d5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Initial Folder/Scenes/InstructionsScenes/FishingFishersI.unity
     guid: d09ece0a2ebe35a4c8b1c3c13e748b12
-  - enabled: 1
+  - enabled: 0
     path: Assets/Initial Folder/Scenes/InstructionsScenes/FlashlightBBrokeyI.unity
     guid: 4f3eaa2263663634a9bab3305bf3d975
-  - enabled: 1
+  - enabled: 0
     path: Assets/Initial Folder/Scenes/InstructionsScenes/MarshmallowRoastingI.unity
     guid: 939798e8859eeab49a9d40e12d3e3827
-  - enabled: 1
+  - enabled: 0
     path: Assets/Initial Folder/Scenes/InstructionsScenes/SaveSamI.unity
     guid: 4c3c2cd9374a71f4591ea8a761a45992
-  - enabled: 1
+  - enabled: 0
     path: Assets/Initial Folder/Scenes/InstructionsScenes/ShooShooMosquitoTestI.unity
     guid: 78c37f4e7d1804841aa81f7d500dce54
   m_configObjects: {}

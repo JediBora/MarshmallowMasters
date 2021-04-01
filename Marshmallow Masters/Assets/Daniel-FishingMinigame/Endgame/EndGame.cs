@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class EndGame : MonoBehaviour
 {
@@ -11,9 +12,6 @@ public class EndGame : MonoBehaviour
     public Text timeRemaining_txt;
     public Text timeRemainingShadow_txt;
     public int timeRemaining = 60; //seconds
-
-    public Vector2 referenceToMarshmallowsGained;
-    // Vector2 ...;
     
 
     // Start is called before the first frame update
@@ -34,8 +32,7 @@ public class EndGame : MonoBehaviour
         }
 
         GameOverScreen.SetActive(true);
-        int marshmallowsGained = (int)referenceToMarshmallowsGained.x;
-        // I need to get marshmallows gained
+        int marshmallowsGained = GetMarshmallowsGained();
 
         for (int i = 0; i < marshmallowsGained + 1; i++)
         {
@@ -45,22 +42,47 @@ public class EndGame : MonoBehaviour
         }
 
         BackToCampButton.interactable = true;
-        // Save.
+        // >>>Save<<<
     }
-
 
     public void SkipToEndOfCountdown()
     {
         timeRemaining = 0;
     }
 
-    public void GetMarshmallowsGained(Vector2 v2)
+    int GetMarshmallowsGained()
     {
-        referenceToMarshmallowsGained = v2;
+        string sceneName = SceneManager.GetActiveScene().name;
+
+        switch (sceneName)
+        {
+            case "MarshmallowRoasting":
+                return GameObject.Find("Game Manager").GetComponent<GM_MarshmallowRoasting>().CalculateMarshmallowsGained();
+
+            case "CanoeBooBoo":
+                return GameObject.Find("Game Manager").GetComponent<GM_CanoeBB>().CalculateMarshmallowsGained();
+
+            case "FishingFishers":
+                return GameObject.Find("Game Manager").GetComponent<GM_Fishing>().CalculateMarshmallowsGained();
+                /*
+            case "FlashlighBBrokey":
+                //...
+
+            case "SaveSam":
+                //...
+
+            case "ShooShooMosquiotoTest":
+                //...
+                break;
+                */
+            default:
+                return 0;
+        }
     }
 
     public void ReturnToCamp()
     {
-        Debug.Log("Pressed");
+        //Debug.Log("Pressed");
+        SceneManager.LoadScene("CampOverworld");
     }
 }

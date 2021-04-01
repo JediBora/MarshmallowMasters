@@ -33,7 +33,7 @@ public class Stick : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Screen.orientation = ScreenOrientation.LandscapeLeft;
+        //Screen.orientation = ScreenOrientation.LandscapeLeft;
         gyro = Input.gyro;
         gyro.enabled = true;
 

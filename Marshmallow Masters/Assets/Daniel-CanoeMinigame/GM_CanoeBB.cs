@@ -55,4 +55,8 @@ public class GM_CanoeBB : MonoBehaviour
         }
         
     }
+    public int CalculateMarshmallowsGained()
+    {
+        return 5;
+    }
 }
