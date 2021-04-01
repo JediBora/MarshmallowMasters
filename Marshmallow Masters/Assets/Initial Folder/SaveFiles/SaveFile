@@ -11,5 +11,5 @@
     "setMinigameDifficulty": 3,
     "toggleOnSFX": true,
     "toggleOnBGM": true,
-    "levelToLoadName": "CampOverworld"
+    "levelToLoadName": "UpdatedCampOverworld"
 }

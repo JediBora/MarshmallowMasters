@@ -51,6 +51,9 @@ EditorBuildSettings:
     path: Assets/Initial Folder/Scenes/InstructionsScenes/SaveSamI.unity
     guid: 4c3c2cd9374a71f4591ea8a761a45992
   - enabled: 1
+    path: Assets/Initial Folder/Scenes/Master Scenes/UpdatedCampOverworld.unity
+    guid: 8645557c012f2bd49b870a4b93aac676
+  - enabled: 1
     path: Assets/Initial Folder/Scenes/InstructionsScenes/ShooShooMosquitoTestI.unity
     guid: 78c37f4e7d1804841aa81f7d500dce54
   m_configObjects: {}
