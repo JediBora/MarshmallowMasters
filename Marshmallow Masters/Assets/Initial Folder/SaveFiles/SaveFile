@@ -8,8 +8,8 @@
     "flashlightBBrokeyHighScore": 0,
     "fishingFishersHighScore": 0,
     "endlessModeHighScore": 0,
-    "setMinigameDifficulty": 2,
+    "setMinigameDifficulty": 3,
     "toggleOnSFX": true,
     "toggleOnBGM": true,
-    "levelToLoadName": "ShooShooMosquitoTest"
+    "levelToLoadName": "CampOverworld"
 }

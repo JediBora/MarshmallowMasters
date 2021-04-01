@@ -1756,7 +1756,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameController: {fileID: 1841206099}
-  overworldName: CampOverworld
+  overworldName: UpdatedCampOverworld
   loadAndSave: {fileID: 663500722}
   maxTime: 3
   timePassing: 0
