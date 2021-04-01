@@ -16,6 +16,7 @@ public class ScuffedInstructions : MonoBehaviour
     //3 = Shoo Shoo Mosquito
     //4 = Flashlight B' Brokey
     //5 = Marshmallow Masters
+    //6 = Overworld
     public int miniGameToLoad;
 
     // Start is called before the first frame update
@@ -48,10 +49,15 @@ public class ScuffedInstructions : MonoBehaviour
             //Add Save your Sandwich Scene
             miniGameToLoad = 4;
         }
-        else if (scene.name == "MarshmallowRoasting")
+        else if (scene.name == "MarshmallowRoastingI")
         {
             //Add Save your Sandwich Scene
             miniGameToLoad = 5;
+        }
+        else if (scene.name == "TitleScreen")
+        {
+            //Add Save your Sandwich Scene
+            miniGameToLoad = 6;
         }
     }
 
@@ -99,6 +105,11 @@ public class ScuffedInstructions : MonoBehaviour
         else if (miniGameToLoad == 5)
         {
             loadNSave.savedData.levelToLoadName = "MarshmallowRoasting";
+            loadNSave.RewriteSaveFile();
+        }
+        else if (miniGameToLoad == 6)
+        {
+            loadNSave.savedData.levelToLoadName = "UpdatedCampOverworld";
             loadNSave.RewriteSaveFile();
         }
 

@@ -25,11 +25,13 @@ public class LoadingScreen : MonoBehaviour
 
     IEnumerator LoadASyncOperation()
     {
+        yield return new WaitForSecondsRealtime(2);
         //Create ASync operation
         AsyncOperation gameLevel = SceneManager.LoadSceneAsync(levelToLoad);
 
         while (gameLevel.progress < 1)
         {
+            Debug.Log("Loading Scene.");
             //Take the progress bar fill = async operation progress
             progressBar.fillAmount = gameLevel.progress;
             yield return new WaitForEndOfFrame();
@@ -37,11 +39,6 @@ public class LoadingScreen : MonoBehaviour
 
 
         }
-
-        //When finisehd, load the game scene
-
-
-        yield return new WaitForEndOfFrame();
 
     }
 

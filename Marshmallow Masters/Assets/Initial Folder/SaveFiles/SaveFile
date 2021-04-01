@@ -8,8 +8,8 @@
     "flashlightBBrokeyHighScore": 0,
     "fishingFishersHighScore": 0,
     "endlessModeHighScore": 0,
-    "setMinigameDifficulty": 3,
+    "setMinigameDifficulty": 2,
     "toggleOnSFX": true,
     "toggleOnBGM": true,
-    "levelToLoadName": "CampOverworld"
+    "levelToLoadName": "UpdatedCampOverworld"
 }
