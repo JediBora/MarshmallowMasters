@@ -49,17 +49,9 @@ public class PlayerInput : MonoBehaviour
         CheckJumpPress();
     }
 
-    /*
-    return new Vector3(CrossPlatformInputManager.GetAxis("Horizontal"), 0f, CrossPlatformInputManager.GetAxis("Vertical"));
-    }
-    private Vector3 GetMouseMovement()
-    {
-        float horizMovement = CrossPlatformInputManager.GetAxis("Horizontal");
-        float vertMovement = CrossPlatformInputManager.GetAxis("Vertical");
-
-    */
     private Vector3 GetDirectionalInput()
     {
+        //Mobile
         return new Vector3(CrossPlatformInputManager.GetAxis("Horizontal"), 0f, CrossPlatformInputManager.GetAxis("Vertical"));
 
         //Original
@@ -67,7 +59,8 @@ public class PlayerInput : MonoBehaviour
     }
     private Vector3 GetMouseMovement()
     {
-        //float horizMovement = CrossPlatformInputManager.GetAxis("Vertical") * -1;
+
+        //Mobile
         float vertMovement = CrossPlatformInputManager.GetAxis("Horizontal");
        
         //Original
