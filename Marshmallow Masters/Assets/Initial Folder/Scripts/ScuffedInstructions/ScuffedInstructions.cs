@@ -49,7 +49,7 @@ public class ScuffedInstructions : MonoBehaviour
             //Add Save your Sandwich Scene
             miniGameToLoad = 4;
         }
-        else if (scene.name == "MarshmallowRoasting")
+        else if (scene.name == "MarshmallowRoastingI")
         {
             //Add Save your Sandwich Scene
             miniGameToLoad = 5;
