@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityStandardAssets.CrossPlatformInput;
 
 [System.Serializable]
 public class DirectionInput : UnityEngine.Events.UnityEvent<Vector3> { }
@@ -48,14 +49,30 @@ public class PlayerInput : MonoBehaviour
         CheckJumpPress();
     }
 
-    private Vector3 GetDirectionalInput()
-    {
-         return new Vector3(Input.GetAxis(m_inputAxis.m_horizontalAxis), 0f, Input.GetAxis(m_inputAxis.m_verticalAxis));
+    /*
+    return new Vector3(CrossPlatformInputManager.GetAxis("Horizontal"), 0f, CrossPlatformInputManager.GetAxis("Vertical"));
     }
     private Vector3 GetMouseMovement()
     {
+        float horizMovement = CrossPlatformInputManager.GetAxis("Horizontal");
+        float vertMovement = CrossPlatformInputManager.GetAxis("Vertical");
+
+    */
+    private Vector3 GetDirectionalInput()
+    {
+        return new Vector3(CrossPlatformInputManager.GetAxis("Horizontal"), 0f, CrossPlatformInputManager.GetAxis("Vertical"));
+
+        //Original
+        //return new Vector3(Input.GetAxis(m_inputAxis.m_horizontalAxis), 0f, Input.GetAxis(m_inputAxis.m_verticalAxis));
+    }
+    private Vector3 GetMouseMovement()
+    {
+        //float horizMovement = CrossPlatformInputManager.GetAxis("Vertical") * -1;
+        float vertMovement = CrossPlatformInputManager.GetAxis("Horizontal");
+       
+        //Original
         float horizMovement = Input.GetAxis(m_inputAxis.m_mouseHorizMovement);
-        float vertMovement = Input.GetAxis(m_inputAxis.m_mouseVertMovement);
+        //float vertMovement = Input.GetAxis(m_inputAxis.m_mouseVertMovement);
 
         if (Mathf.Abs(horizMovement) < m_inputAxis.m_mouseDeadzone)
         {

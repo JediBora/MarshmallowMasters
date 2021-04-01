@@ -58,7 +58,8 @@ public class SceneChanger : MonoBehaviour
         }
 
         if (other.tag == "MosquitoC")
-        { loadNSave.savedData.levelToLoadName = "FishingFishersI";
+        {
+            loadNSave.savedData.levelToLoadName = "FishingFishersI";
 
             loadNSave.RewriteSaveFile();
             miniGameToLoad = 3;
@@ -114,9 +115,9 @@ public class SceneChanger : MonoBehaviour
     //5 = Marshmallow Masters
     public void LoadCorrespondingScene()
     {
-        
 
-             if (miniGameToLoad == 0)
+
+        if (miniGameToLoad == 0)
         {
             loadNSave.savedData.levelToLoadName = "SaveSamI";
 
