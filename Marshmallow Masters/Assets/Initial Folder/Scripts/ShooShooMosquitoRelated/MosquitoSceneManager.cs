@@ -52,7 +52,7 @@ public class MosquitoSceneManager : MonoBehaviour
     void timerEnded()
     {
         //Do your stuff here.
-        loadAndSave.savedData.levelToLoadName = "CampOverworld";
+        loadAndSave.savedData.levelToLoadName = "UpdatedCampOverworld";
         loadAndSave.RewriteSaveFile();
 
         SceneManager.LoadScene("LoadingScreen");
