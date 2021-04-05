@@ -45975,6 +45975,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4060873177471706042, guid: 25913f22d04817c41ac9c2f0692120ae,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4060873177471706043, guid: 25913f22d04817c41ac9c2f0692120ae,
         type: 3}
       propertyPath: field of view
