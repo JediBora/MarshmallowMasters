@@ -16,7 +16,7 @@ public class LoadAndSave : MonoBehaviour
     //Loads the save file
     public void LoadSaveFile()
     {
-         savedData = JsonTools.DeserializeObject<SavedData>(Application.persistentDataPath + "/settings.txt");
+        savedData = JsonTools.DeserializeObject<SavedData>(Application.persistentDataPath + "/SaveFiles" + "/" + "SaveFile");
         // savedData = JsonTools.DeserializeObject<SavedData>(Application.dataPath + "/Initial Folder" + "/SaveFiles" + "/" + "SaveFile");
         //Application.dataPath;);
         // savedData = Application.dataPath;
@@ -26,7 +26,7 @@ public class LoadAndSave : MonoBehaviour
     //Saves over the previous save file
     public void RewriteSaveFile()
     {
-        JsonTools.SaveSerializedObject(savedData, Application.persistentDataPath + "/settings.txt", "SaveFile");
+        JsonTools.SaveSerializedObject(savedData, Application.persistentDataPath + "/SaveFiles", "SaveFile");
         //JsonTools.SaveSerializedObject(savedData, Application.dataPath + "/Initial Folder" + "/SaveFiles", "SaveFile");
         //Application.dataPath;
 
