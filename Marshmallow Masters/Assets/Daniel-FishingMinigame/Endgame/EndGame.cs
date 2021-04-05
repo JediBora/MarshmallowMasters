@@ -94,7 +94,7 @@ public class EndGame : MonoBehaviour
     public void ReturnToCamp()
     {
         //Debug.Log("Pressed");
-        SceneManager.LoadScene("CampOverworld");
+        SceneManager.LoadScene("UpdatedCampOverworld");
     }
 
 }
