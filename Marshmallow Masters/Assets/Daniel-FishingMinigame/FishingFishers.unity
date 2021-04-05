@@ -692,6 +692,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.64, y: 0.64, z: 1}
   m_Center: {x: 0, y: 0, z: 3}
+--- !u!114 &854906656 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1163409362370165084, guid: 28bb4e60995f3c24cb42d199f7ea34e1,
+    type: 3}
+  m_PrefabInstance: {fileID: 1419757577}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74c30cfc36277d146a21e5c1f44e35a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &887667632
 GameObject:
   m_ObjectHideFlags: 0
@@ -1408,8 +1420,13 @@ PrefabInstance:
     - target: {fileID: 1163409362370165086, guid: 28bb4e60995f3c24cb42d199f7ea34e1,
         type: 3}
       propertyPath: currentMinigame
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1163409362370165086, guid: 28bb4e60995f3c24cb42d199f7ea34e1,
+        type: 3}
+      propertyPath: Fishing_GM
+      value: 
+      objectReference: {fileID: 613911694}
     - target: {fileID: 1163409362370165154, guid: 28bb4e60995f3c24cb42d199f7ea34e1,
         type: 3}
       propertyPath: m_Name
@@ -2143,5 +2160,10 @@ PrefabInstance:
       propertyPath: timeRemaining
       value: 61
       objectReference: {fileID: 0}
+    - target: {fileID: 7772469595603759146, guid: 19903aea766fa7b4fa98f39ac7242344,
+        type: 3}
+      propertyPath: loadAndSave
+      value: 
+      objectReference: {fileID: 854906656}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19903aea766fa7b4fa98f39ac7242344, type: 3}

@@ -12,7 +12,10 @@ public class EndGame : MonoBehaviour
     public Text timeRemaining_txt;
     public Text timeRemainingShadow_txt;
     public int timeRemaining = 60; // minute by default
-    
+
+
+    public LoadAndSave loadAndSave;
+
 
     // Start is called before the first frame update
     void Start()
@@ -94,7 +97,11 @@ public class EndGame : MonoBehaviour
     public void ReturnToCamp()
     {
         //Debug.Log("Pressed");
-        SceneManager.LoadScene("UpdatedCampOverworld");
+        loadAndSave.savedData.levelToLoadName = "UpdatedCampOverworld";
+
+        loadAndSave.RewriteSaveFile();
+
+        SceneManager.LoadScene("LoadingScreen");
     }
 
 }

@@ -1,6 +1,6 @@
 {
     "playerName": "Darwin",
-    "marshmallows": 138,
+    "marshmallows": 158,
     "roastedMarshmallows": 0,
     "shooShooMosquitoHighScore": 0,
     "saveYourSandwichHighScore": 0,
@@ -11,5 +11,5 @@
     "setMinigameDifficulty": 2,
     "toggleOnSFX": true,
     "toggleOnBGM": true,
-    "levelToLoadName": "CanoeBooBooI"
+    "levelToLoadName": "UpdatedCampOverworld"
 }
