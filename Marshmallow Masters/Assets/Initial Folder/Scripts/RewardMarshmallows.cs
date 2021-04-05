@@ -103,7 +103,7 @@ public class RewardMarshmallows : MonoBehaviour
                         Debug.Log("FishingFishers has ended.");
 
                         // For now you get 3 marshamllows per fish
-                        autoLoadAndRewriteSave.RewriteMarshmallowCount(Fishing_GM.fishCaught * 3, 0);
+                        autoLoadAndRewriteSave.RewriteMarshmallowCount(Fishing_GM.fishCaught, 0);
 
                         updatedMarshmallowCount = true;
                     }

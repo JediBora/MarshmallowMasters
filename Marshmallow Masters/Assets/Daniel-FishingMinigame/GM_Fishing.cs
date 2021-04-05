@@ -149,7 +149,7 @@ public class GM_Fishing : MonoBehaviour
 
     public int CalculateMarshmallowsGained()
     {
-        return (fishCaught * 3);
+        return (fishCaught);
     }
 
     /*
