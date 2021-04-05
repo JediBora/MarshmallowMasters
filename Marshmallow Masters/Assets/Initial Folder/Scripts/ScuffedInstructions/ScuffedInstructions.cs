@@ -115,4 +115,19 @@ public class ScuffedInstructions : MonoBehaviour
 
         SceneManager.LoadScene("LoadingScreen");
     }
+
+    public void BIGMOM()
+    {
+
+        SceneManager.LoadScene("UpdatedCampOverworld");
+
+    }
+
+    public void BIGDAD()
+    {
+
+        loadNSave.savedData.levelToLoadName = "UpdatedCampOverworld";
+        loadNSave.RewriteSaveFile();
+        SceneManager.LoadScene("LoadingScreen");
+    }
 }
