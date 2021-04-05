@@ -10,6 +10,7 @@ public class GM_MarshmallowRoasting : MonoBehaviour
     public int marshmallowsRemaining;
     public Text roastedMarshmallowsGained_txt, marshmallowsRemainingDisplay;
     public Text message;
+
     
     // Start is called before the first frame update
     void Start()
@@ -29,6 +30,12 @@ public class GM_MarshmallowRoasting : MonoBehaviour
         if (success)
         {
             successfullyRoastedMarshmallows++;
+            
+            if (msg == "Perfect!")
+            {
+                successfullyRoastedMarshmallows++; //You get 2 roasted marshmallows if you cook it perfectly.
+            }
+
             roastedMarshmallowsGained_txt.text = successfullyRoastedMarshmallows.ToString();
         }
         message.text = msg;

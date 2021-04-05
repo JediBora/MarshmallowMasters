@@ -43,7 +43,7 @@ public class Stick : MonoBehaviour
     void Update()
     {
         rotX += Input.gyro.rotationRateUnbiased.x;
-            rotX = Mathf.Clamp(rotX, -50f, 0f);
+            rotX = Mathf.Clamp(rotX, -70f, 0f); // Prev: -50f, 0f
         rotY += -Input.gyro.rotationRateUnbiased.y;
         rotZ += Input.gyro.rotationRateUnbiased.z;
 

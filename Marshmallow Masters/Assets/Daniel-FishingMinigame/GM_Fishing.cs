@@ -14,6 +14,7 @@ public class GM_Fishing : MonoBehaviour
     public bool meterComplete;
     public int percentNeededToCatch;
     public Text message;
+    public Text fishCaught_txt;
     Gyroscope gyro;
     public float rotX, lastRotX;
     
@@ -135,6 +136,7 @@ public class GM_Fishing : MonoBehaviour
         if ((meter.GetComponent<Meter>().timeInCatchZone / meter.GetComponent<Meter>().activeDuration) * 100 >= percentNeededToCatch)
         {
             fishCaught++;
+            fishCaught_txt.text = fishCaught.ToString();
             message.text = "Good Catch!";
             yield return new WaitForSeconds(2.0f);
         }
