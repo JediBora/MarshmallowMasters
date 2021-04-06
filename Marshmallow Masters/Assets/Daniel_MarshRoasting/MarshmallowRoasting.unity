@@ -1101,6 +1101,11 @@ PrefabInstance:
       propertyPath: marshmallowsGained
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 7772469595603759146, guid: 19903aea766fa7b4fa98f39ac7242344,
+        type: 3}
+      propertyPath: loadAndSave
+      value: 
+      objectReference: {fileID: 2018421822}
     - target: {fileID: 7772469595806505716, guid: 19903aea766fa7b4fa98f39ac7242344,
         type: 3}
       propertyPath: m_Color.a
