@@ -127,7 +127,7 @@ public class RewardMarshmallows : MonoBehaviour
                                 //To subtract marshmallows from the player, simply use negative values
                                 autoLoadAndRewriteSave.RewriteMarshmallowCount(4, 0);
 
-                            else if (flashlightDifficultyController.difficultyTwo)
+                            else if (flashlightDifficultyController.difficultyThree)
                                 autoLoadAndRewriteSave.RewriteMarshmallowCount(6, 0);
 
                             Debug.Log("FlashlightBBrokey has ended.");

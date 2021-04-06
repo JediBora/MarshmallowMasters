@@ -655,10 +655,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   successfullyRoastedMarshmallows: 1
   marshmallowsUsed: 0
-  marshmallowsRemaining: 99
+  marshmallowsRemaining: 0
   roastedMarshmallowsGained_txt: {fileID: 1433326855}
   marshmallowsRemainingDisplay: {fileID: 949312366}
   message: {fileID: 1641717107}
+  loadAndSave: {fileID: 2018421822}
 --- !u!4 &683766123
 Transform:
   m_ObjectHideFlags: 0
@@ -3006,6 +3007,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1163409362370165086, guid: 28bb4e60995f3c24cb42d199f7ea34e1,
+        type: 3}
+      propertyPath: currentMinigame
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163409362370165086, guid: 28bb4e60995f3c24cb42d199f7ea34e1,
+        type: 3}
+      propertyPath: MRoastin_GM
+      value: 
+      objectReference: {fileID: 683766122}
     - target: {fileID: 1163409362370165154, guid: 28bb4e60995f3c24cb42d199f7ea34e1,
         type: 3}
       propertyPath: m_Name
@@ -3093,6 +3104,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2012328506}
   m_CullTransparentMesh: 0
+--- !u!114 &2018421822 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1163409362370165084, guid: 28bb4e60995f3c24cb42d199f7ea34e1,
+    type: 3}
+  m_PrefabInstance: {fileID: 1909936787}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74c30cfc36277d146a21e5c1f44e35a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2019123540 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4338952113726006644, guid: cf679e38d4188e8418e0abe71c7283ef,

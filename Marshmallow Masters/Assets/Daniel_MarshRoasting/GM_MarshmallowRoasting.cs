@@ -11,17 +11,22 @@ public class GM_MarshmallowRoasting : MonoBehaviour
     public Text roastedMarshmallowsGained_txt, marshmallowsRemainingDisplay;
     public Text message;
 
+    public LoadAndSave loadAndSave;
+
     
     // Start is called before the first frame update
     void Start()
     {
         //Load marshmallow count.
+        marshmallowsRemaining = loadAndSave.savedData.marshmallows;
+        marshmallowsRemainingDisplay.text = marshmallowsRemaining.ToString();
     }
 
     public void MarshmallowAdded()
     {
         marshmallowsUsed++;
         marshmallowsRemaining--;
+        loadAndSave.savedData.marshmallows--;
         marshmallowsRemainingDisplay.text = marshmallowsRemaining.ToString();
     }
 
@@ -37,6 +42,8 @@ public class GM_MarshmallowRoasting : MonoBehaviour
             }
 
             roastedMarshmallowsGained_txt.text = successfullyRoastedMarshmallows.ToString();
+
+            loadAndSave.savedData.roastedMarshmallows++;
         }
         message.text = msg;
         Invoke("RemoveMessage", 2.0f);

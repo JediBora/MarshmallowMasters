@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MosquitoSceneManager : MonoBehaviour
 {
@@ -11,6 +12,11 @@ public class MosquitoSceneManager : MonoBehaviour
     //The time (in seconds)
     public float timePassing;
 
+    public GameObject endCanvas;
+
+    public Text shmellowText;
+
+
 
     public string overworldName;
 
@@ -18,27 +24,47 @@ public class MosquitoSceneManager : MonoBehaviour
 
     public ShooShooMosquitoGameManger gameManager;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public MosquitoSpawnerManager mosqManger;
+
 
     // Update is called once per frame
     void Update()
     {
-        
-        if (gameManager.timeToSurvive <= 0 || gameManager.lives <= 0)
+
+        if (gameManager.timeToSurvive <= 0)
         {
-            TimerFunction();
-            
+            endCanvas.SetActive(true);
+
+            // TimerFunction();
+            if (mosqManger.levelOne)
+            {
+                shmellowText.text = "+3";
+
+            }
+            else if (mosqManger.levelTwo)
+            {
+                shmellowText.text = "+5";
+
+            }
+            else if (mosqManger.levelThree)
+            {
+                shmellowText.text = "+7";
+
+            }
+
+
 
         }
-        
+        else if (gameManager.lives <= 0)
+        {
+            endCanvas.SetActive(true);
+
+            shmellowText.text = "+0";
+
+
+        }
 
     }
-
-    
 
     void TimerFunction()
     {
@@ -59,6 +85,15 @@ public class MosquitoSceneManager : MonoBehaviour
         //Only use if timer needs to be reset
         //timePassing = 0;
     }
+    public void GoBackToCamp()
+    {
+        loadAndSave.savedData.levelToLoadName = "UpdatedCampOverworld";
+        loadAndSave.RewriteSaveFile();
+        SceneManager.LoadScene("LoadingScreen");
 
+
+
+
+    }
 
 }

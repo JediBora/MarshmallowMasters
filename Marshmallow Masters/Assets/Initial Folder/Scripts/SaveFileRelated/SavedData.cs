@@ -40,8 +40,8 @@ public class SavedData
 
     [Header("Sound Toggles")]
 
-    public bool toggleOnSFX;
-    public bool toggleOnBGM;
+    public bool toggleOnSFX = true;
+    public bool toggleOnBGM = true;
 
     [Space(10)]
 

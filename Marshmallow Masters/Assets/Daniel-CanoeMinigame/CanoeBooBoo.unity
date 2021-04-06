@@ -423,6 +423,85 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &283571253
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1163409362370165085, guid: 28bb4e60995f3c24cb42d199f7ea34e1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 423.01965
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163409362370165085, guid: 28bb4e60995f3c24cb42d199f7ea34e1,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1071.7014
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163409362370165085, guid: 28bb4e60995f3c24cb42d199f7ea34e1,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 102.604034
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163409362370165085, guid: 28bb4e60995f3c24cb42d199f7ea34e1,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163409362370165085, guid: 28bb4e60995f3c24cb42d199f7ea34e1,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163409362370165085, guid: 28bb4e60995f3c24cb42d199f7ea34e1,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163409362370165085, guid: 28bb4e60995f3c24cb42d199f7ea34e1,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163409362370165085, guid: 28bb4e60995f3c24cb42d199f7ea34e1,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163409362370165085, guid: 28bb4e60995f3c24cb42d199f7ea34e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163409362370165085, guid: 28bb4e60995f3c24cb42d199f7ea34e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163409362370165085, guid: 28bb4e60995f3c24cb42d199f7ea34e1,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163409362370165086, guid: 28bb4e60995f3c24cb42d199f7ea34e1,
+        type: 3}
+      propertyPath: currentMinigame
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1163409362370165086, guid: 28bb4e60995f3c24cb42d199f7ea34e1,
+        type: 3}
+      propertyPath: Canoe_GM
+      value: 
+      objectReference: {fileID: 209828022}
+    - target: {fileID: 1163409362370165154, guid: 28bb4e60995f3c24cb42d199f7ea34e1,
+        type: 3}
+      propertyPath: m_Name
+      value: LoadandSaveManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 28bb4e60995f3c24cb42d199f7ea34e1, type: 3}
 --- !u!1 &526941749
 GameObject:
   m_ObjectHideFlags: 0
@@ -1592,6 +1671,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1759138450}
   m_CullTransparentMesh: 0
+--- !u!114 &1760725082 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1163409362370165084, guid: 28bb4e60995f3c24cb42d199f7ea34e1,
+    type: 3}
+  m_PrefabInstance: {fileID: 283571253}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74c30cfc36277d146a21e5c1f44e35a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1833771066
 GameObject:
   m_ObjectHideFlags: 0
@@ -1812,6 +1903,11 @@ PrefabInstance:
       propertyPath: timeRemaining
       value: 61
       objectReference: {fileID: 0}
+    - target: {fileID: 7772469595603759146, guid: 19903aea766fa7b4fa98f39ac7242344,
+        type: 3}
+      propertyPath: loadAndSave
+      value: 
+      objectReference: {fileID: 1760725082}
     - target: {fileID: 7772469596662257899, guid: 19903aea766fa7b4fa98f39ac7242344,
         type: 3}
       propertyPath: m_AnchoredPosition.x

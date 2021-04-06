@@ -27,12 +27,12 @@ public class FlashlightScenemanager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (gameController.wentInsane || gameController.outOfForest)
+        /*if (gameController.wentInsane || gameController.outOfForest)
         {
             TimerFunction();
            
 
-        }
+        }*/
     }
 
 
@@ -53,5 +53,16 @@ public class FlashlightScenemanager : MonoBehaviour
         SceneManager.LoadScene("LoadingScreen");
         //Only use if timer needs to be reset
         //timePassing = 0;
+    }
+
+    public void GoBackToCamp()
+    {
+        loadAndSave.savedData.levelToLoadName = "UpdatedCampOverworld";
+        loadAndSave.RewriteSaveFile();
+        SceneManager.LoadScene("LoadingScreen");
+
+
+
+
     }
 }
