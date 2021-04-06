@@ -2698,12 +2698,17 @@ MonoBehaviour:
   flashlightClick:
   - {fileID: 8300000, guid: 3bb3c1feab2e04a409296333d70750b7, type: 3}
   - {fileID: 8300000, guid: cb2f97721983beb4ca91630271babc9b, type: 3}
+  bGM:
+  - {fileID: 8300000, guid: aa9170af9ff4f38408146f83b918c97f, type: 3}
+  - {fileID: 8300000, guid: 04b63a5955646f042abb6bed04a39536, type: 3}
+  - {fileID: 8300000, guid: 38014ab6c8b7e654ea7c85752081acbb, type: 3}
   audioSourceShake: {fileID: 1338652724}
-  audioSourceClickOn: {fileID: 1338652728}
-  audioSourceClickOff: {fileID: 1338652728}
-  bGMPlayer: {fileID: 0}
+  audioSourceClickOn: {fileID: 1338652727}
+  audioSourceClickOff: {fileID: 1338652727}
+  audioSourceBGMPlayer: {fileID: 1338652728}
   audioListener: {fileID: 1338652723}
   shakeDetector: {fileID: 1841206096}
+  difController: {fileID: 1841206101}
   shakeNoiseChosen: 0
   flashlightClickPlayed: 0
   loadAndSave: {fileID: 663500722}
@@ -2828,10 +2833,10 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 0
-  m_Volume: 1
+  m_PlayOnAwake: 1
+  m_Volume: 0.356
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -3468,9 +3473,9 @@ MonoBehaviour:
   loadAndSave: {fileID: 663500722}
   loadComplete: 0
   flashlightStats: {fileID: 1841206097}
-  difficultyOne: 0
+  difficultyOne: 1
   difficultyTwo: 0
-  difficultyThree: 1
+  difficultyThree: 0
 --- !u!1 &1856576239
 GameObject:
   m_ObjectHideFlags: 0
