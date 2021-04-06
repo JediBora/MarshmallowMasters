@@ -35,6 +35,11 @@ public class FlashlightSounds : MonoBehaviour
     //Used to identify which games are being played
     public bool flashlightBBrokey;
     public bool marshmallowRoasting;
+    public bool shooShooMosquito;
+    public bool saveYourSandwich;
+    public bool canoeBooBoo;
+    public bool FishingFishers;
+
 
     public bool bgmIsPlaying;
 
@@ -60,9 +65,52 @@ public class FlashlightSounds : MonoBehaviour
             if (marshmallowRoasting)
                 MarshmallowRoastingBGM();
 
+            if (shooShooMosquito)
+                ShooShooMosquitoBGM();
+
+            if (saveYourSandwich)
+                SaveYourSandwich();
+
+            if (canoeBooBoo)
+                CanoeBooBooBGM();
+
+            if (FishingFishers)
+                FishingFishersBGM();
 
             bgmIsPlaying = true;
         }
+
+    }
+
+    public void FishingFishersBGM()
+    {
+        audioSourceBGMPlayer.clip = bGM[7];
+
+        audioSourceBGMPlayer.Play();
+
+    }
+
+
+    public void CanoeBooBooBGM()
+    {
+        audioSourceBGMPlayer.clip = bGM[6];
+
+        audioSourceBGMPlayer.Play();
+    }
+
+    public void SaveYourSandwich()
+    {
+        audioSourceBGMPlayer.clip = bGM[5];
+
+        audioSourceBGMPlayer.Play();
+
+    }
+
+    public void ShooShooMosquitoBGM()
+    {
+        audioSourceBGMPlayer.clip = bGM[4];
+
+        audioSourceBGMPlayer.Play();
 
     }
 

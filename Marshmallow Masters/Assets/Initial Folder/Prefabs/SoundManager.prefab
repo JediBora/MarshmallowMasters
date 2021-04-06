@@ -63,9 +63,15 @@ MonoBehaviour:
   - {fileID: 8300000, guid: aa9170af9ff4f38408146f83b918c97f, type: 3}
   - {fileID: 8300000, guid: 04b63a5955646f042abb6bed04a39536, type: 3}
   - {fileID: 8300000, guid: 38014ab6c8b7e654ea7c85752081acbb, type: 3}
-  audioSourceShake: {fileID: 1894897535136085586}
-  audioSourceClickOn: {fileID: 1894897535136085585}
-  audioSourceClickOff: {fileID: 1894897535136085585}
+  - {fileID: 8300000, guid: b75a29717e45a24499a77e0d90186c45, type: 3}
+  - {fileID: 8300000, guid: f78fdadbc244ae84a9e547ef45a84695, type: 3}
+  - {fileID: 8300000, guid: a34dad2120ba865448c6c83f27ab58b1, type: 3}
+  - {fileID: 8300000, guid: e2fbf9d1558dd054987321614d3d15cc, type: 3}
+  - {fileID: 8300000, guid: 242057c37d3c0114ca4b082219c2fbc7, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  audioSourceSFX1: {fileID: 1894897535136085586}
+  audioSourceSFX2: {fileID: 1894897535136085585}
   audioSourceBGMPlayer: {fileID: 1894897535136085598}
   audioListener: {fileID: 1894897535136085589}
   shakeDetector: {fileID: 0}
@@ -75,6 +81,11 @@ MonoBehaviour:
   loadAndSave: {fileID: 0}
   flashlightBBrokey: 0
   marshmallowRoasting: 0
+  shooShooMosquito: 0
+  saveYourSandwich: 0
+  canoeBooBoo: 0
+  FishingFishers: 0
+  bgmIsPlaying: 0
 --- !u!82 &1894897535136085586
 AudioSource:
   m_ObjectHideFlags: 0
