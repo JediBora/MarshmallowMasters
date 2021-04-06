@@ -133,6 +133,7 @@ public class FlashlightSounds : MonoBehaviour
 
     public void ShooShooMosquitoSounds()
     {
+
         if (mosquitoDeathSound)
             StartCoroutine("ShooShooMosquitoDeathSounds");
 
@@ -153,12 +154,12 @@ public class FlashlightSounds : MonoBehaviour
         audioSourceSFX2.clip = flySwatted[Random.Range(0, flySwatted.Length)];
 
 
-        audioSourceSFX1.Play();
+        audioSourceSFX2.Play();
 
-        yield return new WaitForSecondsRealtime(1);
 
         mosquitoDeathSound = false;
 
+        yield return null;
     }
 
     IEnumerator ShooShooMosquitoBiteSounds()
@@ -168,12 +169,11 @@ public class FlashlightSounds : MonoBehaviour
         audioSourceSFX2.clip = flyBite[Random.Range(0, flyBite.Length)];
 
 
-        audioSourceSFX1.Play();
+        audioSourceSFX2.Play();
 
-        yield return new WaitForSecondsRealtime(1);
 
         mosquitoBiteSound = false;
-
+        yield return null;
     }
 
     public void FlashlightBBrokeySounds()
