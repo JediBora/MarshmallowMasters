@@ -30,7 +30,9 @@ public class MosquitoStats : MonoBehaviour
     public ShooShooMosquitoGameManger gameManager;
     public MosquitoSpawnerManager mosquitoSpawner;
 
-    public enum FlyDirection {Up, Down, Left, Right }
+    public FlashlightSounds soundManager;
+
+    public enum FlyDirection { Up, Down, Left, Right }
 
     public FlyDirection flydirection;
     // Start is called before the first frame update
@@ -39,18 +41,23 @@ public class MosquitoStats : MonoBehaviour
         if (flydirection == FlyDirection.Right)
         {
             gameObject.transform.eulerAngles = new Vector3(gameObject.transform.eulerAngles.x, gameObject.transform.eulerAngles.y, gameObject.transform.eulerAngles.z + 90);
-        }else if (flydirection == FlyDirection.Left)
+        }
+        else if (flydirection == FlyDirection.Left)
         {
             gameObject.transform.eulerAngles = new Vector3(gameObject.transform.eulerAngles.x, gameObject.transform.eulerAngles.y, gameObject.transform.eulerAngles.z - 90);
-        }else if (flydirection == FlyDirection.Up)
+        }
+        else if (flydirection == FlyDirection.Up)
         {
             gameObject.transform.eulerAngles = new Vector3(gameObject.transform.eulerAngles.x, gameObject.transform.eulerAngles.y, gameObject.transform.eulerAngles.z - 180);
         }
-        
+
     }
 
     private void Awake()
     {
+        soundManager = GameObject.FindGameObjectWithTag("SoundManager").GetComponent<FlashlightSounds>();
+
+
         //Don't use find in start cause scary
         if (GameObject.Find("GameManager") != null)
         {
@@ -114,6 +121,9 @@ public class MosquitoStats : MonoBehaviour
 
         if (lifetime >= maxLifetime)
         {
+
+
+            soundManager.mosquitoBiteSound = true;
             gameManager.lives -= 1;
 
             iTween.ShakePosition(camera, cameraShakeIntensity, cameraShakeDuration);

@@ -6,8 +6,15 @@ public class FlashlightSounds : MonoBehaviour
 {
 
     //Audio to be played
+    [Header("Flashlight Sounds")]
     public AudioClip[] flashlightShake;
     public AudioClip[] flashlightClick;
+
+    [Header("Modquito Sounds")]
+    public AudioClip[] flySwatted;
+    public AudioClip[] flyBite;
+
+    [Header("BGM")]
     public AudioClip[] bGM;
 
     //Sources to be played
@@ -43,7 +50,9 @@ public class FlashlightSounds : MonoBehaviour
 
     public bool bgmIsPlaying;
 
-
+    //Mosquito Specific
+    public bool mosquitoDeathSound;
+    public bool mosquitoBiteSound;
 
     // Update is called once per frame
     void Update()
@@ -52,8 +61,9 @@ public class FlashlightSounds : MonoBehaviour
         {
             if (flashlightBBrokey)
                 FlashlightBBrokeySounds();
-            
 
+            if (shooShooMosquito)
+                ShooShooMosquitoSounds();
         }
 
         if (loadAndSave.savedData.toggleOnBGM && !bgmIsPlaying)
@@ -121,6 +131,50 @@ public class FlashlightSounds : MonoBehaviour
         audioSourceBGMPlayer.Play();
     }
 
+    public void ShooShooMosquitoSounds()
+    {
+        if (mosquitoDeathSound)
+            StartCoroutine("ShooShooMosquitoDeathSounds");
+
+            
+
+
+        if (mosquitoBiteSound)
+            StartCoroutine("ShooShooMosquitoBiteSounds");
+        
+
+    }
+
+    IEnumerator ShooShooMosquitoDeathSounds()
+    {
+
+        Debug.Log("make sound plz");
+
+        audioSourceSFX2.clip = flySwatted[Random.Range(0, flySwatted.Length)];
+
+
+        audioSourceSFX1.Play();
+
+        yield return new WaitForSecondsRealtime(1);
+
+        mosquitoDeathSound = false;
+
+    }
+
+    IEnumerator ShooShooMosquitoBiteSounds()
+    {
+        Debug.Log("make sound plz 2");
+
+        audioSourceSFX2.clip = flyBite[Random.Range(0, flyBite.Length)];
+
+
+        audioSourceSFX1.Play();
+
+        yield return new WaitForSecondsRealtime(1);
+
+        mosquitoBiteSound = false;
+
+    }
 
     public void FlashlightBBrokeySounds()
     {

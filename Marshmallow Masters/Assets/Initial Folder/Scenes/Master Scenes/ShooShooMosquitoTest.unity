@@ -2089,6 +2089,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1894897535136085587, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
         type: 3}
+      propertyPath: flySwatted.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894897535136085587, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: flyBite.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894897535136085587, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
       propertyPath: bGM.Array.data[3]
       value: 
       objectReference: {fileID: 8300000, guid: 38014ab6c8b7e654ea7c85752081acbb, type: 3}
@@ -2117,9 +2127,39 @@ PrefabInstance:
       propertyPath: loadAndSave
       value: 
       objectReference: {fileID: 1203729431}
+    - target: {fileID: 1894897535136085587, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: flySwatted.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4bc97d3c7ffdf10438499c8996eb9b73, type: 3}
+    - target: {fileID: 1894897535136085587, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: flySwatted.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 6a7f8857b6e6f214e986ad65034611e1, type: 3}
+    - target: {fileID: 1894897535136085587, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: flyBite.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: fe8033eb4d831d84fa8699df60ba3d8b, type: 3}
+    - target: {fileID: 1894897535136085587, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: flyBite.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: a023a543636f34644b921f083064080b, type: 3}
+    - target: {fileID: 1894897535136085587, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: flyBite.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 37a78ff950d9a334aa60a6723a77020b, type: 3}
     - target: {fileID: 1894897535136085588, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
         type: 3}
       propertyPath: m_Name
+      value: SoundManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894897535136085588, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: m_TagString
       value: SoundManager
       objectReference: {fileID: 0}
     m_RemovedComponents: []

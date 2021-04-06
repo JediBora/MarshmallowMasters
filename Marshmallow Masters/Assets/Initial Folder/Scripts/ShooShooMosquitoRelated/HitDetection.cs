@@ -12,15 +12,12 @@ public class HitDetection : MonoBehaviour
     Color origionalColor;
     public MeshRenderer renderer;
 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
+    public FlashlightSounds soundManager;
 
     private void Awake()
     {
+        soundManager = GameObject.FindGameObjectWithTag("SoundManager").GetComponent<FlashlightSounds>();
+
         renderer = GetComponent<MeshRenderer>();
 
         origionalColor = renderer.material.color;
@@ -59,6 +56,7 @@ public class HitDetection : MonoBehaviour
         if (mosquitoStats.mosquitoHP <= 0)
         {
             Debug.Log("Mosquitos Hit: " + gameManager.mosquitosSwatted);
+            soundManager.mosquitoDeathSound = true;
             gameManager.mosquitosSwatted += 1;
             Destroy(gameObject);
         }
