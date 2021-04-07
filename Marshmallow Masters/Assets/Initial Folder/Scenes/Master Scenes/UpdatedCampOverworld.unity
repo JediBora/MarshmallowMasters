@@ -7208,8 +7208,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   daySkybox: {fileID: 2100000, guid: 2bd8959f5fbd3644aa33af1a155fc147, type: 2}
   nightSkybox: {fileID: 2100000, guid: cc421da483ed06c49933077a621bff25, type: 2}
-  timer: 240
-  changeTime: 120
+  timer: 180
+  changeTime: 90
 --- !u!4 &265011671
 Transform:
   m_ObjectHideFlags: 0
@@ -7222,7 +7222,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &266246126 stripped
 Transform:
@@ -29065,7 +29065,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 18bce02c8f10acf4793ed79f1ce1efdf,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 18bce02c8f10acf4793ed79f1ce1efdf,
         type: 3}
