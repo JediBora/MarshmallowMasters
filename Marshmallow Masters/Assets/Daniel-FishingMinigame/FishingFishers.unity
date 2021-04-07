@@ -305,6 +305,7 @@ MonoBehaviour:
   fishCaught_txt: {fileID: 959145280}
   rotX: 0
   lastRotX: 0
+  soundManager: {fileID: 1932504639}
 --- !u!4 &613911695
 Transform:
   m_ObjectHideFlags: 0
@@ -1093,6 +1094,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1894897535136085587, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
         type: 3}
+      propertyPath: fishReallingSounds.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894897535136085587, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: fishCaughtSounds.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894897535136085587, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
       propertyPath: loadAndSave
       value: 
       objectReference: {fileID: 854906656}
@@ -1111,9 +1122,39 @@ PrefabInstance:
       propertyPath: FishingFishers
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1894897535136085587, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: fishReallingSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 06df53e86a6953245a2c37d461bc54bc, type: 3}
+    - target: {fileID: 1894897535136085587, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: fishReallingSounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 1b034be01cc79254682cc94cd7df0877, type: 3}
+    - target: {fileID: 1894897535136085587, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: fishReallingSounds.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 251792908b87f8c42af54cc7ccab98eb, type: 3}
+    - target: {fileID: 1894897535136085587, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: fishCaughtSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 065d23d7513a63a43b772557f908d261, type: 3}
+    - target: {fileID: 1894897535136085587, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: fishCaughtSounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 64b6fe61b4bfc5f49bb942a854c4e973, type: 3}
     - target: {fileID: 1894897535136085588, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
         type: 3}
       propertyPath: m_Name
+      value: SoundManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894897535136085588, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: m_TagString
       value: SoundManager
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2021,6 +2062,18 @@ Transform:
   m_Father: {fileID: 626624497}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1932504639 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1894897535136085587, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1080083886}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7655a6d5707500e4f82586e607696199, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1999943366
 GameObject:
   m_ObjectHideFlags: 0
