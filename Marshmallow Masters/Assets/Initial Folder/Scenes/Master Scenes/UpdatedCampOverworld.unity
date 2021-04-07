@@ -45959,6 +45959,21 @@ PrefabInstance:
       propertyPath: m_Avatar
       value: 
       objectReference: {fileID: 9000000, guid: 26118dc4bc8c6494cb894b6ce5d6795b, type: 3}
+    - target: {fileID: 1484291374101703625, guid: 25913f22d04817c41ac9c2f0692120ae,
+        type: 3}
+      propertyPath: m_HasTransformHierarchy
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1484291374101703625, guid: 25913f22d04817c41ac9c2f0692120ae,
+        type: 3}
+      propertyPath: m_AllowConstantClipSamplingOptimization
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1484291374101703625, guid: 25913f22d04817c41ac9c2f0692120ae,
+        type: 3}
+      propertyPath: m_KeepAnimatorControllerStateOnDisable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2081773031871992810, guid: 25913f22d04817c41ac9c2f0692120ae,
         type: 3}
       propertyPath: m_LocalScale.x
