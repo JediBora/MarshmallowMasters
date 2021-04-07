@@ -12,6 +12,7 @@ TagManager:
   - MosquitoC
   - CanoeC
   - SoundManager
+  - Lake
   layers:
   - Default
   - TransparentFX

@@ -10,7 +10,7 @@ public class SceneChanger : MonoBehaviour
     public LoadAndSave loadNSave;
 
     public GameObject difficultyCanvas;
-
+    public GameObject spawnPoint;
     //0 = Save Your Sanwich
     //1 = Canoe Boo Boo
     //2 = Fishing Fishers
@@ -19,6 +19,19 @@ public class SceneChanger : MonoBehaviour
     //5 = Marshmallow Masters
     public int miniGameToLoad;
 
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Lake")
+        {
+            StartCoroutine(WaitAndPrint());
+
+        }
+    }
+    IEnumerator WaitAndPrint(float waitTime = 1.5f)
+    {
+        yield return new WaitForSeconds(waitTime);
+        transform.position = spawnPoint.transform.position;
+    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -79,6 +92,8 @@ public class SceneChanger : MonoBehaviour
             //SceneManager.LoadScene("FlashlightBBrokey");
             print("Flashlight B'Brokey interaction");
         }
+
+
 
         if (other.tag == "MarshmallowC" && loadNSave.savedData.marshmallows > 0)
         {
