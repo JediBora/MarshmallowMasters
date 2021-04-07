@@ -18,6 +18,7 @@ public class Stick : MonoBehaviour
 
     public float stickTurnRateMultiplier; //So you don't have to rotate the device as much to spin the stick, fe, a full 180.
 
+
     /*
     //UI
     public Text rotXText, rotYText, rotZText;
@@ -80,6 +81,10 @@ public class Stick : MonoBehaviour
         if (Mathf.Abs(gyro.rotationRateUnbiased.x) > shakeForce)
         {
             marshmallow.StopFire();
+
+
+
+
         }
     }
 

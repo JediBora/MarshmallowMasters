@@ -12,7 +12,7 @@ public class GM_MarshmallowRoasting : MonoBehaviour
     public Text message;
 
     public LoadAndSave loadAndSave;
-
+    public FlashlightSounds soundManager;
     
     // Start is called before the first frame update
     void Start()
@@ -44,6 +44,8 @@ public class GM_MarshmallowRoasting : MonoBehaviour
             roastedMarshmallowsGained_txt.text = successfullyRoastedMarshmallows.ToString();
 
             loadAndSave.savedData.roastedMarshmallows++;
+
+            soundManager.shmellowCollected = true;
         }
         message.text = msg;
         Invoke("RemoveMessage", 2.0f);
