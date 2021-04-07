@@ -17,7 +17,8 @@ public class GM_Fishing : MonoBehaviour
     public Text fishCaught_txt;
     Gyroscope gyro;
     public float rotX, lastRotX;
-    
+
+    public FlashlightSounds soundManager;
 
     // Start is called before the first frame update
     void Start()
@@ -125,6 +126,8 @@ public class GM_Fishing : MonoBehaviour
         yield return new WaitForSeconds(Time.deltaTime); // For some reason without this delay I get an error. I guess the meter needs some time to activate..?
         meter.GetComponent<Meter>().Activate();
         message.text = "Reel 'im in!";
+        soundManager.fishReelingSoundPlayed = true;
+
 
         // The meter stays active for a few seconds.
         while (!meterComplete)
@@ -138,6 +141,8 @@ public class GM_Fishing : MonoBehaviour
             fishCaught++;
             fishCaught_txt.text = fishCaught.ToString();
             message.text = "Good Catch!";
+            soundManager.fishCaughtSoundPlayed = true;
+
             yield return new WaitForSeconds(2.0f);
         }
         else

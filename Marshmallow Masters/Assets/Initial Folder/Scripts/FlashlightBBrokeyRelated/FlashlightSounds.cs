@@ -18,6 +18,10 @@ public class FlashlightSounds : MonoBehaviour
     public AudioClip[] shmellowExtinquishSounds;
     public AudioClip[] shmellowCollectedSounds;
 
+    [Header("Fishing Fishers")]
+    public AudioClip[] fishReallingSounds;
+    public AudioClip[] fishCaughtSounds;
+
     [Header("BGM")]
     public AudioClip[] bGM;
 
@@ -37,9 +41,13 @@ public class FlashlightSounds : MonoBehaviour
     public ShakeDetector shakeDetector;
     public FlashlightDifficultyController difController;
 
+    //Flshlight B Brokey Specific
     public bool shakeNoiseChosen;
     public bool flashlightClickPlayed;
 
+    //Fishing Fishers Specific
+    public bool fishReelingSoundPlayed;
+    public bool fishCaughtSoundPlayed;
     
 
     //used to check if bgm or songs are toggled
@@ -77,6 +85,9 @@ public class FlashlightSounds : MonoBehaviour
 
             if (marshmallowRoasting)
                 MarshmellowRoastingSounds();
+
+            if (FishingFishers)
+                FishingFishersSounds();
         }
 
         if (loadAndSave.savedData.toggleOnBGM && !bgmIsPlaying)
@@ -104,6 +115,42 @@ public class FlashlightSounds : MonoBehaviour
         }
 
     }
+
+    public void FishingFishersSounds()
+    {
+        FishingReeling();
+        FishCaught();
+
+    }
+
+    public void FishCaught()
+    {
+        if (fishCaughtSoundPlayed)
+        {
+            audioSourceSFX2.clip = fishCaughtSounds[Random.Range(0, fishCaughtSounds.Length)];
+
+            audioSourceSFX2.Play();
+
+        }
+
+        fishCaughtSoundPlayed = false;
+
+    }
+
+    public void FishingReeling()
+    {
+        if (fishReelingSoundPlayed)
+        {
+            audioSourceSFX2.clip = fishReallingSounds[Random.Range(0, fishReallingSounds.Length)];
+
+            audioSourceSFX2.Play();
+
+        }
+
+        fishReelingSoundPlayed = false; 
+
+    }
+
 
 
     public void MarshmellowRoastingSounds()
