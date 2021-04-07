@@ -12,10 +12,10 @@ public class Marshmallow : MonoBehaviour
     public Color rawColour, goodColour, burntColour;
     Material marshmallowMaterial;
     GameObject FireEffect;
-    
-    
-    
-    
+
+
+
+    public FlashlightSounds soundManager;
 
     // Start is called before the first frame update
     void Start()
@@ -25,9 +25,9 @@ public class Marshmallow : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void Awake()
     {
-        
+        soundManager = GameObject.FindGameObjectWithTag("SoundManager").GetComponent<FlashlightSounds>();
     }
 
     IEnumerator Cook()
@@ -69,6 +69,9 @@ public class Marshmallow : MonoBehaviour
     public void StopFire()
     {
         //onFire = false;
+        if (FireEffect.activeInHierarchy)
+            soundManager.shmellowExtinguishedSoundPlayed = true;
+
         FireEffect.SetActive(false);
     }
 

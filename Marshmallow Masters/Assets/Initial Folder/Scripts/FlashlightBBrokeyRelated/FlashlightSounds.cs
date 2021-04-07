@@ -14,6 +14,10 @@ public class FlashlightSounds : MonoBehaviour
     public AudioClip[] flySwatted;
     public AudioClip[] flyBite;
 
+    [Header("Marshmallow Roasting")]
+    public AudioClip[] shmellowExtinquishSounds;
+    public AudioClip[] shmellowCollectedSounds;
+
     [Header("BGM")]
     public AudioClip[] bGM;
 
@@ -36,6 +40,8 @@ public class FlashlightSounds : MonoBehaviour
     public bool shakeNoiseChosen;
     public bool flashlightClickPlayed;
 
+    
+
     //used to check if bgm or songs are toggled
     public LoadAndSave loadAndSave;
 
@@ -54,6 +60,10 @@ public class FlashlightSounds : MonoBehaviour
     public bool mosquitoDeathSound;
     public bool mosquitoBiteSound;
 
+    //Marshmallow Roasting Specific
+    public bool shmellowExtinguishedSoundPlayed;
+    public bool shmellowCollected;
+
     // Update is called once per frame
     void Update()
     {
@@ -64,6 +74,9 @@ public class FlashlightSounds : MonoBehaviour
 
             if (shooShooMosquito)
                 ShooShooMosquitoSounds();
+
+            if (marshmallowRoasting)
+                MarshmellowRoastingSounds();
         }
 
         if (loadAndSave.savedData.toggleOnBGM && !bgmIsPlaying)
@@ -91,6 +104,51 @@ public class FlashlightSounds : MonoBehaviour
         }
 
     }
+
+
+    public void MarshmellowRoastingSounds()
+    {
+
+
+        ShmellowCollected();
+        ShmellowExtinguished();
+
+
+    }
+    void ShmellowCollected()
+    {
+
+        if (shmellowCollected)
+        {
+            audioSourceSFX2.clip = shmellowCollectedSounds[Random.Range(0, shmellowCollectedSounds.Length)];
+
+            audioSourceSFX2.Play();
+
+        }
+        shmellowCollected = false;
+
+
+
+    }
+
+    void ShmellowExtinguished()
+    {
+        if (shmellowExtinguishedSoundPlayed)
+        {
+
+            audioSourceSFX2.clip = shmellowExtinquishSounds[Random.Range(0, shmellowExtinquishSounds.Length)];
+
+            audioSourceSFX2.Play();
+
+
+
+        }
+
+        shmellowExtinguishedSoundPlayed = false;
+
+    }
+
+
 
     public void FishingFishersBGM()
     {
@@ -137,12 +195,12 @@ public class FlashlightSounds : MonoBehaviour
         if (mosquitoDeathSound)
             StartCoroutine("ShooShooMosquitoDeathSounds");
 
-            
+
 
 
         if (mosquitoBiteSound)
             StartCoroutine("ShooShooMosquitoBiteSounds");
-        
+
 
     }
 
