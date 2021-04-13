@@ -545,6 +545,7 @@ MonoBehaviour:
   loadNSave: {fileID: 903894839}
   overworldName: 
   miniGameToLoad: 0
+  soundManager: {fileID: 1172008924}
 --- !u!1001 &903894838
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1099,6 +1100,117 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1090283665}
   m_CullTransparentMesh: 0
+--- !u!114 &1172008924 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1894897535136085587, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1294538849}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7655a6d5707500e4f82586e607696199, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &1294538849
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1894897535136085584, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -83.018745
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894897535136085584, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1446.9934
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894897535136085584, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 430.1521
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894897535136085584, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894897535136085584, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894897535136085584, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894897535136085584, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894897535136085584, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894897535136085584, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894897535136085584, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894897535136085584, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894897535136085587, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: uISounds.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894897535136085587, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: loadAndSave
+      value: 
+      objectReference: {fileID: 903894839}
+    - target: {fileID: 1894897535136085587, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: bGM.Array.data[8]
+      value: 
+      objectReference: {fileID: 8300000, guid: 8a5f5c1948036bb41ae4b81ac5b6b2cf, type: 3}
+    - target: {fileID: 1894897535136085587, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: titleScreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894897535136085587, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: uISounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 81e93fd86a9b4a64fa9e4e119b414646, type: 3}
+    - target: {fileID: 1894897535136085587, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: uISounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 632c727d2e2566f47b33f702cc2bfb9d, type: 3}
+    - target: {fileID: 1894897535136085588, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: m_Name
+      value: SoundManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f5395e6f83e201845b0ca41ee7e3d3b3, type: 3}
 --- !u!1 &1526426886
 GameObject:
   m_ObjectHideFlags: 0
@@ -1535,6 +1647,17 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 878044322}
         m_MethodName: LoadCorrespondingScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1172008924}
+        m_MethodName: ButtonPressed
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -11,6 +11,8 @@ public class EndGameModified : MonoBehaviour
     public GameController gameController;
     public FlashlightDifficultyController flashDifController;
 
+    public FlashlightSounds soundManager;
+
     public GameObject endCanvasThing;
 
     public Scene currentScene;
@@ -25,7 +27,7 @@ public class EndGameModified : MonoBehaviour
     {
 
         if (gameController)
-        
+
             if (gameController.outOfForest)
             {
                 endCanvasThing.SetActive(true);
@@ -44,21 +46,23 @@ public class EndGameModified : MonoBehaviour
                 endCanvasThing.SetActive(true);
                 shmellowCount.text = "+0";
             }
-               
-        }
+
+    }
 
 
 
-        public void BackToCamp()
-        {
-            loadAndSave.savedData.levelToLoadName = "UpdatedCampOverworld";
+    public void BackToCamp()
+    {
+        soundManager.buttonHasBeenPressed = true;
 
-            loadAndSave.RewriteSaveFile();
+        loadAndSave.savedData.levelToLoadName = "UpdatedCampOverworld";
 
-            SceneManager.LoadScene("LoadingScreen");
+        loadAndSave.RewriteSaveFile();
 
-
-        }
+        SceneManager.LoadScene("LoadingScreen");
 
 
     }
+
+
+}

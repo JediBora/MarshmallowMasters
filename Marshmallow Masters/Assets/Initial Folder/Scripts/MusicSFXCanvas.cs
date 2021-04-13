@@ -10,6 +10,8 @@ public class MusicSFXCanvas : MonoBehaviour
     public GameObject soundOnOff;
     public GameObject musicOnOff;
 
+    public FlashlightSounds soundManager;
+
 
     // Start is called before the first frame update
     void Start()
@@ -26,9 +28,18 @@ public class MusicSFXCanvas : MonoBehaviour
     public void HideUnhideUI()
     {
         if (sFXBGMCanvas.activeInHierarchy)
+        {
             sFXBGMCanvas.SetActive(false);
+            soundManager.backButtonHasBeenPressed = true;
+
+        }
         else if (!sFXBGMCanvas.activeInHierarchy)
+        {
             sFXBGMCanvas.SetActive(true);
+            soundManager.buttonHasBeenPressed = true;
+
+
+        }
     }
 
     public void ToggleSound()
@@ -45,7 +56,7 @@ public class MusicSFXCanvas : MonoBehaviour
             loadAndSave.savedData.toggleOnSFX = true;
 
 
-
+            soundManager.buttonHasBeenPressed = true;
         }
 
 
@@ -72,7 +83,7 @@ public class MusicSFXCanvas : MonoBehaviour
         {
             loadAndSave.savedData.toggleOnBGM = false;
 
-
+            soundManager.backButtonHasBeenPressed = true;
 
         }
         else if (!musicOnOff.activeInHierarchy && !loadAndSave.savedData.toggleOnBGM)
@@ -80,7 +91,7 @@ public class MusicSFXCanvas : MonoBehaviour
             loadAndSave.savedData.toggleOnBGM = true;
 
 
-
+            soundManager.buttonHasBeenPressed = true;
         }
 
 

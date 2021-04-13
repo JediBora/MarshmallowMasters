@@ -25,6 +25,9 @@ public class FlashlightSounds : MonoBehaviour
     [Header("BGM")]
     public AudioClip[] bGM;
 
+    [Header("UI Sounds")]
+    public AudioClip[] uISounds;
+
     //Sources to be played
     //This one loops
     public AudioSource audioSourceSFX1;
@@ -60,6 +63,7 @@ public class FlashlightSounds : MonoBehaviour
     public bool saveYourSandwich;
     public bool canoeBooBoo;
     public bool FishingFishers;
+    public bool titleScreen;
 
 
     public bool bgmIsPlaying;
@@ -71,6 +75,12 @@ public class FlashlightSounds : MonoBehaviour
     //Marshmallow Roasting Specific
     public bool shmellowExtinguishedSoundPlayed;
     public bool shmellowCollected;
+
+
+    //UI Specific
+    public bool buttonHasBeenPressed;
+    public bool backButtonHasBeenPressed;
+
 
     // Update is called once per frame
     void Update()
@@ -88,6 +98,8 @@ public class FlashlightSounds : MonoBehaviour
 
             if (FishingFishers)
                 FishingFishersSounds();
+
+            UISounds();
         }
 
         if (loadAndSave.savedData.toggleOnBGM && !bgmIsPlaying)
@@ -111,10 +123,59 @@ public class FlashlightSounds : MonoBehaviour
             if (FishingFishers)
                 FishingFishersBGM();
 
+            if (titleScreen)
+                TitleScreenBGM();
+
             bgmIsPlaying = true;
         }
 
     }
+
+    public void UISounds()
+    {
+        ButtonPressed();
+
+        ButtonBackPressed();
+    }
+
+
+
+    public void ButtonPressed()
+    {
+        if (buttonHasBeenPressed)
+        {
+            audioSourceSFX2.clip = uISounds[0];
+
+            audioSourceSFX2.Play();
+        }
+
+        buttonHasBeenPressed = false;
+
+    }
+
+    public void ButtonBackPressed()
+    {
+
+        if (backButtonHasBeenPressed)
+        {
+
+            audioSourceSFX2.clip = uISounds[1];
+
+            audioSourceSFX2.Play();
+        }
+        backButtonHasBeenPressed = false;
+    }
+
+
+    public void TitleScreenBGM()
+    {
+        audioSourceBGMPlayer.clip = bGM[8];
+
+        audioSourceBGMPlayer.Play();
+
+
+    }
+
 
     public void FishingFishersSounds()
     {

@@ -27,6 +27,8 @@ public class MosquitoSceneManager : MonoBehaviour
     public MosquitoSpawnerManager mosqManger;
 
 
+    public FlashlightSounds soundManager;
+
     // Update is called once per frame
     void Update()
     {
@@ -87,6 +89,8 @@ public class MosquitoSceneManager : MonoBehaviour
     }
     public void GoBackToCamp()
     {
+        soundManager.buttonHasBeenPressed = true;
+
         loadAndSave.savedData.levelToLoadName = "UpdatedCampOverworld";
         loadAndSave.RewriteSaveFile();
         SceneManager.LoadScene("LoadingScreen");

@@ -1107,6 +1107,11 @@ PrefabInstance:
       propertyPath: loadAndSave
       value: 
       objectReference: {fileID: 2018421822}
+    - target: {fileID: 7772469595603759146, guid: 19903aea766fa7b4fa98f39ac7242344,
+        type: 3}
+      propertyPath: soundManager
+      value: 
+      objectReference: {fileID: 1595109271}
     - target: {fileID: 7772469595806505716, guid: 19903aea766fa7b4fa98f39ac7242344,
         type: 3}
       propertyPath: m_Color.a
@@ -2263,6 +2268,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1894897535136085587, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
         type: 3}
+      propertyPath: uISounds.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894897535136085587, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
       propertyPath: marshmallowRoasting
       value: 1
       objectReference: {fileID: 0}
@@ -2311,6 +2321,16 @@ PrefabInstance:
       propertyPath: shmellowCollectedSounds.Array.data[0]
       value: 
       objectReference: {fileID: 8300000, guid: 6e87a2bd5e2e3e243b51b9710b1763d0, type: 3}
+    - target: {fileID: 1894897535136085587, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: uISounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 81e93fd86a9b4a64fa9e4e119b414646, type: 3}
+    - target: {fileID: 1894897535136085587, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: uISounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 632c727d2e2566f47b33f702cc2bfb9d, type: 3}
     - target: {fileID: 1894897535136085588, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
         type: 3}
       propertyPath: m_Name

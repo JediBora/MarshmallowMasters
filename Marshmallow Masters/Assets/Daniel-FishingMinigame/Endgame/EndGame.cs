@@ -16,6 +16,8 @@ public class EndGame : MonoBehaviour
 
     public LoadAndSave loadAndSave;
 
+    public FlashlightSounds soundManager;
+
 
     // Start is called before the first frame update
     void Start()
@@ -96,6 +98,8 @@ public class EndGame : MonoBehaviour
     // Called when the "Back to Camp" button is pressed.
     public void ReturnToCamp()
     {
+        soundManager.buttonHasBeenPressed = true;
+
         //Debug.Log("Pressed");
         loadAndSave.savedData.levelToLoadName = "UpdatedCampOverworld";
 

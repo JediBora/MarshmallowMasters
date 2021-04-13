@@ -3097,6 +3097,7 @@ MonoBehaviour:
   loadAndSave: {fileID: 663500722}
   gameController: {fileID: 1841206099}
   flashDifController: {fileID: 1841206101}
+  soundManager: {fileID: 1894897534208740967}
   endCanvasThing: {fileID: 2016962052}
   currentScene:
     m_Handle: 0
@@ -3890,6 +3891,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1894897535136085587, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
         type: 3}
+      propertyPath: uISounds.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894897535136085587, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
       propertyPath: shakeDetector
       value: 
       objectReference: {fileID: 1841206096}
@@ -3928,6 +3934,16 @@ PrefabInstance:
       propertyPath: audioSourceSFX2
       value: 
       objectReference: {fileID: 607759392}
+    - target: {fileID: 1894897535136085587, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: uISounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 81e93fd86a9b4a64fa9e4e119b414646, type: 3}
+    - target: {fileID: 1894897535136085587, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: uISounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 632c727d2e2566f47b33f702cc2bfb9d, type: 3}
     - target: {fileID: 1894897535136085588, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
         type: 3}
       propertyPath: m_Name
@@ -3940,3 +3956,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f5395e6f83e201845b0ca41ee7e3d3b3, type: 3}
+--- !u!114 &1894897534208740967 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1894897535136085587, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1894897534208740966}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7655a6d5707500e4f82586e607696199, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

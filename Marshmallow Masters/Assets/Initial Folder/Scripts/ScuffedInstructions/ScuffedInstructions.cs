@@ -19,6 +19,8 @@ public class ScuffedInstructions : MonoBehaviour
     //6 = Overworld
     public int miniGameToLoad;
 
+    public FlashlightSounds soundManager;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -61,17 +63,10 @@ public class ScuffedInstructions : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-
 
     public void LoadCorrespondingScene()
     {
-
+        soundManager.buttonHasBeenPressed = true;
 
         if (miniGameToLoad == 0)
         {

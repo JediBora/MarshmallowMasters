@@ -216,6 +216,7 @@ MonoBehaviour:
   loadNSave: {fileID: 930251215}
   overworldName: 
   miniGameToLoad: 0
+  soundManager: {fileID: 55068779}
 --- !u!224 &41506273
 RectTransform:
   m_ObjectHideFlags: 0
@@ -238,6 +239,92 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1001 &55068778
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1894897535136085584, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -83.018745
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894897535136085584, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1446.9934
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894897535136085584, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 430.1521
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894897535136085584, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894897535136085584, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894897535136085584, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894897535136085584, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894897535136085584, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894897535136085584, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894897535136085584, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894897535136085584, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894897535136085587, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: loadAndSave
+      value: 
+      objectReference: {fileID: 930251215}
+    - target: {fileID: 1894897535136085588, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+        type: 3}
+      propertyPath: m_Name
+      value: SoundManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f5395e6f83e201845b0ca41ee7e3d3b3, type: 3}
+--- !u!114 &55068779 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1894897535136085587, guid: f5395e6f83e201845b0ca41ee7e3d3b3,
+    type: 3}
+  m_PrefabInstance: {fileID: 55068778}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7655a6d5707500e4f82586e607696199, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &206485069
 GameObject:
   m_ObjectHideFlags: 0

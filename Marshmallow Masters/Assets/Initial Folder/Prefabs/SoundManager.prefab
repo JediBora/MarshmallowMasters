@@ -59,6 +59,12 @@ MonoBehaviour:
   flashlightClick:
   - {fileID: 8300000, guid: 3bb3c1feab2e04a409296333d70750b7, type: 3}
   - {fileID: 8300000, guid: cb2f97721983beb4ca91630271babc9b, type: 3}
+  flySwatted: []
+  flyBite: []
+  shmellowExtinquishSounds: []
+  shmellowCollectedSounds: []
+  fishReallingSounds: []
+  fishCaughtSounds: []
   bGM:
   - {fileID: 8300000, guid: aa9170af9ff4f38408146f83b918c97f, type: 3}
   - {fileID: 8300000, guid: 04b63a5955646f042abb6bed04a39536, type: 3}
@@ -70,6 +76,9 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 242057c37d3c0114ca4b082219c2fbc7, type: 3}
   - {fileID: 0}
   - {fileID: 0}
+  uISounds:
+  - {fileID: 8300000, guid: 81e93fd86a9b4a64fa9e4e119b414646, type: 3}
+  - {fileID: 8300000, guid: 632c727d2e2566f47b33f702cc2bfb9d, type: 3}
   audioSourceSFX1: {fileID: 1894897535136085586}
   audioSourceSFX2: {fileID: 1894897535136085585}
   audioSourceBGMPlayer: {fileID: 1894897535136085598}
@@ -78,6 +87,8 @@ MonoBehaviour:
   difController: {fileID: 0}
   shakeNoiseChosen: 0
   flashlightClickPlayed: 0
+  fishReelingSoundPlayed: 0
+  fishCaughtSoundPlayed: 0
   loadAndSave: {fileID: 0}
   flashlightBBrokey: 0
   marshmallowRoasting: 0
@@ -85,7 +96,14 @@ MonoBehaviour:
   saveYourSandwich: 0
   canoeBooBoo: 0
   FishingFishers: 0
+  titleScreen: 0
   bgmIsPlaying: 0
+  mosquitoDeathSound: 0
+  mosquitoBiteSound: 0
+  shmellowExtinguishedSoundPlayed: 0
+  shmellowCollected: 0
+  buttonHasBeenPressed: 0
+  backButtonHasBeenPressed: 0
 --- !u!82 &1894897535136085586
 AudioSource:
   m_ObjectHideFlags: 0
