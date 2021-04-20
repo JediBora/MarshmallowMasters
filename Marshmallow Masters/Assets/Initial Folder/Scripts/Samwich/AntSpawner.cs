@@ -18,17 +18,13 @@ public class AntSpawner : MonoBehaviour
     public float lives = 3;
     float gameTime;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-       
-    }
+   
 
     // Update is called once per frame
     void Update()
     {
         time += Time.deltaTime;
-
+        //this will spawn an ant and increase the spawned ants speed if their speed doesn't pass the set max speed.
         if (time >= timerEnd)
         {
             SpawnAnt();
@@ -49,6 +45,8 @@ public class AntSpawner : MonoBehaviour
             }
           
         }
+
+        // once the lives run out load scene zero
         if (lives <= 0)
         {
             SceneManager.LoadScene(0);
@@ -59,12 +57,14 @@ public class AntSpawner : MonoBehaviour
 
     void SpawnAnt()
     {
+        //set the spawnpoint at one of the locations set in the inspector
         GameObject spawnPoint = spawnPoints[(Random.Range(0, 4))];
-        //Debug.Log(spawnPoint);
+       
         GameObject newAnt = Instantiate(ant, spawnPoint.transform.position, Quaternion.identity);
+        //set the new ant speed based on the time in the game
         newAnt.GetComponent<Squish>().speed = antSpeed;
-
+        // set the parent the canvas so it appears on the screen and has the button function on it
         newAnt.transform.SetParent(gameObject.transform, true);
-        //newAnt.transform.parent = gameObject.transform;
+        
     }
 }
