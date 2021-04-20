@@ -6,17 +6,6 @@ public class MosquitoBites : MonoBehaviour
 {
     public ShooShooMosquitoGameManger gameManger;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void OnTriggerEnter(Collider other)
     {
@@ -26,4 +15,4 @@ public class MosquitoBites : MonoBehaviour
 
     }
 
-    }
+}

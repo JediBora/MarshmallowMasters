@@ -18,22 +18,6 @@ public class FlashlightScenemanager : MonoBehaviour
     //The time (in seconds)
     public float timePassing;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        /*if (gameController.wentInsane || gameController.outOfForest)
-        {
-            TimerFunction();
-           
-
-        }*/
-    }
 
 
     void TimerFunction()
@@ -51,8 +35,7 @@ public class FlashlightScenemanager : MonoBehaviour
         loadAndSave.savedData.levelToLoadName = "UpdatedCampOverworld";
         loadAndSave.RewriteSaveFile();
         SceneManager.LoadScene("LoadingScreen");
-        //Only use if timer needs to be reset
-        //timePassing = 0;
+
     }
 
     public void GoBackToCamp()

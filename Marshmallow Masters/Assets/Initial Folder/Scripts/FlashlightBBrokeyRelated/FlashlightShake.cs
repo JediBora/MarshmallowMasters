@@ -39,8 +39,6 @@ public class FlashlightShake : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //lightOnPosition = flashlight.transform.position;
-        //lightOnRotation = flashlight.transform.rotation;
 
         lightOnPosition = initialFlashlightPosition;
         lightOnRotation = initialFlashlightRotation;
@@ -101,12 +99,10 @@ public class FlashlightShake : MonoBehaviour
         }
 
 
-        //flashlight.transform.position = lightOffPosition;
         flashlight.transform.rotation = lightOffRotation;
 
 
         flashlight.transform.position = Vector3.Lerp(flashlightShakePositionA.transform.position, flashlightShakePositionB.transform.position, idkWhatThisIsTBH);
-        //iTween.ShakePosition(flashlight, cameraShakeIntensity, cameraShakeDuration);
     }
 
     public void FlashlightOffNoShake()

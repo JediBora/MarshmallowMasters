@@ -28,37 +28,31 @@ public class ScuffedInstructions : MonoBehaviour
 
         if (scene.name == "SaveSamI")
         {
-            //Add Save your Sandwich Scene
             miniGameToLoad = 0;
         }
         else if (scene.name == "CanoeBooBooI")
         {
-            //Add Save your Sandwich Scene
             miniGameToLoad = 1;
         }
         else if (scene.name == "FishingFishersI")
         {
-            //Add Save your Sandwich Scene
             miniGameToLoad = 2;
         }
         else if (scene.name == "ShooShooMosquitoTestI")
         {
-            //Add Save your Sandwich Scene
             miniGameToLoad = 3;
         }
         else if (scene.name == "FlashlightBBrokeyI")
         {
-            //Add Save your Sandwich Scene
             miniGameToLoad = 4;
         }
         else if (scene.name == "MarshmallowRoastingI")
         {
-            //Add Save your Sandwich Scene
             miniGameToLoad = 5;
         }
         else if (scene.name == "TitleScreen")
         {
-            //Add Save your Sandwich Scene
+
             miniGameToLoad = 6;
         }
     }
@@ -108,21 +102,6 @@ public class ScuffedInstructions : MonoBehaviour
             loadNSave.RewriteSaveFile();
         }
 
-        SceneManager.LoadScene("LoadingScreen");
-    }
-
-    public void BIGMOM()
-    {
-
-        SceneManager.LoadScene("UpdatedCampOverworld");
-
-    }
-
-    public void BIGDAD()
-    {
-
-        loadNSave.savedData.levelToLoadName = "UpdatedCampOverworld";
-        loadNSave.RewriteSaveFile();
         SceneManager.LoadScene("LoadingScreen");
     }
 }

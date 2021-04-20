@@ -37,14 +37,11 @@ public class MosquitoSpawner : MonoBehaviour
             {
                 rightFlyingMosquito.transform.GetChild(0).GetComponentInChildren<Renderer>().material = fly2;
             }
-            //Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity);
             if (spawnSide == SpawnSide.Left)
-            //GameObject g = Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity) as GameObject;
             {
                 rightFlyingMosquito.GetComponent<MosquitoStats>().flydirection = MosquitoStats.FlyDirection.Right;
                 Debug.Log("SpawnFlyLeftSideSpawner Coro has been ran");
             }
-            //yield return new WaitForSeconds(spawnTime);
             StopCoroutine("SpawnFlyLeftSideSpawner");
             yield return null;
         }
@@ -69,14 +66,11 @@ public class MosquitoSpawner : MonoBehaviour
             }
             
 
-            //Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity);
             if (spawnSide == SpawnSide.Right)
-            //GameObject g = Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity) as GameObject;
             {
                 leftFlyingMosquito.GetComponent<MosquitoStats>().flydirection = MosquitoStats.FlyDirection.Left;
                 Debug.Log("SpawnFlyRightSideSpawner Coro has been ran");
             }
-            //yield return new WaitForSeconds(spawnTime);
             StopCoroutine("SpawnFlyRightSideSpawner");
             yield return null;
         }
@@ -99,14 +93,11 @@ public class MosquitoSpawner : MonoBehaviour
                 downFlyingMosquito.transform.GetChild(0).GetComponentInChildren<Renderer>().material = fly2;
             }
 
-            //Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity);
             if (spawnSide == SpawnSide.Up)
-            //GameObject g = Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity) as GameObject;
             {
                 downFlyingMosquito.GetComponent<MosquitoStats>().flydirection = MosquitoStats.FlyDirection.Down;
                 Debug.Log("SpawnFlyUpSideSpawner Coro has been ran");
             }
-            //yield return new WaitForSeconds(spawnTime);
             StopCoroutine("SpawnFlyUpSideSpawner");
             yield return null;
         }
@@ -128,14 +119,11 @@ public class MosquitoSpawner : MonoBehaviour
             {
                 upFlyingMosquito.transform.GetChild(0).GetComponentInChildren<Renderer>().material = fly2;
             }
-            //Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity);
             if (spawnSide == SpawnSide.Down)
-            //GameObject g = Instantiate(flyPrefab, new Vector3(Random.Range(spawnRangeX1, spawnRangeX2), Random.Range(spawnRangeY1, spawnRangeY2), 0), Quaternion.identity) as GameObject;
             {
                 upFlyingMosquito.GetComponent<MosquitoStats>().flydirection = MosquitoStats.FlyDirection.Up;
                 Debug.Log("SpawnFlyDownSideSpawner Coro has been ran");
             }
-            //yield return new WaitForSeconds(spawnTime);
             StopCoroutine("SpawnFlyDownSideSpawner");
             yield return null;
         }

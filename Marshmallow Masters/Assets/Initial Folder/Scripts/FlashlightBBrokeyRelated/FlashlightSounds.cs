@@ -315,8 +315,6 @@ public class FlashlightSounds : MonoBehaviour
     IEnumerator ShooShooMosquitoDeathSounds()
     {
 
-        Debug.Log("make sound plz");
-
         audioSourceSFX2.clip = flySwatted[Random.Range(0, flySwatted.Length)];
 
 
@@ -330,8 +328,6 @@ public class FlashlightSounds : MonoBehaviour
 
     IEnumerator ShooShooMosquitoBiteSounds()
     {
-        Debug.Log("make sound plz 2");
-
         audioSourceSFX2.clip = flyBite[Random.Range(0, flyBite.Length)];
 
 

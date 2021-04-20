@@ -48,9 +48,6 @@ public class HitDetection : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        //Debug.Log("Mosquitos Hit: " + gameManager.mosquitosSwatted);
-        //gameManager.mosquitosSwatted += 1;
-        //Destroy(gameObject);
         mosquitoStats.mosquitoHP -= 1;
         FlashRed();
         if (mosquitoStats.mosquitoHP <= 0)

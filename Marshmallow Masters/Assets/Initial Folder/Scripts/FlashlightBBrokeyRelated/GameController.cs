@@ -51,7 +51,6 @@ public class GameController : MonoBehaviour
 
         }
 
-        //FlashlightIsShaking();
 
 
 

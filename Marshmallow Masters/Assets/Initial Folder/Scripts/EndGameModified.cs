@@ -19,8 +19,6 @@ public class EndGameModified : MonoBehaviour
 
     public Text shmellowCount;
 
-    // Start is called before the first frame update
-
 
     // Update is called once per frame
     void Update()
